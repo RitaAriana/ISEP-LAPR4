@@ -1,0 +1,29 @@
+SPORTS21-22
+Sports Questionnaire
+
+1
+About you
+Section Obligatoriness: mandatory
+1
+Where are you from?
+(mandatory)
+Type: Free-Text
+
+2
+How old are you?
+(mandatory)
+Type: Numeric
+
+3
+What is your gender?
+(mandatory)
+Type: Single-Choice
+1)Male
+2)Female
+3)Other
+
+
+
+Thanks for answering our Sports Questionnaire!
+
+FIM

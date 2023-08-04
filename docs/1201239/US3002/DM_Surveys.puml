@@ -1,0 +1,53 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Answer" {
+    entity Answer
+}
+
+package "<<aggregate>> Questionnaire" {
+    entity Questionnaire
+    class Identifier
+    entity Section
+    entity Question
+    class Type
+}
+
+entity Questionnaire <<entity>> <<root>> {
+
+}
+
+class Identifier <<(V,#FF8B40) value object>>
+entity Section <<entity>> {
+- id
+}
+entity Question <<entity>> {
+- id
+- options
+}
+entity Answer <<entity>> {
+}
+class Type <<(V,#FF8B40) value object>>
+
+Questionnaire --> "1" Identifier : identified by
+Questionnaire --> "1..*" Section : organized
+Section ---> "1..*" Question: composed by
+Question --> "1" Type: associated
+Question--> "*" Answer : has
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Client <<entity>> <<root>> {
+
+}
+
+Client --> "1..*" Questionnaire : answers
+Client --> "*" Answer: provides
+
+@enduml

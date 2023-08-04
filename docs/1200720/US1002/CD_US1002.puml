@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ListProductsUi
+class ListProductsController
+class ListProductService
+class PersistenceContext
+class RepositoryFactory
+class ProductRepository
+
+class ListProductsController {
+    - addCategoria(codigoAlfanumerico, descricao, superCategoria)
+
+}
+
+class RepositoryFactory {
+     - setCodigoAlfanumerico()
+     - setDescricao()
+     - setSuperCategoria()
+     - createCategoria()
+}
+
+class ProductRepository {
+    - Categoria (codifoAlfanumerico, descricao, superCategoria)
+}
+
+class PersistenceContext {
+    - repositories()
+}
+
+ListProductsUi ..> ListProductsController
+ListProductsController -> ListProductService
+ListProductService -> PersistenceContext
+PersistenceContext -> RepositoryFactory
+RepositoryFactory --> ProductRepository
+
+@enduml

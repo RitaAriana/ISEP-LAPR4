@@ -1,0 +1,93 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam classAttributeIconSize 0
+
+package ui {
+class NewQuestionnaireUI{}
+}
+
+package surveymanagement {
+
+package application{
+class CreateNewQuestionnaireController{
++createQuestionnaire(file)
+}
+}
+
+package antlr{
+package eapli.base.surveymanagement.antr {
+class SurveyLexer {
+-makeLiteralNames()
+-makeSymbolicNames()
++getTokenNames()
++getVocabulary()
++getGrammarFileName()
++getRuleNames()
++getSerializedATN()
++getChannelNames()
++getModelNames()
++getATN()
+}
+
+class SurveyParser {
+-makeLiteralNames()
+-makeSymbolicNames()
++getTokenNames()
++getVocabulary()
++getGrammarFileName()
++getRuleNames()
++getSerializedATN()
++getChannelNames()
++getModelNames()
++getATN()
++start()
+}
+
+class QuestionnaireMain {
++parseWithVisitor(file)
+
+}
+class QuestionnaireVisitor {}
+
+class SurveyBaseListener {}
+
+}
+}
+
+
+
+package domain{
+class Questionnaire {
+-code
+-title
+-initialMessage
+-finalMessage
+---
++sectionsAndQuestions()
++Questionaire(code,title,initialMessage,sectionsAndQuestions,finalMessage)
+}
+
+}
+
+
+NewQuestionnaireUI ..> CreateNewQuestionnaireController
+
+CreateNewQuestionnaireController ----> QuestionnaireMain
+QuestionnaireMain ----> Questionnaire
+QuestionnaireMain -> QuestionnaireVisitor
+QuestionnaireMain ---> SurveyBaseListener
+QuestionnaireMain -> SurveyParser
+QuestionnaireMain -> SurveyLexer
+
+QuestionnaireVisitor -> Questionnaire
+
+
+
+
+
+
+
+
+
+@enduml

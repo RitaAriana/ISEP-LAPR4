@@ -1,0 +1,198 @@
+@startuml
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Warehouse" {
+    entity Warehouse
+    entity WarehousePlant
+    entity Aisle
+    entity Line
+    entity AGVDock
+    entity Shelf
+    class Dashboard
+    entity Bin
+    class Begin
+    class End
+    class Depth
+    class Accessibility
+}
+
+package "<<aggregate>> AGV" {
+    entity AGV
+    class BriefDescription
+    class Model
+    class AGVStatus
+    entity AGVTask
+    class MaxWeightCapacity
+    class MaxVolumeCapacity
+    class AGVPosition
+    class AGVId
+    class Range
+}
+
+package "<<aggregate>> Product" {
+    entity Product
+}
+
+entity Product <<entity>> <<root>> {}
+
+entity WarehousePlant <<entity>> {
+    -description
+    -length
+    -width
+    -square
+    -unit
+}
+
+entity AGV <<entity>> <<root>> {
+    -state
+}
+
+entity AGVDock <<entity>> {
+    -id
+}
+
+entity Warehouse <<entity>> <<root>> {
+}
+
+class Dashboard <<(V,#FF8B40) value object>>{}
+
+entity Shelf <<entity>>{
+    -id
+    -isEmpty
+}
+
+entity Bin <<entity>>{
+    -id
+}
+
+entity Aisle <<entity>>{
+    -id
+}
+
+
+class Begin <<(V,#FF8B40) value object>>{
+    -lsquare
+    -wsquare
+}
+
+class End <<(V,#FF8B40) value object>>{
+    -lsquare
+    -wsquare
+}
+
+class Depth <<(V,#FF8B40) value object>>{
+    -lsquare
+    -wsquare
+}
+
+class Accessibility <<(V,#FF8B40) value object>>{
+    -rating
+}
+
+entity Line <<entity>>{
+    -id
+
+}
+
+Product--> "1" Warehouse : located in
+
+Warehouse --> "1..*" Aisle : contains
+
+Warehouse --> "1" Dashboard : monitored by
+
+Warehouse --> "1..*" AGV : operated by
+
+Warehouse --> "1..*" WarehousePlant : provides
+
+WarehousePlant --> "1..*" Aisle : provides information
+
+WarehousePlant --> "1..*" AGVDock : provides information
+
+
+
+Aisle --> "1..*" Line : organized by
+
+Aisle --> "1" Begin : located in
+Aisle --> "1" End : located in
+Aisle ----> "1" Depth : located in
+Aisle --> "1" Accessibility : associated
+
+Line --> "1..*" Shelf : divided by
+
+Line --> "1..*" Begin : located in
+
+Line --> "1..*" End : located in
+
+Shelf --> "1..*" Bin : define
+
+AGVDock ---> "1" Begin : located in
+AGVDock ---> "1" End : located in
+AGVDock ---> "1" Depth : located in
+AGVDock ---> "1" Accessibility : associated
+
+
+entity AGV <<entity>> <<root>> {}
+
+class BriefDescription <<(V,#FF8B40) value object>> {
+-briefDescription
+}
+
+class Model <<(V,#FF8B40) value object>> {
+-model
+}
+
+class AGVPosition <<(V,#FF8B40) value object>> {
+-agvPosition
+}
+
+class AGVStatus<<(V,#FF8B40) value object>> {
+    -taskState
+    -status
+}
+
+class AGVId <<(V,#FF8B40) value object>> {
+-id
+}
+
+class Range <<(V,#FF8B40) value object>> {
+-range
+}
+
+class MaxWeightCapacity <<(V,#FF8B40) value object>> {
+-maxWeightCapacity
+}
+
+class MaxVolumeCapacity <<(V,#FF8B40) value object>> {
+-volume
+}
+
+entity AGVTask <<entity>> {
+    -id
+    -agvTaskDescription
+}
+
+package "<<aggregate>> ProductOrder"{
+    entity ProductOrder
+}
+
+entity ProductOrder <<entity>> <<root>> {
+- numericIdentifier
+}
+
+
+AGV --> "1" AGVId : has
+AGV --> "1..*" AGVStatus : collects
+AGV --> "1" Range : respects
+AGV --> "1" Model : has
+AGV --> "1" BriefDescription : characterized by
+AGV --> "1" MaxWeightCapacity : respects
+AGV --> "1" MaxVolumeCapacity : respects
+AGV --> "1" AGVPosition : located in
+AGV --> "1" AGVTask : associated
+AGVTask --> "1..*" ProductOrder : composed by
+@enduml

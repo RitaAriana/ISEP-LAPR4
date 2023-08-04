@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Warehouse Employee" as F
+participant System as S
+autonumber
+
+activate F
+F -> S : Ask for the list of products prepared by an AGV
+activate S
+
+S --> F : Shows the list of AGVs and asks to select one
+deactivate S
+F -> S: Select the AGV
+activate S
+S --> F : Shows the list of products prepared by the selected AGV
+deactivate S
+
+F -> S : Select the orders you want to change the status to 'dispatched for customer'
+activate S
+
+S --> F : Shows orders with the new status
+deactivate S
+
+deactivate S
+deactivate F
+@enduml

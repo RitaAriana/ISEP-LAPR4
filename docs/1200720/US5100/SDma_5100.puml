@@ -1,0 +1,71 @@
+@startuml
+
+autonumber
+
+participant csThread as cs
+participant MoveAGVThread as moveThread
+participant AGV as agv <<domain>>
+participant WarehouseMovement as whMovement
+
+cs-> moveThread
+activate moveThread
+
+moveThread -> agv : activateSensors()
+activate agv
+deactivate agv
+
+loop while the path needs to be recalculated
+moveThread -> moveThread ++: moveAGV()
+
+
+moveThread -> whMovement ++: coordinate = minDistance(grid, x, y, desiredX, desiredY)
+deactivate whMovement
+
+moveThread -> whMovement ++: backTrackPath(coordinate)
+deactivate whMovement
+
+loop for each coordinate of the calculated path
+
+moveThread -> moveThread ++: updateGrid(path, x, y)
+deactivate moveThread
+
+moveThread -> moveThread ++: checkBattery()
+deactivate moveThread
+
+moveThread -> moveThread ++: updateAGV(path)
+moveThread -> moveThread ++: updateDatabase()
+deactivate moveThread
+deactivate moveThread
+
+moveThread -> moveThread ++: speed = getAction()
+deactivate moveThread
+
+moveThread -> moveThread ++: changeSpeed()
+deactivate moveThread
+
+moveThread -> whMovement ++: printMatrix()
+deactivate whMovement
+deactivate moveThread
+
+end
+
+moveThread -> moveThread ++: setCoordinates()
+deactivate moveThread
+
+moveThread -> moveThread ++: moveAGV()
+deactivate moveThread
+
+moveThread -> moveThread ++: changeAGVStatus()
+deactivate moveThread
+
+moveThread -> moveThread ++: chargeAGV()
+deactivate moveThread
+
+moveThread -> agv ++: deactivateSensors()
+deactivate agv
+
+
+moveThread -> cs ++: disableLock()
+deactivate moveThread
+
+@enduml

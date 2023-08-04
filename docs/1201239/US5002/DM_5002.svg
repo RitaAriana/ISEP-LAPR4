@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="339px" preserveAspectRatio="none" style="width:345px;height:339px;background:#FFFFFF;" version="1.1" viewBox="0 0 345 339" width="345px" zoomAndPan="magnify"><defs/><g><!--MD5=[22b4f80a245276e25c9cb3ee67d19758]
+cluster <<aggregate>> AGV--><g id="cluster_&lt;&lt;aggregate&gt;&gt; AGV"><path d="M8.5,6 L146.5,6 A3.75,3.75 0 0 1 149,8.5 L156,29.6094 L335.5,29.6094 A2.5,2.5 0 0 1 338,32.1094 L338,329.5 A2.5,2.5 0 0 1 335.5,332 L8.5,332 A2.5,2.5 0 0 1 6,329.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="6" x2="156" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="10" y="22.5332">&lt;&lt;aggregate&gt;&gt; AGV</text></g><!--MD5=[53b2c06ade5903185ca3326dce80e141]
+class AGV--><g id="elem_AGV"><rect codeLine="19" fill="#F5F5DC" height="83.4063" id="AGV" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="71" x="22" y="137.5"/><ellipse cx="37" cy="166.3984" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M35.5,167.3984 L35.5,169.3984 L39.5,169.3984 L39.5,168.3984 L39.5,167.9141 L40.125,167.3984 L40.5,167.3984 L40.875,167.3984 L41.5,167.9141 L41.5,168.3984 L41.5,171.3984 L33.5,171.3984 L33.0156,171.3984 L32.5,170.7734 L32.5,170.3984 L32.5,170.0234 L33.0156,169.3984 L33.5,169.3984 L33.5,169.3984 L33.5,163.3984 L33.5,163.3984 L33.0156,163.3984 L32.5,162.7734 L32.5,162.3984 L32.5,162.0234 L33.0156,161.3984 L33.5,161.3984 L41.5,161.3984 L41.5,164.3984 L41.5,164.8828 L40.875,165.3984 L40.5,165.3984 L40.125,165.3984 L39.5,164.8828 L39.5,164.3984 L39.5,163.3984 L35.5,163.3984 L35.5,165.3984 L36.5,165.3984 L36.5,164.9141 L36.5,164.9141 L37.125,164.3984 L37.5,164.3984 L37.875,164.3984 L38.5,164.9141 L38.5,165.3984 L38.5,167.3984 L38.5,167.8828 L37.875,168.3984 L37.875,168.3984 L37.5,168.3984 L37.125,168.3984 L36.5,167.8828 L36.5,167.8828 L36.5,167.3984 L35.5,167.3984 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="49" y="154.957">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="53" y="170.0508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="56" y="187.2207">AGV</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="92" y1="195.2969" y2="195.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="28" y="213.8301">-state</text></g><!--MD5=[e583cbaa21abc89bc679fcec0dd8046e]
+class AGVStatus--><g id="elem_AGVStatus"><rect codeLine="26" fill="#F5F5DC" height="68.3125" id="AGVStatus" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="212" y="248"/><ellipse cx="227" cy="269.3516" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M227,272.6328 L228.5313,267.1016 L228.5313,267.1016 L228.0156,267.1016 L227.5,266.4766 L227.5,266.1016 L227.5,265.7266 L228.0156,265.1016 L228.5313,265.1016 L230.4063,265.1016 L230.9844,265.1016 L231.5,265.7266 L231.5,266.1016 L231.5,266.4766 L230.9844,267.1016 L230.9844,267.1016 L230.5313,267.1016 L228.1875,275.1016 L225.8125,275.1016 L223.3438,267.1016 L223.0156,267.1016 L223.0156,267.1016 L222.5,266.4766 L222.5,266.1016 L222.5,265.7266 L223.0156,265.1016 L223.5938,265.1016 L225.4688,265.1016 L225.9844,265.1016 L226.5,265.7266 L226.5,266.1016 L226.5,266.4766 L225.9844,267.1016 L225.4688,267.1016 L225.4688,267.1016 L227,272.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="239" y="265.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="245" y="282.627">AGVStatus</text><line style="stroke:#181818;stroke-width:0.5;" x1="213" x2="320" y1="290.7031" y2="290.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="218" y="309.2363">-taskState</text></g><!--MD5=[4d1e38779c686a11487444ed33c3c69e]
+class AGVPosition--><g id="elem_AGVPosition"><rect codeLine="22" fill="#F5F5DC" height="68.3125" id="AGVPosition" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="111" x="211" y="145"/><ellipse cx="226" cy="166.3516" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M226,169.6328 L227.5313,164.1016 L227.5313,164.1016 L227.0156,164.1016 L226.5,163.4766 L226.5,163.1016 L226.5,162.7266 L227.0156,162.1016 L227.5313,162.1016 L229.4063,162.1016 L229.9844,162.1016 L230.5,162.7266 L230.5,163.1016 L230.5,163.4766 L229.9844,164.1016 L229.9844,164.1016 L229.5313,164.1016 L227.1875,172.1016 L224.8125,172.1016 L222.3438,164.1016 L222.0156,164.1016 L222.0156,164.1016 L221.5,163.4766 L221.5,163.1016 L221.5,162.7266 L222.0156,162.1016 L222.5938,162.1016 L224.4688,162.1016 L224.9844,162.1016 L225.5,162.7266 L225.5,163.1016 L225.5,163.4766 L224.9844,164.1016 L224.4688,164.1016 L224.4688,164.1016 L226,169.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="239" y="162.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="240" y="179.627">AGVPosition</text><line style="stroke:#181818;stroke-width:0.5;" x1="212" x2="321" y1="187.7031" y2="187.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="217" y="206.2363">-agvPosition</text></g><!--MD5=[f6f08570da9efaa92dc067d88742b265]
+class AGVId--><g id="elem_AGVId"><rect codeLine="30" fill="#F5F5DC" height="68.3125" id="AGVId" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="212" y="42"/><ellipse cx="227" cy="63.3516" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M227,66.6328 L228.5313,61.1016 L228.5313,61.1016 L228.0156,61.1016 L227.5,60.4766 L227.5,60.1016 L227.5,59.7266 L228.0156,59.1016 L228.5313,59.1016 L230.4063,59.1016 L230.9844,59.1016 L231.5,59.7266 L231.5,60.1016 L231.5,60.4766 L230.9844,61.1016 L230.9844,61.1016 L230.5313,61.1016 L228.1875,69.1016 L225.8125,69.1016 L223.3438,61.1016 L223.0156,61.1016 L223.0156,61.1016 L222.5,60.4766 L222.5,60.1016 L222.5,59.7266 L223.0156,59.1016 L223.5938,59.1016 L225.4688,59.1016 L225.9844,59.1016 L226.5,59.7266 L226.5,60.1016 L226.5,60.4766 L225.9844,61.1016 L225.4688,61.1016 L225.4688,61.1016 L227,66.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="239" y="59.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="259.5" y="76.627">AGVId</text><line style="stroke:#181818;stroke-width:0.5;" x1="213" x2="320" y1="84.7031" y2="84.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="16" x="218" y="103.2363">-id</text></g><!--MD5=[2234673e5bfcd6f879a72487a4afa117]
+link AGV to AGVId--><g id="link_AGV_AGVId"><path codeLine="34" d="M93.15,161.76 C124.1,146.36 170.09,123.48 206.77,105.22 " fill="none" id="AGV-to-AGVId" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="211.66,102.79,201.8202,103.2121,207.1822,105.0147,205.3796,110.3766,211.66,102.79" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="141.5" y="115.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="196.8206" y="120.9626">1</text></g><!--MD5=[544b9eb422541cc431b04e90f57fdf55]
+link AGV to AGVStatus--><g id="link_AGV_AGVStatus"><path codeLine="35" d="M93.15,196.24 C124.1,211.64 170.09,234.52 206.77,252.78 " fill="none" id="AGV-to-AGVStatus" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="211.66,255.21,205.3796,247.6234,207.1822,252.9853,201.8202,254.7879,211.66,255.21" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="129.5" y="209.4951">collects</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="184.1629" y="266.5348">1..*</text></g><!--MD5=[bf5efedcc9e681833f119f210f8fc209]
+link AGV to AGVPosition--><g id="link_AGV_AGVPosition"><path codeLine="37" d="M93.15,179 C123.75,179 169.06,179 205.54,179 " fill="none" id="AGV-to-AGVPosition" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="210.86,179,201.86,175,205.86,179,201.86,183,210.86,179" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="124" y="175.4951">located in</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="195.9131" y="193.5727">1</text></g><!--MD5=[5c8ceb2a185ae8ff8aaea0b72d2f35b8]
+@startuml
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> AGV" {
+    entity AGV
+    class AGVStatus
+    class AGVPosition
+    class AGVId
+}
+
+entity AGV <<entity>> <<root>> {
+    -state
+}
+
+entity AGV <<entity>> <<root>> {}
+
+
+class AGVPosition <<(V,#FF8B40) value object>> {
+-agvPosition
+}
+
+class AGVStatus<<(V,#FF8B40) value object>> {
+    -taskState
+}
+
+class AGVId <<(V,#FF8B40) value object>> {
+-id
+}
+
+AGV - -> "1" AGVId : has
+AGV - -> "1..*" AGVStatus : collects
+
+AGV - -> "1" AGVPosition : located in
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,60 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Email
+    class Name
+    class PhoneNumber
+    class PostalAddresses
+    class VAT
+}
+
+entity Client <<entity>> <<root>> {
+    - id
+    - gender
+    - birthDate
+}
+
+class Name <<(V,#FF8B40) value object>> {}
+class Email <<(V,#FF8B40) value object>> {}
+class PhoneNumber <<(V,#FF8B40) value object>> {}
+class PostalAddresses <<(V,#FF8B40) value object>> {}
+class VAT <<(V,#FF8B40) value object>> {}
+
+Client --> "1" Name : characterized by
+Client ---> "1" Email : identified by
+Client ---> "1" VAT : identified by
+Client --> "1" PhoneNumber: associated with a
+Client --> "1..*" PostalAddresses: associated with a
+
+package "<<aggregate>> User" {
+    entity User
+    class Role
+}
+
+entity User <<entity>> <<root>> {
+    - isActive
+}
+
+
+class Role <<(V,#FF8B40) value object>> {}
+
+User ---> "1..*" Role : plays a
+
+package "<<aggregate>> Employee" {
+    entity Employee
+}
+
+entity Employee <<entity>> <<root>> {
+    -identifier
+}
+
+Employee --> "1" User : is a
+Employee --> "0..*" Client : registers a
+@enduml

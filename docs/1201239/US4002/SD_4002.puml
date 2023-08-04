@@ -1,0 +1,53 @@
+@startuml
+
+autonumber
+actor "Project Manager" as PM
+participant TaskManagementUI as UI <<presentation>>
+participant CallAGVManagerController as controller <<application>>
+participant agvManager as server
+participant TaskManagement as taskManagement <<application>>
+
+participant RepositoryFactory as factory <<factory>>
+
+activate PM
+PM -> UI : Inicia o processo de atribuição automática de tarefas
+activate UI
+
+UI -> controller : create()
+
+UI -> controller : connectDaemon(address, port)
+activate controller
+deactivate controller
+
+UI -> controller : callFIFO()
+activate controller
+
+
+controller -> server : execute()
+activate server
+
+server -> taskManagement : assignTasks()
+activate taskManagement
+
+taskManagement -> taskManagement ++: removeUnfittedAGVs(agvList)
+deactivate taskManagement
+
+taskManagement -> factory : save()
+activate factory
+deactivate factory
+
+deactivate taskManagement
+
+deactivate server
+
+deactivate controller
+
+UI -> controller : closeConnection()
+activate controller
+deactivate controller
+
+UI --> PM : Informa sobre o sucesso da operação
+
+deactivate UI
+
+@enduml

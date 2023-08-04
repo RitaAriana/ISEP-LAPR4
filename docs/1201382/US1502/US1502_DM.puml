@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+
+
+
+package "<<aggregate>> Client" {
+    entity Client
+    class PhoneNumber
+    class VAT
+    class Name
+    class Email
+    class PostalAddresses
+}
+
+entity Client <<entity>> <<root>> {
+    - id
+    - birthDate
+    - gender
+}
+
+package "<<aggregate>> ProductOrder"{
+    entity ProductOrder
+    entity OrderItem
+    class TotalPriceWithoutVAT
+    class TotalPriceWithVAT
+    class Status
+    class TotalVolume
+    class TotalWeight
+    class DeliveryAddress
+    class BillingAddress
+}
+
+entity ProductOrder <<entity>> <<root>> {
+- numericIdentifier
+- dateOfOrder
+- shipmentMethod
+- paymentMethod
+
+}
+
+entity OrderItem <<entity>> {
+    -itemQuantity
+}
+
+class TotalPriceWithoutVAT <<(V,#FF8B40) value object>> {}
+class TotalPriceWithVAT <<(V,#FF8B40) value object>> {}
+class DeliveryAddress <<(V,#FF8B40) value object>> {}
+class BillingAddress <<(V,#FF8B40) value object>> {}
+class Status <<(V,#FF8B40) value object>> {}
+class TotalVolume <<(V,#FF8B40) value object>> {}
+class TotalWeight <<(V,#FF8B40) value object>> {}
+
+
+
+
+class PhoneNumber <<(V,#FF8B40) value object>> {}
+class VAT <<(V,#FF8B40) value object>> {}
+class PostalAddresses <<(V,#FF8B40) value object>> {}
+class Name <<(V,#FF8B40) value object>> {}
+class Email <<(V,#FF8B40) value object>> {}
+
+Client ---> "1" PhoneNumber: associated with a
+Client ---> "1" Name: associated with a
+Client ---> "1" Email: associated with a
+Client --> "1" VAT: associated with a
+Client ---> "1..*" PostalAddresses: associated with a
+
+ProductOrder ---> "1" Client : associated
+
+ProductOrder -> "1" TotalPriceWithoutVAT : is marked
+ProductOrder -> "1" TotalPriceWithVAT : is marked
+ProductOrder --> "1" Status : is in
+ProductOrder ---> "1" TotalVolume : associated with
+ProductOrder ---> "1" TotalWeight : associated with
+ProductOrder ---> "1" DeliveryAddress : associated with
+ProductOrder ---> "1" BillingAddress : associated with
+ProductOrder -> "1..*" OrderItem : composed by
+
+@enduml

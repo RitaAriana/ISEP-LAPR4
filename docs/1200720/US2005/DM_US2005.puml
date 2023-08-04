@@ -1,0 +1,76 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> AGV" {
+    entity AGV
+    class BriefDescription
+    class Model
+    class AGVStatus
+    entity AGVTask
+    class MaxWeightCapacity
+    class MaxVolumeCapacity
+    class AGVPosition
+    class AGVId
+    class Range
+}
+
+entity AGV <<entity>> <<root>> {}
+
+class BriefDescription <<(V,#FF8B40) value object>> {
+-briefDescription
+}
+
+class Model <<(V,#FF8B40) value object>> {
+-model
+}
+
+class AGVPosition <<(V,#FF8B40) value object>> {
+-agvPosition
+}
+
+class AGVStatus<<(V,#FF8B40) value object>> {
+    -taskState
+}
+
+class AGVId <<(V,#FF8B40) value object>> {
+-id
+}
+
+class Range <<(V,#FF8B40) value object>> {
+-range
+}
+
+class MaxWeightCapacity <<(V,#FF8B40) value object>> {
+-maxWeightCapacity
+}
+
+class MaxVolumeCapacity <<(V,#FF8B40) value object>> {
+-volume
+}
+
+entity AGVTask <<entity>> {
+    -id
+    -agvTaskDescription
+}
+
+
+
+
+AGV --> "1" AGVId : has
+AGV --> "1..*" AGVStatus : collects
+AGV --> "1" Range : respects
+AGV --> "1" Model : has
+AGV --> "1" BriefDescription : characterized by
+AGV --> "1" MaxWeightCapacity : respects
+AGV --> "1" MaxVolumeCapacity : respects
+AGV --> "1" AGVPosition : located in
+AGV --> "1" AGVTask : associated
+
+
+@enduml

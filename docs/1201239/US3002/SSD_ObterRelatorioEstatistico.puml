@@ -1,0 +1,18 @@
+@startuml
+
+autonumber
+actor "Sales Manager" as SM
+
+activate SM
+SM -> ":System" : Inicia o processo de obter o relatório\n estatístico de um determinado questionário
+activate ":System"
+":System" --> SM : Mostra os questionários que existem
+deactivate ":System"
+SM -> ":System" : Seleciona o questionário que\n pretende obter o relatório
+activate ":System"
+":System" --> SM : Mostra a informação pedida\n informando o sucesso da operação
+deactivate ":System"
+
+deactivate SM
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+
+autonumber
+actor "Project Manager" as PM
+participant System as S
+autonumber
+
+activate PM
+PM -> S : start the control system of AGV
+activate S
+
+S -> PM : displays a list of AGV's ready to have their Control System\n activated
+deactivate S
+
+PM -> S : selects an AGV from the list
+activate S
+
+S --> PM : displays a graphic representation of the AGV\n moving on the warehouse
+deactivate S
+
+@enduml

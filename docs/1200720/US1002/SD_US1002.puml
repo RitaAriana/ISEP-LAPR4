@@ -1,0 +1,72 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+actor Balconista as B
+participant ListProductsUi as Ui <<presentation>>
+participant ListProductsController as CT <<application>>
+participant ListProductsService as SR <<service>>
+participant PersistenceContext as CTX <<persistence>>
+participant RepositoryFactory as FT <<factory>>
+database ProductRepository as REPO <<repository>>
+
+autonumber
+
+B --> Ui : Inicia o processo de criação de um catálogo
+
+activate Ui
+Ui --> B : Pergunta se o catálago será organizado pela Categoria, Descrição ou marca
+deactivate Ui
+
+
+B --> Ui : Insere a informação pedida
+activate Ui
+Ui --> CT : create()
+activate CT
+Ui --> CT : listProducts()
+CT --> SR : create()
+activate SR
+CT --> SR : allProducts()
+SR --> CTX : repositories()
+activate CTX
+CTX --> FT : create()
+activate FT
+CTX --> FT : productsFactory()
+FT --> REPO : create()
+activate REPO
+deactivate REPO
+deactivate FT
+deactivate SR
+deactivate CTX
+
+
+alt [information = categoria]
+
+SR -> REPO : findProductsByCategory()
+
+activate REPO
+REPO --> SR : productsByCategory()
+
+deactivate REPO
+
+else [information = marca]
+SR -> REPO : findProductsByBrand()
+activate REPO
+REPO --> SR : productsByBrand()
+deactivate REPO
+
+else [information = descricao]
+SR -> REPO : findProductsByDescription()
+activate REPO
+REPO --> SR : productsByDescription()
+deactivate REPO
+end
+SR --> CT :
+
+CT --> Ui :
+deactivate CT
+Ui --> Ui : Show()
+Ui --> B : mostra o catálogo gerado
+deactivate Ui
+
+@enduml

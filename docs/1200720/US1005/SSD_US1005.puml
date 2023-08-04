@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor Balconista as B
+participant Sistema as S
+autonumber
+
+activate B
+B --> S : Inicia a processo de criação de uma categoria
+activate S
+
+S --> B : Pergunta as informações relativas a uma categoria
+deactivate S
+B --> S: CódigoAlfanumérico, Descrição, SuperCategoria
+activate S
+S --> B : mostra a informação relativa a categoria criada
+deactivate S
+deactivate B
+@enduml

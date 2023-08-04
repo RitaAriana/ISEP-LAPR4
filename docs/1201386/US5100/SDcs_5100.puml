@@ -1,0 +1,67 @@
+@startuml
+
+autonumber
+actor "Project Manager" as PM
+participant DigitalTwinDaemon as daemon <<daemon>>
+participant DigitalTwinProtocolServer as server <<server>>
+participant AGV as agv <<domain>>
+participant "csThread" as cs
+participant PersistenceContext as persistence <<persistence>>
+database AGVRepository as repository <<repository>>
+
+
+activate PM
+
+PM -> daemon : start the control system of the AGV
+activate daemon
+
+daemon -> daemon ++: selectAGV()
+
+
+daemon -> persistence : agvList = repositories()
+activate persistence
+
+persistence -> persistence ++: agv()
+
+persistence -> persistence ++: findAll()
+
+persistence -> repository
+deactivate persistence
+
+deactivate persistence
+
+deactivate persistence
+
+deactivate daemon
+daemon --> PM : displays a list of AGV's ready to have their Control System Activated
+deactivate daemon
+
+PM -> daemon : selects an AGV from the list
+activate daemon
+
+daemon -> server : create(requestMessageParser, agv)
+activate server
+
+server -> agv : activateControlSystem()
+activate agv
+
+agv -> cs : start()
+deactivate agv
+
+activate cs
+
+loop until the Control System thread is interrupted
+cs -> agv : taskList = getAgvTask()
+activate agv
+deactivate agv
+
+cs -> cs : taskService(taskList)
+end
+
+
+
+daemon --> PM : displays a graphic representation of the AGV moving on the database
+
+deactivate daemon
+
+@enduml

@@ -1,0 +1,74 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class ListOpenOrdersUI
+class ListOpenOrdersController
+class ListOpenOrdersService
+class ProductOrder
+class ProductOrderDTO
+class TcpOrderSrv
+
+
+
+class PersistenceContext{
++repositories()
+}
+
+
+class Client{
++create()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+class ListOpenOrdersController {
++getOpenOrdersOfTheClient()
+}
+
+class ListOpenOrdersService {
++getOpenOrdersOfTheClient(clientId)
+
+}
+
+
+
+database ClientRepository{
+}
+
+database ProductOrderRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+ListOpenOrdersUI --> ListOpenOrdersController
+ListOpenOrdersController --> ListOpenOrdersService
+ListOpenOrdersService --> TcpOrderSrv
+ListOpenOrdersService --> ProductOrderDTO
+TcpOrderSrv --> ClientRepository
+TcpOrderSrv --> ProductOrderDTO
+TcpOrderSrv --> ProductOrder
+TcpOrderSrv --> Client
+
+
+TcpOrderSrv -->PersistenceContext
+TcpOrderSrv -->TransactionalContext
+
+PersistenceContext -->RepositoryFactory
+RepositoryFactory -->ClientRepository
+RepositoryFactory -->ProductOrderRepository
+
+Client -----> "1" ProductOrder : associated
+
+@enduml

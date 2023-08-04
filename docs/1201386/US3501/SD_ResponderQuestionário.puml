@@ -1,0 +1,159 @@
+@startuml
+
+autonumber
+actor "Client" as C
+participant ResponderQuestionarioUI as UI <<presentation>>
+participant ResponderQuestionarioController as Controller <<application>>
+participant ResponderQuestionarioService as Service <<application>>
+participant TcpOrderSrv as OrderServer
+participant ListQuestionnaireDTOService as serv <<application>>
+participant "Questionnaire" as Domain <<domain>>
+participant "QuestionnaireDTO" as DTO <<dto>>
+participant "SurveyDTO" as dto <<dto>>
+participant "SectionDTO" as sDTO <<dto>>
+participant "QuestionDTO" as qDTO <<dto>>
+participant "Client" as client <<domain>>
+participant "AnswerMain" as answerMain <<antlr>>
+participant "Answer" as answer <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database ClientRepository as repository <<repository>>
+database SurveyRepository as rep <<repository>>
+database AnswerRepository as r <<repository>>
+
+
+
+activate C
+C -> UI : Inicia o processo de responder a um questionário
+activate UI
+UI -> Controller: getUnansweredCustomerSurveys(clientEmail)
+activate Controller
+Controller -> Service : getUnansweredCustomerSurveys(clientEmail))
+activate Service
+Service -> OrderServer : unansweredCustomerSurveys(clientEmail)
+activate OrderServer
+OrderServer -> Persistence: repositories()
+activate Persistence
+Persistence -> Factory: create
+Persistence -> OrderServer: factory
+deactivate Persistence
+OrderServer -> Factory: client()
+activate Factory
+Factory -> repository: create
+Factory -> OrderServer: clientRepository
+deactivate Factory
+OrderServer->repository:findClientByEmail
+activate repository
+repository -->OrderServer: client
+deactivate repository
+OrderServer -> serv: getUnansweredSurveys(client)
+activate serv
+serv -> client: getUnansweredSurveys()
+activate client
+client --> serv: unansweredCustomerSurveysList
+deactivate client
+loop
+serv -> Domain: toDTO()
+activate Domain
+end
+deactivate Domain
+serv --> OrderServer: unansweredCustomerSurveysDTOList
+deactivate serv
+OrderServer --> Service: unansweredCustomerSurveysDTOList
+deactivate OrderServer
+Service --> Controller: unansweredCustomerSurveysDTOList
+deactivate Service
+Controller --> UI: unansweredCustomerSurveysDTOList
+deactivate Controller
+UI --> C : Mostra os questionários que existem por responder
+deactivate UI
+C -> UI : Seleciona o questionário que pretende responder
+activate UI
+UI -> Controller: getSurvey(id)
+activate Controller
+Controller -> Service: getSurvey(id)
+activate Service
+Service -> OrderServer: getSurvey(id)
+activate OrderServer
+OrderServer -> serv: getSurvey(surveyId)
+activate serv
+serv -> Persistence: repositories()
+activate Persistence
+Persistence -> Factory: create
+Persistence -> serv: factory
+deactivate Persistence
+serv -> Factory: surveys()
+activate Factory
+Factory -> rep: create
+Factory -> serv: surveyRepository
+deactivate Factory
+serv->rep:findByIdentifier()
+activate rep
+rep -->serv: survey
+deactivate rep
+serv -> Domain: toDto()
+activate Domain
+deactivate Domain
+serv --> OrderServer: surveyDto
+deactivate serv
+OrderServer --> Service: surveyDto
+deactivate OrderServer
+Service --> Controller: surveyDto
+deactivate Service
+Controller --> UI: surveyDto
+deactivate Controller
+UI --> C : Mostra a informação inicial do questionário
+loop enquanto existirem perguntas a serem feitas
+UI --> C : Mostra a pergunta do questionário
+deactivate UI
+C -> UI : Responde à pergunta apresentada
+activate UI
+UI -> Controller: writeFile(surveyId,answer)
+activate Controller
+deactivate Controller
+UI -> Controller: validateAnswer(clientEmail,surveyId,sectionId,questionId);
+activate Controller
+Controller -> answerMain: create
+Controller -> answerMain: parseWithVisitor(fileName)
+activate answerMain
+answerMain --> Controller: answer
+deactivate answerMain
+Controller -> answer:modifyClientEmail(clientEmail)
+activate answer
+deactivate answer
+Controller -> answer:modifyIdSurvey(surveyId)
+activate answer
+deactivate answer
+Controller -> answer:modifyIdSection(idSection)
+activate answer
+deactivate answer
+Controller -> answer:modifyIdQuestion(idQuestion)
+activate answer
+deactivate answer
+Controller->Service:saveAnswer(answer)
+activate Service
+Service ->OrderServer:saveAnswer(answer)
+activate OrderServer
+OrderServer -> Persistence: repositories()
+activate Persistence
+Persistence -> Factory: create
+Persistence -> OrderServer: factory
+deactivate Persistence
+OrderServer -> Factory: answers()
+activate Factory
+Factory -> r: create
+Factory -> OrderServer: answerRepository
+deactivate Factory
+OrderServer->r:save(answer)
+activate r
+deactivate r
+deactivate OrderServer
+deactivate Service
+deactivate Controller
+end
+UI --> C : Mostra a informação final do questionário
+UI --> C : Informa o sucesso da operação
+deactivate UI
+deactivate C
+
+@enduml

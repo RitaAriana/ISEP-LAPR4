@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ConfigureAGVUI
+class ConfigureAGVController
+class PersistenceContext
+class RepositoryFactory
+class AGVRepository
+
+class ConfigureAGVUI{}
+
+class ConfigureAGVController {
++validateData(agvId,briefDescription, model,\nmaxWeightCapacity,maxVolumeCapacity, \n range,position)
++configureAGV(agvId,briefDescription, model,\n maxWeightCapacity, maxVolumeCapacity,\n range, position , agvDock, status, task)
+}
+
+
+class RepositoryFactory {
++ RepositoryFactory()
+}
+
+class AGVRepository {
++save(agv)
+}
+
+class AGVBuilder{
++withId(id)
++withAGVDock(agvDock)
++withRange(range)
++withMaxWeightCapacity(maxWeightCapacity)
++withMaxVolumeCapacity(maxVolumeCapacity)
++withModel(model)
++withBriefDescription(briefDescription)
++withPosition(position)
++withAGVStatus(status)
++withAGVTask(task)
++build()
++buildOrThrow()
+}
+
+class AGV{
+-agvId
+-agvDock
+-range
+-maxWeightCapacity
+-maxVolumeCapacity
+-model
+-briefDescription
+-position
+-status
+-agvTask
+}
+
+class PersistenceContext {
+- repositories()
+}
+
+
+ConfigureAGVUI ..> ConfigureAGVController
+ConfigureAGVController ..> PersistenceContext
+ConfigureAGVController ..> AGVBuilder
+ConfigureAGVController ..> AGV
+AGVBuilder -> AGV
+PersistenceContext ..> RepositoryFactory
+RepositoryFactory --> AGVRepository
+
+
+@enduml

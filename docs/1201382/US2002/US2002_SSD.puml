@@ -1,0 +1,20 @@
+@startuml
+autonumber
+actor "Warehouse Employee" as WE
+participant "System" as SYS
+
+activate WE
+WE -> SYS : initiates the process of configuring an AGV
+activate SYS
+SYS --> WE : requests data (id, briefDescription, model,\n maxWeightCapacity, maxVolumeCapacity,\n range, position, agvDock)
+deactivate SYS
+
+WE -> SYS : type the requested data
+activate SYS
+
+SYS --> WE : shows information and informs operation sucess
+deactivate SYS
+
+deactivate WE
+
+@enduml

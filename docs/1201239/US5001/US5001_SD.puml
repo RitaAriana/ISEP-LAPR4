@@ -1,0 +1,29 @@
+@startuml
+autonumber
+participant "DigitalTwinDaemon" as DAEMON
+participant "DigitalTwinProtocolServer" as SERVER
+participant "Handle" as HANDLER
+participant "RequestMessageParser" as PARSER
+participant "DigitalTwinProtocolRequest" as REQUEST
+
+
+DAEMON -> SERVER : new
+DAEMON -> SERVER : start
+activate SERVER
+SERVER -> SERVER : accept
+activate SERVER
+deactivate SERVER
+SERVER -> HANDLER : start
+activate HANDLER
+deactivate SERVER
+HANDLER -> PARSER : parse(request)
+PARSER -> REQUEST** : new
+HANDLER -> REQUEST : execute
+activate REQUEST
+REQUEST -> REQUEST : buildResponse()
+activate REQUEST
+deactivate REQUEST
+REQUEST --> HANDLER : response
+deactivate REQUEST
+deactivate HANDLER
+@enduml

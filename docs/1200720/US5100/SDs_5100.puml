@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant MoveAGV as moveThread
+participant Sensor as sensor
+
+-> sensor : sensorList = getSensors()
+activate sensor
+
+loop for the 8 sensors present on the AGV
+sensor -> sensor ++: create()
+deactivate sensor
+end
+
+deactivate sensor
+
+
+moveThread -> sensor : run()
+activate moveThread
+activate sensor
+
+loop while the sensors are on
+sensor -> sensor : updatePosicao(agvPosition)
+sensor -> sensor ++: isValid(x, y, grid)
+
+deactivate sensor
+end
+deactivate sensor
+
+moveThread -> sensor ++: getControl()
+deactivate sensor
+
+moveThread -> sensor ++: disableLock()
+deactivate sensor
+
+loop for each sensor
+moveThread -> sensor ++: deactivate()
+deactivate sensor
+end
+
+deactivate moveThread
+
+@enduml

@@ -1,0 +1,76 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Warehouse Employee" as EMPLOYEE
+
+participant DashboardUI as UI <<presentation>>
+
+participant CallAGVManagerController as CT_AGV <<aplication>>
+
+participant DashboardController as CT <<aplication>>
+
+participant HTTPServerAjaxDashboard as SERVER <<hhtpServerAjax>>
+
+participant AGVManagerDeamon as AGVSERVER <<daemon>>
+
+participant DashboardRequest as DASHBOARD_REQUEST <<server>>
+
+participant HTTPRequest as REQUEST <<server>>
+
+
+
+
+
+EMPLOYEE -> UI : Request for web page
+activate EMPLOYEE
+activate UI
+
+UI -> CT_AGV : connectDeamon()
+activate CT_AGV
+CT_AGV -> SERVER : sendDashboardRequest()
+
+activate SERVER
+deactivate SERVER
+deactivate CT_AGV
+
+UI -> CT_AGV : callDashboard()
+activate CT_AGV
+
+loop while reiceves requests
+CT_AGV -> CT : getAgvInformationForDashboard()
+activate CT
+
+CT --> CT_AGV : agvInformation
+
+
+CT -> AGVSERVER : sendDashboardResponse(agvInformation)
+activate AGVSERVER
+deactivate AGVSERVER
+
+end loop
+
+deactivate CT
+
+CT_AGV -> SERVER : sendHttpRequest()
+activate SERVER
+
+loop auto refresh
+SERVER -> REQUEST : run()
+activate REQUEST
+REQUEST -> REQUEST : getData()
+
+REQUEST --> SERVER : data
+end loop
+
+SERVER --> CT_AGV : reponse
+
+deactivate SERVER
+
+CT_AGV --> UI : reponse
+deactivate CT_AGV
+UI --> EMPLOYEE : Responds
+deactivate UI
+
+deactivate EMPLOYEE
+
+@enduml

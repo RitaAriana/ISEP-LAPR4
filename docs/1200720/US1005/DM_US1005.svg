@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="254px" preserveAspectRatio="none" style="width:497px;height:254px;background:#FFFFFF;" version="1.1" viewBox="0 0 497 254" width="497px" zoomAndPan="magnify"><defs><filter height="300%" id="f1u9sy8ie1iahb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[379fcb94853c7c195c0368ceebdeaf4d]
+cluster <<aggregate>> Category--><polygon fill="#FFFFFF" filter="url(#f1u9sy8ie1iahb)" points="16,6,193,6,200,29.6094,480,29.6094,480,247,16,247,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="200" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="171" x="20" y="22.5332">&lt;&lt;aggregate&gt;&gt; Category</text><!--MD5=[a96594a83e2ecdc78cbf17c2ddf01934]
+class Category--><rect codeLine="16" fill="#F5F5DC" filter="url(#f1u9sy8ie1iahb)" height="63.2813" id="Category" style="stroke:#A80036;stroke-width:1.5;" width="81" x="219.5" y="42"/><ellipse cx="234.5" cy="69.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M233,70.6406 L233,72.6406 L237,72.6406 L237,71.6406 L237,71.1563 L237.625,70.6406 L238,70.6406 L238.375,70.6406 L239,71.1563 L239,71.6406 L239,74.6406 L231,74.6406 L230.5156,74.6406 L230,74.0156 L230,73.6406 L230,73.2656 L230.5156,72.6406 L231,72.6406 L231,72.6406 L231,66.6406 L231,66.6406 L230.5156,66.6406 L230,66.0156 L230,65.6406 L230,65.2656 L230.5156,64.6406 L231,64.6406 L239,64.6406 L239,67.6406 L239,68.125 L238.375,68.6406 L238,68.6406 L237.625,68.6406 L237,68.125 L237,67.6406 L237,66.6406 L233,66.6406 L233,68.6406 L234,68.6406 L234,68.1563 L234,68.1563 L234.625,67.6406 L235,67.6406 L235.375,67.6406 L236,68.1563 L236,68.6406 L236,70.6406 L236,71.125 L235.375,71.6406 L235.375,71.6406 L235,71.6406 L234.625,71.6406 L234,71.125 L234,71.125 L234,70.6406 L233,70.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="251.5" y="59.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="255.5" y="74.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="248.5" y="89.6445">Category</text><line style="stroke:#A80036;stroke-width:1.5;" x1="220.5" x2="299.5" y1="97.2813" y2="97.2813"/><!--MD5=[494e0bdb5c8bb794bcdf99253cad2029]
+class AlphanumericCode--><rect codeLine="20" fill="#F5F5DC" filter="url(#f1u9sy8ie1iahb)" height="48.1875" id="AlphanumericCode" style="stroke:#A80036;stroke-width:1.5;" width="138" x="32" y="183"/><ellipse cx="47" cy="203.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M47,206.375 L48.5313,200.8438 L48.5313,200.8438 L48.0156,200.8438 L47.5,200.2188 L47.5,199.8438 L47.5,199.4688 L48.0156,198.8438 L48.5313,198.8438 L50.4063,198.8438 L50.9844,198.8438 L51.5,199.4688 L51.5,199.8438 L51.5,200.2188 L50.9844,200.8438 L50.9844,200.8438 L50.5313,200.8438 L48.1875,208.8438 L45.8125,208.8438 L43.3438,200.8438 L43.0156,200.8438 L43.0156,200.8438 L42.5,200.2188 L42.5,199.8438 L42.5,199.4688 L43.0156,198.8438 L43.5938,198.8438 L45.4688,198.8438 L45.9844,198.8438 L46.5,199.4688 L46.5,199.8438 L46.5,200.2188 L45.9844,200.8438 L45.4688,200.8438 L45.4688,200.8438 L47,206.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="73.5" y="200.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="106" x="61" y="215.5508">AlphanumericCode</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="169" y1="223.1875" y2="223.1875"/><!--MD5=[009695af4e54f3bba8a9c60dca3e1c94]
+class Description--><rect codeLine="21" fill="#F5F5DC" filter="url(#f1u9sy8ie1iahb)" height="48.1875" id="Description" style="stroke:#A80036;stroke-width:1.5;" width="109" x="205.5" y="183"/><ellipse cx="220.5" cy="203.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M220.5,206.375 L222.0313,200.8438 L222.0313,200.8438 L221.5156,200.8438 L221,200.2188 L221,199.8438 L221,199.4688 L221.5156,198.8438 L222.0313,198.8438 L223.9063,198.8438 L224.4844,198.8438 L225,199.4688 L225,199.8438 L225,200.2188 L224.4844,200.8438 L224.4844,200.8438 L224.0313,200.8438 L221.6875,208.8438 L219.3125,208.8438 L216.8438,200.8438 L216.5156,200.8438 L216.5156,200.8438 L216,200.2188 L216,199.8438 L216,199.4688 L216.5156,198.8438 L217.0938,198.8438 L218.9688,198.8438 L219.4844,198.8438 L220,199.4688 L220,199.8438 L220,200.2188 L219.4844,200.8438 L218.9688,200.8438 L218.9688,200.8438 L220.5,206.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="232.5" y="200.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="63" x="241.5" y="215.5508">Description</text><line style="stroke:#A80036;stroke-width:1.5;" x1="206.5" x2="313.5" y1="223.1875" y2="223.1875"/><!--MD5=[c3af4a672b55c04d06297fe69cbb7590]
+class SuperCategory--><rect codeLine="22" fill="#F5F5DC" filter="url(#f1u9sy8ie1iahb)" height="48.1875" id="SuperCategory" style="stroke:#A80036;stroke-width:1.5;" width="114" x="350" y="183"/><ellipse cx="365" cy="203.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M365,206.375 L366.5313,200.8438 L366.5313,200.8438 L366.0156,200.8438 L365.5,200.2188 L365.5,199.8438 L365.5,199.4688 L366.0156,198.8438 L366.5313,198.8438 L368.4063,198.8438 L368.9844,198.8438 L369.5,199.4688 L369.5,199.8438 L369.5,200.2188 L368.9844,200.8438 L368.9844,200.8438 L368.5313,200.8438 L366.1875,208.8438 L363.8125,208.8438 L361.3438,200.8438 L361.0156,200.8438 L361.0156,200.8438 L360.5,200.2188 L360.5,199.8438 L360.5,199.4688 L361.0156,198.8438 L361.5938,198.8438 L363.4688,198.8438 L363.9844,198.8438 L364.5,199.4688 L364.5,199.8438 L364.5,200.2188 L363.9844,200.8438 L363.4688,200.8438 L363.4688,200.8438 L365,206.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="379.5" y="200.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="379" y="215.5508">SuperCategory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="351" x2="463" y1="223.1875" y2="223.1875"/><!--MD5=[dd62927d278b59ce5c0835a45bf7cdf2]
+link Category to AlphanumericCode--><path codeLine="25" d="M219.44,103.6 C206.33,113.32 191.86,124.39 179,135 C161.96,149.06 143.66,165.64 129.06,179.24 " fill="none" id="Category-to-AlphanumericCode" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="125.05,182.99,134.3583,179.7721,128.7048,179.5779,128.899,173.9244,125.05,182.99" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="180" y="149.4951">identified by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="123.3159" y="172.3036">1</text><!--MD5=[ea0a2a058c4fe78704979bc0affba79e]
+link Category to Description--><path codeLine="26" d="M259.3,105.07 C259.04,119.59 258.85,137.19 259,153 C259.07,160.93 259.21,169.52 259.36,177.43 " fill="none" id="Category-to-Description" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="259.47,182.78,263.2892,173.7018,259.37,177.781,255.2908,173.8618,259.47,182.78" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="260" y="149.4951">characterized by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="251.4373" y="172.0398">1</text><!--MD5=[1bcd48e016ecdb5871d991f24ac09829]
+link Category to SuperCategory--><path codeLine="27" d="M300.78,93.42 C320.45,103.85 343.5,118.11 361,135 C373.91,147.46 384.98,164.21 393.02,178.3 " fill="none" id="Category-to-SuperCategory" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="395.63,182.97,394.7177,173.1635,393.1848,178.6087,387.7396,177.0758,395.63,182.97" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="377" y="149.4951">belongs to</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="367.8977" y="172.2785">0..1</text><!--MD5=[9d657c0fd130fbc16d363829ca8958c1]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+
+package "<<aggregate>> Category" {
+    entity Category
+    class AlphanumericCode
+    class Description
+    class SuperCategory
+    }
+
+entity Category <<entity>> <<root>> {
+
+}
+
+class AlphanumericCode <<(V,#FF8B40) value object>>
+class Description <<(V,#FF8B40) value object>>
+class SuperCategory <<(V,#FF8B40) value object>>
+
+
+Category - -> "1" AlphanumericCode : identified by
+Category - -> "1" Description : characterized by
+Category - -> "0..1" SuperCategory : belongs to
+
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+
+package "<<aggregate>> Category" {
+    entity Category
+    class AlphanumericCode
+    class Description
+    class SuperCategory
+    }
+
+entity Category <<entity>> <<root>> {
+
+}
+
+class AlphanumericCode <<(V,#FF8B40) value object>>
+class Description <<(V,#FF8B40) value object>>
+class SuperCategory <<(V,#FF8B40) value object>>
+
+
+Category - -> "1" AlphanumericCode : identified by
+Category - -> "1" Description : characterized by
+Category - -> "0..1" SuperCategory : belongs to
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

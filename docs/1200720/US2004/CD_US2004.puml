@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ListOrdersBeingPreparedUI
+class ListOrdersBeingPreparedController
+class AGV
+class AGVTask
+class ProductOrder
+class PersistenceContext
+class RepositoryFactory
+class AGVRepository
+class ProductOrderRepository
+class AgvDto
+class ProductOrderDto
+
+
+class ProductOrderDto {
+    + toDto()
+}
+
+class AgvDto {
+    + toDto()
+
+}
+
+class ProductOrder {
+
+    + changeStatusOfOrderToBeingPreparedByAnAGV()
+    + getOrderById(orderId)
+    + changeStatusToDispatchedToCustomer()
+
+}
+
+class AGV {
+    + changeStatusOfAGVForOccupied()
+    + addOrdersToATask(taskDescription, productOrder)
+    + changeStatusOfAGVForFree()
+}
+class ListOrdersBeingPreparedController {
+    + getAGVsAvaiable()
+    + getOrdersWhoNeedToBePreparedByAGV(idAGV)
+    + changeStatusOfOrdersSelectToBeingPreparedByAGV(listOfOrdersSelected)
+    + changeTheStatusOfOrdersForDispatchedToCustomer(listOfOrdersSelected)
+
+}
+
+class AGVTask {
+    + assignATaskForAGV(taskDescription)
+}
+
+class AGVRepository {
+    + getAGVsAvaiable()
+    + getAGVById
+    + save(agv)
+}
+
+
+class ProductOrderRepository {
+    + save(productOrder)
+}
+
+class PersistenceContext {
+    + repositories()
+}
+
+class RepositoryFactory{
+
+    + getOrderRepository()
+    + getAGVRepository()
+}
+
+
+ListOrdersBeingPreparedUI ..> ListOrdersBeingPreparedController
+ListOrdersBeingPreparedController ..> PersistenceContext
+PersistenceContext ..> RepositoryFactory
+RepositoryFactory -> AGVRepository
+RepositoryFactory --> ProductOrderRepository
+ListOrdersBeingPreparedController -> AGV
+ListOrdersBeingPreparedController --> ProductOrder
+AGV --> AGVTask
+
+ListOrdersBeingPreparedController --> AgvDto
+ListOrdersBeingPreparedController --> ProductOrderDto
+
+@enduml

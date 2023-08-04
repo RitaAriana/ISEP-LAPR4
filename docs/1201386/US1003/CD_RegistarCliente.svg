@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="728px" preserveAspectRatio="none" style="width:604px;height:728px;background:#FFFFFF;" version="1.1" viewBox="0 0 604 728" width="604px" zoomAndPan="magnify"><defs><filter height="300%" id="fcyky6ovgddh2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[dfccfb5894388a46eaa5d679d3ea0882]
+entity ClientRepository--><path d="M45.2,685 C45.2,675 107.2,675 107.2,675 C107.2,675 169.2,675 169.2,685 L169.2,711.6094 C169.2,721.6094 107.2,721.6094 107.2,721.6094 C107.2,721.6094 45.2,721.6094 45.2,711.6094 L45.2,685 " fill="#FFFFFF" filter="url(#fcyky6ovgddh2)" style="stroke:#000000;stroke-width:1.5;"/><path d="M45.2,685 C45.2,695 107.2,695 107.2,695 C107.2,695 169.2,695 169.2,685 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="55.2" y="713.5332">ClientRepository</text><!--MD5=[71152100d89f377ebd8dc97f1c2b0d02]
+class RegisterClientUI--><rect codeLine="3" fill="#FEFECE" filter="url(#fcyky6ovgddh2)" height="48" id="RegisterClientUI" style="stroke:#A80036;stroke-width:1.5;" width="123" x="201.7" y="7"/><ellipse cx="216.7" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M218.7,19.5 Q218.9031,19 219.1375,18.75 Q219.3719,18.5 219.6375,18.5 Q220.1063,18.5 220.4031,18.7813 Q220.7,19.0625 220.7,19.7188 L220.7,21.2813 Q220.7,21.9375 220.4188,22.2188 Q220.1375,22.5 219.7,22.5 Q219.3094,22.5 219.0594,22.3281 Q218.8094,22.1563 218.7,21.7031 Q218.6531,21.3906 218.4813,21.2188 Q218.1688,20.8906 217.6063,20.7031 Q217.0438,20.5 216.4813,20.5 Q215.7781,20.5 215.1844,20.7813 Q214.6063,21.0625 214.1531,21.6875 Q213.7,22.3125 213.7,23.1719 L213.7,24.0938 Q213.7,25.125 214.5438,25.8125 Q215.3875,26.5 216.8875,26.5 Q217.7781,26.5 218.4031,26.2969 Q218.7625,26.1875 219.1688,25.8281 Q219.4344,25.625 219.575,25.5625 Q219.7156,25.5 219.8875,25.5 Q220.2156,25.5 220.45,25.7656 Q220.7,26.0156 220.7,26.375 Q220.7,26.7188 220.3563,27.125 Q219.8563,27.7188 219.0594,28.0469 Q218.0125,28.5 216.7313,28.5 Q215.2313,28.5 214.0281,27.9063 Q213.0594,27.4375 212.3719,26.4219 Q211.7,25.4063 211.7,24.2031 L211.7,23.1094 Q211.7,21.8594 212.2938,20.7656 Q212.9031,19.6719 213.95,19.0938 Q215.0125,18.5 216.2,18.5 Q216.9188,18.5 217.5438,18.75 Q218.1688,19 218.7,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="230.7" y="27.9102">RegisterClientUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="202.7" x2="323.7" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="202.7" x2="323.7" y1="47" y2="47"/><!--MD5=[1a7fda4a36185bcd740bdf14b2b3a45e]
+class RegisterClientController--><rect codeLine="6" fill="#FEFECE" filter="url(#fcyky6ovgddh2)" height="75.6719" id="RegisterClientController" style="stroke:#A80036;stroke-width:1.5;" width="493" x="16.7" y="115"/><ellipse cx="192.45" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M194.45,127.5 Q194.6531,127 194.8875,126.75 Q195.1219,126.5 195.3875,126.5 Q195.8563,126.5 196.1531,126.7813 Q196.45,127.0625 196.45,127.7188 L196.45,129.2813 Q196.45,129.9375 196.1688,130.2188 Q195.8875,130.5 195.45,130.5 Q195.0594,130.5 194.8094,130.3281 Q194.5594,130.1563 194.45,129.7031 Q194.4031,129.3906 194.2313,129.2188 Q193.9188,128.8906 193.3563,128.7031 Q192.7938,128.5 192.2313,128.5 Q191.5281,128.5 190.9344,128.7813 Q190.3563,129.0625 189.9031,129.6875 Q189.45,130.3125 189.45,131.1719 L189.45,132.0938 Q189.45,133.125 190.2938,133.8125 Q191.1375,134.5 192.6375,134.5 Q193.5281,134.5 194.1531,134.2969 Q194.5125,134.1875 194.9188,133.8281 Q195.1844,133.625 195.325,133.5625 Q195.4656,133.5 195.6375,133.5 Q195.9656,133.5 196.2,133.7656 Q196.45,134.0156 196.45,134.375 Q196.45,134.7188 196.1063,135.125 Q195.6063,135.7188 194.8094,136.0469 Q193.7625,136.5 192.4813,136.5 Q190.9813,136.5 189.7781,135.9063 Q188.8094,135.4375 188.1219,134.4219 Q187.45,133.4063 187.45,132.2031 L187.45,131.1094 Q187.45,129.8594 188.0438,128.7656 Q188.6531,127.6719 189.7,127.0938 Q190.7625,126.5 191.95,126.5 Q192.6688,126.5 193.2938,126.75 Q193.9188,127 194.45,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="133" x="212.95" y="135.9102">RegisterClientController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="17.7" x2="508.7" y1="147" y2="147"/><line style="stroke:#A80036;stroke-width:1.5;" x1="17.7" x2="508.7" y1="155" y2="155"/><ellipse cx="27.7" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="36.7" y="170.4189">create()</text><ellipse cx="27.7" cy="179.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="467" x="36.7" y="184.2549">registerClient(firstnames, surnames, email, phoneNumber,vat, postalAddress, birthDate, gender)}</text><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><rect codeLine="12" fill="#FEFECE" filter="url(#fcyky6ovgddh2)" height="61.8359" id="PersistenceContext" style="stroke:#A80036;stroke-width:1.5;" width="139" x="110.7" y="327"/><ellipse cx="125.7" cy="343" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M127.7,339.5 Q127.9031,339 128.1375,338.75 Q128.3719,338.5 128.6375,338.5 Q129.1063,338.5 129.4031,338.7813 Q129.7,339.0625 129.7,339.7188 L129.7,341.2813 Q129.7,341.9375 129.4188,342.2188 Q129.1375,342.5 128.7,342.5 Q128.3094,342.5 128.0594,342.3281 Q127.8094,342.1563 127.7,341.7031 Q127.6531,341.3906 127.4813,341.2188 Q127.1688,340.8906 126.6063,340.7031 Q126.0438,340.5 125.4813,340.5 Q124.7781,340.5 124.1844,340.7813 Q123.6063,341.0625 123.1531,341.6875 Q122.7,342.3125 122.7,343.1719 L122.7,344.0938 Q122.7,345.125 123.5438,345.8125 Q124.3875,346.5 125.8875,346.5 Q126.7781,346.5 127.4031,346.2969 Q127.7625,346.1875 128.1688,345.8281 Q128.4344,345.625 128.575,345.5625 Q128.7156,345.5 128.8875,345.5 Q129.2156,345.5 129.45,345.7656 Q129.7,346.0156 129.7,346.375 Q129.7,346.7188 129.3563,347.125 Q128.8563,347.7188 128.0594,348.0469 Q127.0125,348.5 125.7313,348.5 Q124.2313,348.5 123.0281,347.9063 Q122.0594,347.4375 121.3719,346.4219 Q120.7,345.4063 120.7,344.2031 L120.7,343.1094 Q120.7,341.8594 121.2938,340.7656 Q121.9031,339.6719 122.95,339.0938 Q124.0125,338.5 125.2,338.5 Q125.9188,338.5 126.5438,338.75 Q127.1688,339 127.7,339.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="107" x="139.7" y="347.9102">PersistenceContext</text><line style="stroke:#A80036;stroke-width:1.5;" x1="111.7" x2="248.7" y1="359" y2="359"/><line style="stroke:#A80036;stroke-width:1.5;" x1="111.7" x2="248.7" y1="367" y2="367"/><ellipse cx="121.7" cy="378" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="130.7" y="382.4189">repositories()</text><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><rect codeLine="16" fill="#FEFECE" filter="url(#fcyky6ovgddh2)" height="89.5078" id="RepositoryFactory" style="stroke:#A80036;stroke-width:1.5;" width="185" x="87.7" y="525"/><ellipse cx="127.45" cy="541" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M129.45,537.5 Q129.6531,537 129.8875,536.75 Q130.1219,536.5 130.3875,536.5 Q130.8563,536.5 131.1531,536.7813 Q131.45,537.0625 131.45,537.7188 L131.45,539.2813 Q131.45,539.9375 131.1688,540.2188 Q130.8875,540.5 130.45,540.5 Q130.0594,540.5 129.8094,540.3281 Q129.5594,540.1563 129.45,539.7031 Q129.4031,539.3906 129.2313,539.2188 Q128.9188,538.8906 128.3563,538.7031 Q127.7938,538.5 127.2313,538.5 Q126.5281,538.5 125.9344,538.7813 Q125.3563,539.0625 124.9031,539.6875 Q124.45,540.3125 124.45,541.1719 L124.45,542.0938 Q124.45,543.125 125.2938,543.8125 Q126.1375,544.5 127.6375,544.5 Q128.5281,544.5 129.1531,544.2969 Q129.5125,544.1875 129.9188,543.8281 Q130.1844,543.625 130.325,543.5625 Q130.4656,543.5 130.6375,543.5 Q130.9656,543.5 131.2,543.7656 Q131.45,544.0156 131.45,544.375 Q131.45,544.7188 131.1063,545.125 Q130.6063,545.7188 129.8094,546.0469 Q128.7625,546.5 127.4813,546.5 Q125.9813,546.5 124.7781,545.9063 Q123.8094,545.4375 123.1219,544.4219 Q122.45,543.4063 122.45,542.2031 L122.45,541.1094 Q122.45,539.8594 123.0438,538.7656 Q123.6531,537.6719 124.7,537.0938 Q125.7625,536.5 126.95,536.5 Q127.6688,536.5 128.2938,536.75 Q128.9188,537 129.45,537.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="146.95" y="545.9102">RepositoryFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="88.7" x2="271.7" y1="557" y2="557"/><line style="stroke:#A80036;stroke-width:1.5;" x1="88.7" x2="271.7" y1="565" y2="565"/><ellipse cx="98.7" cy="576" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="107.7" y="580.4189">create()</text><ellipse cx="98.7" cy="589.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="107.7" y="594.2549">newTransactionalContext()</text><ellipse cx="98.7" cy="603.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="107.7" y="608.0908">create(TransactionalContext ctx)</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="25" fill="#FEFECE" filter="url(#fcyky6ovgddh2)" height="89.5078" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="105" x="307.7" y="525"/><ellipse cx="341.15" cy="541" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M343.15,537.5 Q343.3531,537 343.5875,536.75 Q343.8219,536.5 344.0875,536.5 Q344.5563,536.5 344.8531,536.7813 Q345.15,537.0625 345.15,537.7188 L345.15,539.2813 Q345.15,539.9375 344.8688,540.2188 Q344.5875,540.5 344.15,540.5 Q343.7594,540.5 343.5094,540.3281 Q343.2594,540.1563 343.15,539.7031 Q343.1031,539.3906 342.9313,539.2188 Q342.6188,538.8906 342.0563,538.7031 Q341.4938,538.5 340.9313,538.5 Q340.2281,538.5 339.6344,538.7813 Q339.0563,539.0625 338.6031,539.6875 Q338.15,540.3125 338.15,541.1719 L338.15,542.0938 Q338.15,543.125 338.9938,543.8125 Q339.8375,544.5 341.3375,544.5 Q342.2281,544.5 342.8531,544.2969 Q343.2125,544.1875 343.6188,543.8281 Q343.8844,543.625 344.025,543.5625 Q344.1656,543.5 344.3375,543.5 Q344.6656,543.5 344.9,543.7656 Q345.15,544.0156 345.15,544.375 Q345.15,544.7188 344.8063,545.125 Q344.3063,545.7188 343.5094,546.0469 Q342.4625,546.5 341.1813,546.5 Q339.6813,546.5 338.4781,545.9063 Q337.5094,545.4375 336.8219,544.4219 Q336.15,543.4063 336.15,542.2031 L336.15,541.1094 Q336.15,539.8594 336.7438,538.7656 Q337.3531,537.6719 338.4,537.0938 Q339.4625,536.5 340.65,536.5 Q341.3688,536.5 341.9938,536.75 Q342.6188,537 343.15,537.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="359.25" y="545.9102">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="308.7" x2="411.7" y1="557" y2="557"/><line style="stroke:#A80036;stroke-width:1.5;" x1="308.7" x2="411.7" y1="565" y2="565"/><ellipse cx="318.7" cy="576" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="327.7" y="580.4189">create()</text><ellipse cx="318.7" cy="589.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="327.7" y="594.2549">addGender()</text><ellipse cx="318.7" cy="603.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="327.7" y="608.0908">insertBirthDate()</text><!--MD5=[9f4370a08c17b73d6022f342818566e2]
+class ClientBuilder--><rect codeLine="31" fill="#FEFECE" filter="url(#fcyky6ovgddh2)" height="214.0313" id="ClientBuilder" style="stroke:#A80036;stroke-width:1.5;" width="122" x="285.2" y="251"/><ellipse cx="308.75" cy="267" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M310.75,263.5 Q310.9531,263 311.1875,262.75 Q311.4219,262.5 311.6875,262.5 Q312.1563,262.5 312.4531,262.7813 Q312.75,263.0625 312.75,263.7188 L312.75,265.2813 Q312.75,265.9375 312.4688,266.2188 Q312.1875,266.5 311.75,266.5 Q311.3594,266.5 311.1094,266.3281 Q310.8594,266.1563 310.75,265.7031 Q310.7031,265.3906 310.5313,265.2188 Q310.2188,264.8906 309.6563,264.7031 Q309.0938,264.5 308.5313,264.5 Q307.8281,264.5 307.2344,264.7813 Q306.6563,265.0625 306.2031,265.6875 Q305.75,266.3125 305.75,267.1719 L305.75,268.0938 Q305.75,269.125 306.5938,269.8125 Q307.4375,270.5 308.9375,270.5 Q309.8281,270.5 310.4531,270.2969 Q310.8125,270.1875 311.2188,269.8281 Q311.4844,269.625 311.625,269.5625 Q311.7656,269.5 311.9375,269.5 Q312.2656,269.5 312.5,269.7656 Q312.75,270.0156 312.75,270.375 Q312.75,270.7188 312.4063,271.125 Q311.9063,271.7188 311.1094,272.0469 Q310.0625,272.5 308.7813,272.5 Q307.2813,272.5 306.0781,271.9063 Q305.1094,271.4375 304.4219,270.4219 Q303.75,269.4063 303.75,268.2031 L303.75,267.1094 Q303.75,265.8594 304.3438,264.7656 Q304.9531,263.6719 306,263.0938 Q307.0625,262.5 308.25,262.5 Q308.9688,262.5 309.5938,262.75 Q310.2188,263 310.75,263.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="324.65" y="271.9102">ClientBuilder</text><line style="stroke:#A80036;stroke-width:1.5;" x1="286.2" x2="406.2" y1="283" y2="283"/><line style="stroke:#A80036;stroke-width:1.5;" x1="286.2" x2="406.2" y1="291" y2="291"/><ellipse cx="296.2" cy="302" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="305.2" y="306.4189">create()</text><ellipse cx="296.2" cy="315.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="305.2" y="320.2549">createClient()</text><ellipse cx="296.2" cy="329.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="305.2" y="334.0908">withVAT()</text><ellipse cx="296.2" cy="343.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="305.2" y="347.9268">withEmail()</text><ellipse cx="296.2" cy="357.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="305.2" y="361.7627">withPhoneNumber()</text><ellipse cx="296.2" cy="371.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="305.2" y="375.5986">named()</text><ellipse cx="296.2" cy="385.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="305.2" y="389.4346">withAddresses()</text><ellipse cx="296.2" cy="398.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="305.2" y="403.2705">withAddress()</text><ellipse cx="296.2" cy="412.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="305.2" y="417.1064">buildOrThrow()</text><ellipse cx="296.2" cy="426.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="305.2" y="430.9424">withBirthDate()</text><ellipse cx="296.2" cy="440.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="305.2" y="444.7783">withGender()</text><ellipse cx="296.2" cy="454.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="305.2" y="458.6143">build()</text><!--MD5=[288bffab58163169a8d16c57b889bc0c]
+class TransactionalContext--><rect codeLine="46" fill="#FEFECE" filter="url(#fcyky6ovgddh2)" height="75.6719" id="TransactionalContext" style="stroke:#A80036;stroke-width:1.5;" width="148" x="442.2" y="320"/><ellipse cx="457.2" cy="336" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M459.2,332.5 Q459.4031,332 459.6375,331.75 Q459.8719,331.5 460.1375,331.5 Q460.6063,331.5 460.9031,331.7813 Q461.2,332.0625 461.2,332.7188 L461.2,334.2813 Q461.2,334.9375 460.9188,335.2188 Q460.6375,335.5 460.2,335.5 Q459.8094,335.5 459.5594,335.3281 Q459.3094,335.1563 459.2,334.7031 Q459.1531,334.3906 458.9813,334.2188 Q458.6688,333.8906 458.1063,333.7031 Q457.5438,333.5 456.9813,333.5 Q456.2781,333.5 455.6844,333.7813 Q455.1063,334.0625 454.6531,334.6875 Q454.2,335.3125 454.2,336.1719 L454.2,337.0938 Q454.2,338.125 455.0438,338.8125 Q455.8875,339.5 457.3875,339.5 Q458.2781,339.5 458.9031,339.2969 Q459.2625,339.1875 459.6688,338.8281 Q459.9344,338.625 460.075,338.5625 Q460.2156,338.5 460.3875,338.5 Q460.7156,338.5 460.95,338.7656 Q461.2,339.0156 461.2,339.375 Q461.2,339.7188 460.8563,340.125 Q460.3563,340.7188 459.5594,341.0469 Q458.5125,341.5 457.2313,341.5 Q455.7313,341.5 454.5281,340.9063 Q453.5594,340.4375 452.8719,339.4219 Q452.2,338.4063 452.2,337.2031 L452.2,336.1094 Q452.2,334.8594 452.7938,333.7656 Q453.4031,332.6719 454.45,332.0938 Q455.5125,331.5 456.7,331.5 Q457.4188,331.5 458.0438,331.75 Q458.6688,332 459.2,332.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="471.2" y="340.9102">TransactionalContext</text><line style="stroke:#A80036;stroke-width:1.5;" x1="443.2" x2="589.2" y1="352" y2="352"/><line style="stroke:#A80036;stroke-width:1.5;" x1="443.2" x2="589.2" y1="360" y2="360"/><ellipse cx="453.2" cy="371" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="462.2" y="375.4189">beginTransaction()</text><ellipse cx="453.2" cy="384.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="462.2" y="389.2549">commit()</text><!--MD5=[98d2d934d445daef8d5bcbeea20c1f70]
+link RegisterClientUI to RegisterClientController--><path codeLine="52" d="M263.2,55.14 C263.2,70.58 263.2,91.33 263.2,109.67 " fill="none" id="RegisterClientUI-to-RegisterClientController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="263.2,114.77,267.2,105.77,263.2,109.77,259.2,105.77,263.2,114.77" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5081d4e448db8b8cb1d0ca0a7becc4bf]
+link RegisterClientController to ClientBuilder--><path codeLine="54" d="M278.42,191.23 C284.88,207.02 292.78,226.34 300.87,246.13 " fill="none" id="RegisterClientController-to-ClientBuilder" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="302.82,250.9,303.1287,241.056,300.9335,246.2695,295.72,244.0744,302.82,250.9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e8079491a6e8ae6a03c4a3346b264e99]
+link RegisterClientController to PersistenceContext--><path codeLine="55" d="M247.98,191.23 C232.7,228.59 209.36,285.67 194.45,322.15 " fill="none" id="RegisterClientController-to-PersistenceContext" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="192.49,326.94,199.6081,320.1332,194.3887,322.3145,192.2073,317.0952,192.49,326.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5c0e0e5c4aeb1089221a7a8f0f2aad6a]
+link RegisterClientController to TransactionalContext--><path codeLine="56" d="M335.37,191.03 C364.36,207.51 397.22,228.32 424.2,251 C446.84,270.04 468.7,294.86 485.43,315.7 " fill="none" id="RegisterClientController-to-TransactionalContext" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="488.7,319.81,486.2097,310.2812,485.58,315.9029,479.9583,315.2731,488.7,319.81" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a0584be5259757c605c5c63f81a157d7]
+link RegisterClientController to ClientRepository--><path codeLine="57" d="M161.77,191.19 C135.26,205.8 109.56,225.36 93.2,251 C6,387.65 36.28,456.49 70.2,615 C74.34,634.34 83.36,654.62 91.46,670.23 " fill="none" id="RegisterClientController-to-ClientRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="93.94,674.92,93.2788,665.0934,91.6071,670.4976,86.2029,668.8259,93.94,674.92" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8c440798e6cc41a7fca2b3bfdfdce304]
+link ClientBuilder to Client--><path codeLine="59" d="M353.28,465.23 C354.55,484.31 355.82,503.34 356.92,519.8 " fill="none" id="ClientBuilder-to-Client" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="357.25,524.82,360.6231,515.5668,356.907,519.8318,352.642,516.1156,357.25,524.82" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[754b775031405e096442b27febffa290]
+link PersistenceContext to RepositoryFactory--><path codeLine="61" d="M180.2,389.09 C180.2,423.06 180.2,478.86 180.2,519.33 " fill="none" id="PersistenceContext-to-RepositoryFactory" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="180.2,524.68,184.2,515.68,180.2,519.68,176.2,515.68,180.2,524.68" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7e98ba641e2771e3efc9b333390cc0aa]
+link RepositoryFactory to ClientRepository--><path codeLine="63" d="M154.67,615.24 C144.07,633.61 132.11,654.33 122.85,670.38 " fill="none" id="RepositoryFactory-to-ClientRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="120.31,674.78,128.2667,668.9757,122.8045,670.4467,121.3335,664.9845,120.31,674.78" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a13130d35f89ee12161f2f672f3c5de2]
+@startuml
+'https://plantuml.com/class-diagram
+
+class RegisterClientUI{
+}
+
+class RegisterClientController{
++create()
++registerClient(firstnames, surnames, email, phoneNumber,vat, postalAddress, birthDate, gender)}
+}
+
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+database ClientRepository{
+}
+
+class Client{
++create()
++addGender()
++insertBirthDate()
+}
+
+class ClientBuilder{
++create()
++createClient()
++withVAT()
++withEmail()
++withPhoneNumber()
++named()
++withAddresses()
++withAddress()
++buildOrThrow()
++withBirthDate()
++withGender()
++build()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+RegisterClientUI - -> RegisterClientController
+
+RegisterClientController- ->ClientBuilder
+RegisterClientController- ->PersistenceContext
+RegisterClientController- ->TransactionalContext
+RegisterClientController- ->ClientRepository
+
+ClientBuilder - -> Client
+
+PersistenceContext- ->RepositoryFactory
+
+RepositoryFactory- ->ClientRepository
+
+
+@enduml
+
+@startuml
+
+class RegisterClientUI{
+}
+
+class RegisterClientController{
++create()
++registerClient(firstnames, surnames, email, phoneNumber,vat, postalAddress, birthDate, gender)}
+}
+
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+database ClientRepository{
+}
+
+class Client{
++create()
++addGender()
++insertBirthDate()
+}
+
+class ClientBuilder{
++create()
++createClient()
++withVAT()
++withEmail()
++withPhoneNumber()
++named()
++withAddresses()
++withAddress()
++buildOrThrow()
++withBirthDate()
++withGender()
++build()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+RegisterClientUI - -> RegisterClientController
+
+RegisterClientController- ->ClientBuilder
+RegisterClientController- ->PersistenceContext
+RegisterClientController- ->TransactionalContext
+RegisterClientController- ->ClientRepository
+
+ClientBuilder - -> Client
+
+PersistenceContext- ->RepositoryFactory
+
+RepositoryFactory- ->ClientRepository
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

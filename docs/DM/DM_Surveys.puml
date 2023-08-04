@@ -1,0 +1,93 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Answer" {
+    entity Answer
+}
+
+package "<<aggregate>> Questionnaire" {
+    entity Questionnaire
+    class Identifier
+    class Titulo
+    class Message
+    class Period
+    class Rule
+    entity Section
+    entity Question
+    class Obligatoriness
+    class MandatoryCondition
+    class Type
+}
+
+entity Questionnaire <<entity>> <<root>> {
+
+}
+
+class Identifier <<(V,#FF8B40) value object>>
+class Titulo <<(V,#FF8B40) value object>>
+class Message <<(V,#FF8B40) value object>>
+class Obligatoriness <<(V,#FF8B40) value object>>
+class Period <<(V,#FF8B40) value object>> {
+- initialDate
+- finalDate
+- activeDays
+}
+class Rule <<(V,#FF8B40) value object>>
+entity Section <<entity>> {
+- id
+- repeatability
+}
+
+class MandatoryCondition <<(V,#FF8B40) value object>>
+entity Question <<entity>> {
+- id
+- options
+}
+entity Answer <<entity>> {
+}
+class Type <<(V,#FF8B40) value object>>
+
+Questionnaire --> "1" Identifier : identified by
+Questionnaire ---> "1" Titulo: characterized by
+Questionnaire --> "1" Period : available
+Questionnaire --> "1" Rule : determined
+Questionnaire --> "1..*" Section : organized
+Questionnaire --> "1..2" Message : associated
+Section ---> "1..*" Question: composed by
+Section ---> "1" Titulo: characterized by
+Section --> "1"  MandatoryCondition: dependent
+Section --> "0..1" Message : associated
+Section ---> "1" Obligatoriness: characterized by
+Question ---> "1" MandatoryCondition: dependent
+Question --> "1" Type: associated
+Question --> "2..3" Message: associated
+Question ---> "1" Obligatoriness: characterized by
+Question--> "*" Answer : has
+package "<<aggregate>> Notification" {
+    entity Notification
+}
+
+entity Notification <<entity>> <<root>> {
+
+
+}
+
+Questionnaire --> "1..*" Notification : emits
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Client <<entity>> <<root>> {
+
+}
+
+Client --> "1..*" Notification : receive
+Client --> "1..*" Questionnaire : answers
+Client --> "*" Answer: provides
+
+@enduml

@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class RegisterProductUI{
+}
+
+class RegisterProductController{
++create()
++registerProduct(theCategory,uniqueInternalCode,shortDescription, extendedDescription,technicalDescription,barcode,brandName,reference,productionCode,priceWithoutTaxes,priceWithTaxes,weight,volume,photoPaths,aisleId,rowId,shelfId)
+}
+
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+database ProductRepository{
+}
+
+database CategoryRepository{
+}
+
+class Product{
++create()
+}
+
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+RegisterProductUI --> RegisterProductController
+
+RegisterProductController-->PersistenceContext
+RegisterProductController-->TransactionalContext
+RegisterProductController-->ProductRepository
+RegisterProductController-->Product
+RegisterProductController-->CategoryRepository
+
+
+PersistenceContext-->RepositoryFactory
+
+RepositoryFactory-->ProductRepository
+RepositoryFactory-->CategoryRepository
+
+@enduml

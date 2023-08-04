@@ -1,0 +1,84 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam classAttributeIconSize 0
+
+
+class WarehouseMovement{
+-grid
+--
+-buildGrid(comprimento,largura)
+-markObstacules()
+#minDistance(grid,x,y,desiredX,desiredY)
+-isValid(x,y,grid,visited)
+#upgradeGrid(oldX,olxY,x,y)
+#backTrackPath(current)
+#printMatrix()
+}
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++plant()
++ailes()
++dock()
+}
+
+database WarehousePlantRepository{
+}
+
+database AislesRepository {
+}
+
+database AGVDockRepository {
+}
+
+class DigitalTwinDaemon{
+-selectAGV()
+}
+
+class DigitalTwinProtocolServer{
++create(requestMessageParser,agv)
+}
+
+class AGV {
++activateControlSystem()
++getAGVTask()
+}
+
+class csThread{
++start()
+}
+
+database AGVRepository {
+}
+
+WarehouseMovement --> RepositoryFactory
+WarehouseMovement --> WarehousePlantRepository
+WarehouseMovement --> AislesRepository
+WarehouseMovement --> AGVDockRepository
+
+
+
+RepositoryFactory --> WarehousePlantRepository
+RepositoryFactory --> AislesRepository
+RepositoryFactory --> AGVDockRepository
+
+DigitalTwinDaemon --> DigitalTwinProtocolServer
+DigitalTwinDaemon --> PersistenceContext
+
+PersistenceContext -> AGVRepository
+
+DigitalTwinProtocolServer --> AGV
+
+AGV --> csThread
+
+
+
+
+
+
+@enduml

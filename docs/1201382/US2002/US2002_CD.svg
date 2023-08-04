@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="846px" preserveAspectRatio="none" style="width:706px;height:846px;background:#FFFFFF;" version="1.1" viewBox="0 0 706 846" width="706px" zoomAndPan="magnify"><defs/><g><!--MD5=[47bc46f73210ae9de136f250d636c983]
+class ConfigureAGVUI--><g id="elem_ConfigureAGVUI"><rect codeLine="9" fill="#F1F1F1" height="48" id="ConfigureAGVUI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="135" x="365.5" y="7"/><ellipse cx="380.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M382.5,19.5 Q382.7031,19 382.9375,18.75 Q383.1719,18.5 383.4375,18.5 Q383.9063,18.5 384.2031,18.7813 Q384.5,19.0625 384.5,19.7188 L384.5,21.2813 Q384.5,21.9375 384.2188,22.2188 Q383.9375,22.5 383.5,22.5 Q383.1094,22.5 382.8594,22.3281 Q382.6094,22.1563 382.5,21.7031 Q382.4531,21.3906 382.2813,21.2188 Q381.9688,20.8906 381.4063,20.7031 Q380.8438,20.5 380.2813,20.5 Q379.5781,20.5 378.9844,20.7813 Q378.4063,21.0625 377.9531,21.6875 Q377.5,22.3125 377.5,23.1719 L377.5,24.0938 Q377.5,25.125 378.3438,25.8125 Q379.1875,26.5 380.6875,26.5 Q381.5781,26.5 382.2031,26.2969 Q382.5625,26.1875 382.9688,25.8281 Q383.2344,25.625 383.375,25.5625 Q383.5156,25.5 383.6875,25.5 Q384.0156,25.5 384.25,25.7656 Q384.5,26.0156 384.5,26.375 Q384.5,26.7188 384.1563,27.125 Q383.6563,27.7188 382.8594,28.0469 Q381.8125,28.5 380.5313,28.5 Q379.0313,28.5 377.8281,27.9063 Q376.8594,27.4375 376.1719,26.4219 Q375.5,25.4063 375.5,24.2031 L375.5,23.1094 Q375.5,21.8594 376.0938,20.7656 Q376.7031,19.6719 377.75,19.0938 Q378.8125,18.5 380,18.5 Q380.7188,18.5 381.3438,18.75 Q381.9688,19 382.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="394.5" y="28.7285">ConfigureAGVUI</text><line style="stroke:#181818;stroke-width:0.5;" x1="366.5" x2="499.5" y1="39" y2="39"/><line style="stroke:#181818;stroke-width:0.5;" x1="366.5" x2="499.5" y1="47" y2="47"/></g><!--MD5=[4a05030ac364552cd297a89687ca123f]
+class ConfigureAGVController--><g id="elem_ConfigureAGVController"><rect codeLine="11" fill="#F1F1F1" height="153.6563" id="ConfigureAGVController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="306" x="280" y="115"/><ellipse cx="352.25" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M354.25,127.5 Q354.4531,127 354.6875,126.75 Q354.9219,126.5 355.1875,126.5 Q355.6563,126.5 355.9531,126.7813 Q356.25,127.0625 356.25,127.7188 L356.25,129.2813 Q356.25,129.9375 355.9688,130.2188 Q355.6875,130.5 355.25,130.5 Q354.8594,130.5 354.6094,130.3281 Q354.3594,130.1563 354.25,129.7031 Q354.2031,129.3906 354.0313,129.2188 Q353.7188,128.8906 353.1563,128.7031 Q352.5938,128.5 352.0313,128.5 Q351.3281,128.5 350.7344,128.7813 Q350.1563,129.0625 349.7031,129.6875 Q349.25,130.3125 349.25,131.1719 L349.25,132.0938 Q349.25,133.125 350.0938,133.8125 Q350.9375,134.5 352.4375,134.5 Q353.3281,134.5 353.9531,134.2969 Q354.3125,134.1875 354.7188,133.8281 Q354.9844,133.625 355.125,133.5625 Q355.2656,133.5 355.4375,133.5 Q355.7656,133.5 356,133.7656 Q356.25,134.0156 356.25,134.375 Q356.25,134.7188 355.9063,135.125 Q355.4063,135.7188 354.6094,136.0469 Q353.5625,136.5 352.2813,136.5 Q350.7813,136.5 349.5781,135.9063 Q348.6094,135.4375 347.9219,134.4219 Q347.25,133.4063 347.25,132.2031 L347.25,131.1094 Q347.25,129.8594 347.8438,128.7656 Q348.4531,127.6719 349.5,127.0938 Q350.5625,126.5 351.75,126.5 Q352.4688,126.5 353.0938,126.75 Q353.7188,127 354.25,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="372.75" y="136.7285">ConfigureAGVController</text><line style="stroke:#181818;stroke-width:0.5;" x1="281" x2="585" y1="147" y2="147"/><line style="stroke:#181818;stroke-width:0.5;" x1="281" x2="585" y1="155" y2="155"/><ellipse cx="291" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="300" y="173.5332">validateData(agvId,briefDescription, model,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="259" x="300" y="191.1426">maxWeightCapacity,maxVolumeCapacity,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="304" y="208.752">range,position)</text><ellipse cx="291" cy="218.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="280" x="300" y="226.3613">configureAGV(agvId,briefDescription, model,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="263" x="304" y="243.9707">maxWeightCapacity, maxVolumeCapacity,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="246" x="304" y="261.5801">range, position , agvDock, status, task)</text></g><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><g id="elem_PersistenceContext"><rect codeLine="53" fill="#F1F1F1" height="65.6094" id="PersistenceContext" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="545" y="425.5"/><ellipse cx="560" cy="441.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M562,438 Q562.2031,437.5 562.4375,437.25 Q562.6719,437 562.9375,437 Q563.4063,437 563.7031,437.2813 Q564,437.5625 564,438.2188 L564,439.7813 Q564,440.4375 563.7188,440.7188 Q563.4375,441 563,441 Q562.6094,441 562.3594,440.8281 Q562.1094,440.6563 562,440.2031 Q561.9531,439.8906 561.7813,439.7188 Q561.4688,439.3906 560.9063,439.2031 Q560.3438,439 559.7813,439 Q559.0781,439 558.4844,439.2813 Q557.9063,439.5625 557.4531,440.1875 Q557,440.8125 557,441.6719 L557,442.5938 Q557,443.625 557.8438,444.3125 Q558.6875,445 560.1875,445 Q561.0781,445 561.7031,444.7969 Q562.0625,444.6875 562.4688,444.3281 Q562.7344,444.125 562.875,444.0625 Q563.0156,444 563.1875,444 Q563.5156,444 563.75,444.2656 Q564,444.5156 564,444.875 Q564,445.2188 563.6563,445.625 Q563.1563,446.2188 562.3594,446.5469 Q561.3125,447 560.0313,447 Q558.5313,447 557.3281,446.4063 Q556.3594,445.9375 555.6719,444.9219 Q555,443.9063 555,442.7031 L555,441.6094 Q555,440.3594 555.5938,439.2656 Q556.2031,438.1719 557.25,437.5938 Q558.3125,437 559.5,437 Q560.2188,437 560.8438,437.25 Q561.4688,437.5 562,438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="574" y="447.2285">PersistenceContext</text><line style="stroke:#181818;stroke-width:0.5;" x1="546" x2="698" y1="457.5" y2="457.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="546" x2="698" y1="465.5" y2="465.5"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="553" y="473.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="565" y="484.0332">repositories()</text></g><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><g id="elem_RepositoryFactory"><rect codeLine="17" fill="#F1F1F1" height="65.6094" id="RepositoryFactory" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="152" x="546" y="648"/><ellipse cx="562.8" cy="664" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M564.8,660.5 Q565.0031,660 565.2375,659.75 Q565.4719,659.5 565.7375,659.5 Q566.2063,659.5 566.5031,659.7813 Q566.8,660.0625 566.8,660.7188 L566.8,662.2813 Q566.8,662.9375 566.5188,663.2188 Q566.2375,663.5 565.8,663.5 Q565.4094,663.5 565.1594,663.3281 Q564.9094,663.1563 564.8,662.7031 Q564.7531,662.3906 564.5813,662.2188 Q564.2688,661.8906 563.7063,661.7031 Q563.1438,661.5 562.5813,661.5 Q561.8781,661.5 561.2844,661.7813 Q560.7063,662.0625 560.2531,662.6875 Q559.8,663.3125 559.8,664.1719 L559.8,665.0938 Q559.8,666.125 560.6438,666.8125 Q561.4875,667.5 562.9875,667.5 Q563.8781,667.5 564.5031,667.2969 Q564.8625,667.1875 565.2688,666.8281 Q565.5344,666.625 565.675,666.5625 Q565.8156,666.5 565.9875,666.5 Q566.3156,666.5 566.55,666.7656 Q566.8,667.0156 566.8,667.375 Q566.8,667.7188 566.4563,668.125 Q565.9563,668.7188 565.1594,669.0469 Q564.1125,669.5 562.8313,669.5 Q561.3313,669.5 560.1281,668.9063 Q559.1594,668.4375 558.4719,667.4219 Q557.8,666.4063 557.8,665.2031 L557.8,664.1094 Q557.8,662.8594 558.3938,661.7656 Q559.0031,660.6719 560.05,660.0938 Q561.1125,659.5 562.3,659.5 Q563.0188,659.5 563.6438,659.75 Q564.2688,660 564.8,660.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="577.2" y="669.7285">RepositoryFactory</text><line style="stroke:#181818;stroke-width:0.5;" x1="547" x2="697" y1="680" y2="680"/><line style="stroke:#181818;stroke-width:0.5;" x1="547" x2="697" y1="688" y2="688"/><ellipse cx="557" cy="699" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="566" y="706.5332">RepositoryFactory()</text></g><!--MD5=[a2934c79e3adc781b0cd87c74812aba5]
+class AGVRepository--><g id="elem_AGVRepository"><rect codeLine="21" fill="#F1F1F1" height="65.6094" id="AGVRepository" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="129" x="557.5" y="774"/><ellipse cx="572.5" cy="790" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M574.5,786.5 Q574.7031,786 574.9375,785.75 Q575.1719,785.5 575.4375,785.5 Q575.9063,785.5 576.2031,785.7813 Q576.5,786.0625 576.5,786.7188 L576.5,788.2813 Q576.5,788.9375 576.2188,789.2188 Q575.9375,789.5 575.5,789.5 Q575.1094,789.5 574.8594,789.3281 Q574.6094,789.1563 574.5,788.7031 Q574.4531,788.3906 574.2813,788.2188 Q573.9688,787.8906 573.4063,787.7031 Q572.8438,787.5 572.2813,787.5 Q571.5781,787.5 570.9844,787.7813 Q570.4063,788.0625 569.9531,788.6875 Q569.5,789.3125 569.5,790.1719 L569.5,791.0938 Q569.5,792.125 570.3438,792.8125 Q571.1875,793.5 572.6875,793.5 Q573.5781,793.5 574.2031,793.2969 Q574.5625,793.1875 574.9688,792.8281 Q575.2344,792.625 575.375,792.5625 Q575.5156,792.5 575.6875,792.5 Q576.0156,792.5 576.25,792.7656 Q576.5,793.0156 576.5,793.375 Q576.5,793.7188 576.1563,794.125 Q575.6563,794.7188 574.8594,795.0469 Q573.8125,795.5 572.5313,795.5 Q571.0313,795.5 569.8281,794.9063 Q568.8594,794.4375 568.1719,793.4219 Q567.5,792.4063 567.5,791.2031 L567.5,790.1094 Q567.5,788.8594 568.0938,787.7656 Q568.7031,786.6719 569.75,786.0938 Q570.8125,785.5 572,785.5 Q572.7188,785.5 573.3438,785.75 Q573.9688,786 574.5,786.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="586.5" y="795.7285">AGVRepository</text><line style="stroke:#181818;stroke-width:0.5;" x1="558.5" x2="685.5" y1="806" y2="806"/><line style="stroke:#181818;stroke-width:0.5;" x1="558.5" x2="685.5" y1="814" y2="814"/><ellipse cx="568.5" cy="825" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="577.5" y="832.5332">save(agv)</text></g><!--MD5=[1492755b760eb6c3b1fc4ef1ae992bd5]
+class AGVBuilder--><g id="elem_AGVBuilder"><rect codeLine="25" fill="#F1F1F1" height="259.3125" id="AGVBuilder" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="314" x="7" y="329"/><ellipse cx="123.25" cy="345" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M125.25,341.5 Q125.4531,341 125.6875,340.75 Q125.9219,340.5 126.1875,340.5 Q126.6563,340.5 126.9531,340.7813 Q127.25,341.0625 127.25,341.7188 L127.25,343.2813 Q127.25,343.9375 126.9688,344.2188 Q126.6875,344.5 126.25,344.5 Q125.8594,344.5 125.6094,344.3281 Q125.3594,344.1563 125.25,343.7031 Q125.2031,343.3906 125.0313,343.2188 Q124.7188,342.8906 124.1563,342.7031 Q123.5938,342.5 123.0313,342.5 Q122.3281,342.5 121.7344,342.7813 Q121.1563,343.0625 120.7031,343.6875 Q120.25,344.3125 120.25,345.1719 L120.25,346.0938 Q120.25,347.125 121.0938,347.8125 Q121.9375,348.5 123.4375,348.5 Q124.3281,348.5 124.9531,348.2969 Q125.3125,348.1875 125.7188,347.8281 Q125.9844,347.625 126.125,347.5625 Q126.2656,347.5 126.4375,347.5 Q126.7656,347.5 127,347.7656 Q127.25,348.0156 127.25,348.375 Q127.25,348.7188 126.9063,349.125 Q126.4063,349.7188 125.6094,350.0469 Q124.5625,350.5 123.2813,350.5 Q121.7813,350.5 120.5781,349.9063 Q119.6094,349.4375 118.9219,348.4219 Q118.25,347.4063 118.25,346.2031 L118.25,345.1094 Q118.25,343.8594 118.8438,342.7656 Q119.4531,341.6719 120.5,341.0938 Q121.5625,340.5 122.75,340.5 Q123.4688,340.5 124.0938,340.75 Q124.7188,341 125.25,341.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="143.75" y="350.7285">AGVBuilder</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="320" y1="361" y2="361"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="320" y1="369" y2="369"/><ellipse cx="18" cy="380" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="27" y="387.5332">withId(id)</text><ellipse cx="18" cy="397.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="27" y="405.1426">withAGVDock(agvDock)</text><ellipse cx="18" cy="415.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="27" y="422.752">withRange(range)</text><ellipse cx="18" cy="432.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="282" x="27" y="440.3613">withMaxWeightCapacity(maxWeightCapacity)</text><ellipse cx="18" cy="450.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="288" x="27" y="457.9707">withMaxVolumeCapacity(maxVolumeCapacity)</text><ellipse cx="18" cy="468.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="27" y="475.5801">withModel(model)</text><ellipse cx="18" cy="485.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="233" x="27" y="493.1895">withBriefDescription(briefDescription)</text><ellipse cx="18" cy="503.2656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="27" y="510.7988">withPosition(position)</text><ellipse cx="18" cy="520.875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="27" y="528.4082">withAGVStatus(status)</text><ellipse cx="18" cy="538.4844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="27" y="546.0176">withAGVTask(task)</text><ellipse cx="18" cy="556.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="27" y="563.627">build()</text><ellipse cx="18" cy="573.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="27" y="581.2363">buildOrThrow()</text></g><!--MD5=[53b2c06ade5903185ca3326dce80e141]
+class AGV--><g id="elem_AGV"><rect codeLine="40" fill="#F1F1F1" height="224.0938" id="AGV" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="356.5" y="346.5"/><ellipse cx="414.25" cy="362.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M416.25,359 Q416.4531,358.5 416.6875,358.25 Q416.9219,358 417.1875,358 Q417.6563,358 417.9531,358.2813 Q418.25,358.5625 418.25,359.2188 L418.25,360.7813 Q418.25,361.4375 417.9688,361.7188 Q417.6875,362 417.25,362 Q416.8594,362 416.6094,361.8281 Q416.3594,361.6563 416.25,361.2031 Q416.2031,360.8906 416.0313,360.7188 Q415.7188,360.3906 415.1563,360.2031 Q414.5938,360 414.0313,360 Q413.3281,360 412.7344,360.2813 Q412.1563,360.5625 411.7031,361.1875 Q411.25,361.8125 411.25,362.6719 L411.25,363.5938 Q411.25,364.625 412.0938,365.3125 Q412.9375,366 414.4375,366 Q415.3281,366 415.9531,365.7969 Q416.3125,365.6875 416.7188,365.3281 Q416.9844,365.125 417.125,365.0625 Q417.2656,365 417.4375,365 Q417.7656,365 418,365.2656 Q418.25,365.5156 418.25,365.875 Q418.25,366.2188 417.9063,366.625 Q417.4063,367.2188 416.6094,367.5469 Q415.5625,368 414.2813,368 Q412.7813,368 411.5781,367.4063 Q410.6094,366.9375 409.9219,365.9219 Q409.25,364.9063 409.25,363.7031 L409.25,362.6094 Q409.25,361.3594 409.8438,360.2656 Q410.4531,359.1719 411.5,358.5938 Q412.5625,358 413.75,358 Q414.4688,358 415.0938,358.25 Q415.7188,358.5 416.25,359 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="434.75" y="368.2285">AGV</text><line style="stroke:#181818;stroke-width:0.5;" x1="357.5" x2="508.5" y1="378.5" y2="378.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="386.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="376.5" y="397.0332">agvId</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="404.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="376.5" y="414.6426">agvDock</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="421.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="376.5" y="432.252">range</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="439.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="376.5" y="449.8613">maxWeightCapacity</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="456.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="376.5" y="467.4707">maxVolumeCapacity</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="474.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="376.5" y="485.0801">model</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="492.1563"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="376.5" y="502.6895">briefDescription</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="509.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="376.5" y="520.2988">position</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="527.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="376.5" y="537.9082">status</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="364.5" y="544.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="376.5" y="555.5176">agvTask</text><line style="stroke:#181818;stroke-width:0.5;" x1="357.5" x2="508.5" y1="562.5938" y2="562.5938"/></g><!--MD5=[4c2ca6742170b953f9ed8ad6fa9ed9f7]
+link ConfigureAGVUI to ConfigureAGVController--><g id="link_ConfigureAGVUI_ConfigureAGVController"><path codeLine="58" d="M433,55.12 C433,69.73 433,89.57 433,109.58 " fill="none" id="ConfigureAGVUI-to-ConfigureAGVController" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="433,114.67,437,105.67,433,109.67,429,105.67,433,114.67" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[66c54dcf1d0717ab7c6c4cd11df11fe0]
+link ConfigureAGVController to PersistenceContext--><g id="link_ConfigureAGVController_PersistenceContext"><path codeLine="59" d="M487.41,269.15 C523.08,319.07 568.1,382.07 595.97,421.07 " fill="none" id="ConfigureAGVController-to-PersistenceContext" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="598.95,425.24,596.9642,415.5934,596.0398,421.1742,590.459,420.2498,598.95,425.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[35d5c5234a544a71a50e38fc0e8bf497]
+link ConfigureAGVController to AGVBuilder--><g id="link_ConfigureAGVController_AGVBuilder"><path codeLine="60" d="M355.55,269.15 C337.73,286.68 318.26,305.82 298.79,324.97 " fill="none" id="ConfigureAGVController-to-AGVBuilder" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="294.9,328.79,304.1206,325.3287,298.4639,325.2831,298.5095,319.6264,294.9,328.79" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1a4fe2959b20493a6ebeb11f982161e0]
+link ConfigureAGVController to AGV--><g id="link_ConfigureAGVController_AGV"><path codeLine="61" d="M433,269.15 C433,291.66 433,316.84 433,341.27 " fill="none" id="ConfigureAGVController-to-AGV" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="433,346.47,437,337.47,433,341.47,429,337.47,433,346.47" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[80616cc598c73cb7cb2b520a31915523]
+link AGVBuilder to AGV--><g id="link_AGVBuilder_AGV"><path codeLine="62" d="M321.09,458.5 C331.02,458.5 340.95,458.5 350.87,458.5 " fill="none" id="AGVBuilder-to-AGV" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="356.06,458.5,347.06,454.5,351.06,458.5,347.06,462.5,356.06,458.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[754b775031405e096442b27febffa290]
+link PersistenceContext to RepositoryFactory--><g id="link_PersistenceContext_RepositoryFactory"><path codeLine="63" d="M622,491.56 C622,531.73 622,600.44 622,642.86 " fill="none" id="PersistenceContext-to-RepositoryFactory" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="622,647.9,626,638.9,622,642.9,618,638.9,622,647.9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d05eaea78b8765320ad56e3795dd7d42]
+link RepositoryFactory to AGVRepository--><g id="link_RepositoryFactory_AGVRepository"><path codeLine="64" d="M622,714.26 C622,730.9 622,751.3 622,768.63 " fill="none" id="RepositoryFactory-to-AGVRepository" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="622,773.91,626,764.91,622,768.91,618,764.91,622,773.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4a87ceb915e1beebbbe97a657f0280d1]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ConfigureAGVUI
+class ConfigureAGVController
+class PersistenceContext
+class RepositoryFactory
+class AGVRepository
+
+class ConfigureAGVUI{}
+
+class ConfigureAGVController {
++validateData(agvId,briefDescription, model,\nmaxWeightCapacity,maxVolumeCapacity, \n range,position)
++configureAGV(agvId,briefDescription, model,\n maxWeightCapacity, maxVolumeCapacity,\n range, position , agvDock, status, task)
+}
+
+
+class RepositoryFactory {
++ RepositoryFactory()
+}
+
+class AGVRepository {
++save(agv)
+}
+
+class AGVBuilder{
++withId(id)
++withAGVDock(agvDock)
++withRange(range)
++withMaxWeightCapacity(maxWeightCapacity)
++withMaxVolumeCapacity(maxVolumeCapacity)
++withModel(model)
++withBriefDescription(briefDescription)
++withPosition(position)
++withAGVStatus(status)
++withAGVTask(task)
++build()
++buildOrThrow()
+}
+
+class AGV{
+-agvId
+-agvDock
+-range
+-maxWeightCapacity
+-maxVolumeCapacity
+-model
+-briefDescription
+-position
+-status
+-agvTask
+}
+
+class PersistenceContext {
+- repositories()
+}
+
+
+ConfigureAGVUI ..> ConfigureAGVController
+ConfigureAGVController ..> PersistenceContext
+ConfigureAGVController ..> AGVBuilder
+ConfigureAGVController ..> AGV
+AGVBuilder -> AGV
+PersistenceContext ..> RepositoryFactory
+RepositoryFactory - -> AGVRepository
+
+
+@enduml
+
+@startuml
+
+class ConfigureAGVUI
+class ConfigureAGVController
+class PersistenceContext
+class RepositoryFactory
+class AGVRepository
+
+class ConfigureAGVUI{}
+
+class ConfigureAGVController {
++validateData(agvId,briefDescription, model,\nmaxWeightCapacity,maxVolumeCapacity, \n range,position)
++configureAGV(agvId,briefDescription, model,\n maxWeightCapacity, maxVolumeCapacity,\n range, position , agvDock, status, task)
+}
+
+
+class RepositoryFactory {
++ RepositoryFactory()
+}
+
+class AGVRepository {
++save(agv)
+}
+
+class AGVBuilder{
++withId(id)
++withAGVDock(agvDock)
++withRange(range)
++withMaxWeightCapacity(maxWeightCapacity)
++withMaxVolumeCapacity(maxVolumeCapacity)
++withModel(model)
++withBriefDescription(briefDescription)
++withPosition(position)
++withAGVStatus(status)
++withAGVTask(task)
++build()
++buildOrThrow()
+}
+
+class AGV{
+-agvId
+-agvDock
+-range
+-maxWeightCapacity
+-maxVolumeCapacity
+-model
+-briefDescription
+-position
+-status
+-agvTask
+}
+
+class PersistenceContext {
+- repositories()
+}
+
+
+ConfigureAGVUI ..> ConfigureAGVController
+ConfigureAGVController ..> PersistenceContext
+ConfigureAGVController ..> AGVBuilder
+ConfigureAGVController ..> AGV
+AGVBuilder -> AGV
+PersistenceContext ..> RepositoryFactory
+RepositoryFactory - -> AGVRepository
+
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

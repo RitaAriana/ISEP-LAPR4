@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam classAttributeIconSize 0
+
+
+class DigitalTwinDaemon {
++main()
+-buildServerDependencies()
+}
+
+class DigitalTwinProtocolServer {
++run()
+-listen()
++start()
+}
+
+class RequestMessageParser {
+-getManagerController()
+-getDashboardController()
++parse()
+-isStringParam(string)
+-callTaskAssignment(inputLine,tokens)
+-parseGetAGVInformations(inputLine,tokens)
+}
+
+class DigitalTwinProtocolRequest {
+-request
+---
++execute()
++isGoodbye()
+#buildServerError(errorDescription)
+#buildBadRequest(errorDescription)
+}
+
+DigitalTwinDaemon -> DigitalTwinProtocolServer
+DigitalTwinProtocolServer -> RequestMessageParser
+DigitalTwinProtocolServer -> DigitalTwinProtocolRequest
+
+
+
+
+
+
+
+
+
+@enduml

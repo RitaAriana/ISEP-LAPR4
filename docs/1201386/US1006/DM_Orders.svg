@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="207.6px" preserveAspectRatio="none" style="width:936px;height:207px;background:#FFFFFF;" version="1.1" viewBox="0 0 936 207" width="936px" zoomAndPan="magnify"><defs><filter height="300%" id="f8rkbuidxsm11" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.2"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.4" dy="2.4" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ce5e91745b5c4e46f992402a2ac24ff2]
+cluster <<aggregate>> ProductOrder--><polygon fill="#FFFFFF" filter="url(#f8rkbuidxsm11)" points="329.4,87.6,455.4,87.6,459.6,101.7656,531,101.7656,531,178.8,329.4,178.8,329.4,87.6" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="329.4" x2="459.6" y1="101.7656" y2="101.7656"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="122.4" x="331.8" y="97.5199">&lt;&lt;aggregate&gt;&gt; ProductOrder</text><!--MD5=[db53c58abe70499843a85815d88add8b]
+cluster <<aggregate>> Employee--><polygon fill="#FFFFFF" filter="url(#f8rkbuidxsm11)" points="9.6,48,118.8,48,123,62.1656,124.8,62.1656,124.8,130.8,9.6,130.8,9.6,48" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="9.6" x2="123" y1="62.1656" y2="62.1656"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="105.6" x="12" y="57.9199">&lt;&lt;aggregate&gt;&gt; Employee</text><!--MD5=[597c9b6a35d8038d4b40fd8870ba90aa]
+cluster <<aggregate>> User--><polygon fill="#FFFFFF" filter="url(#f8rkbuidxsm11)" points="157.8,3.6,246,3.6,250.2,17.7656,412.8,17.7656,412.8,73.2,157.8,73.2,157.8,3.6" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="157.8" x2="250.2" y1="17.7656" y2="17.7656"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="84.6" x="160.2" y="13.5199">&lt;&lt;aggregate&gt;&gt; User</text><!--MD5=[20e996825fabf2618e164db4892593a3]
+cluster <<aggregate>> Client--><polygon fill="#FFFFFF" filter="url(#f8rkbuidxsm11)" points="663.6,133.8,756.6,133.8,760.8,147.9656,925.8,147.9656,925.8,203.4,663.6,203.4,663.6,133.8" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="663.6" x2="760.8" y1="147.9656" y2="147.9656"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="89.4" x="666" y="143.7199">&lt;&lt;aggregate&gt;&gt; Client</text><!--MD5=[9265192601ae3d68217fc2a2ce1ea439]
+class ProductOrder--><rect codeLine="14" fill="#F5F5DC" filter="url(#f8rkbuidxsm11)" height="59.3719" id="ProductOrder" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="63" x="339" y="109.5"/><ellipse cx="348" cy="126.0844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M347.1,126.6844 L347.1,127.8844 L349.5,127.8844 L349.5,127.2844 L349.5,126.9937 L349.875,126.6844 L350.1,126.6844 L350.325,126.6844 L350.7,126.9937 L350.7,127.2844 L350.7,129.0844 L345.9,129.0844 L345.6094,129.0844 L345.3,128.7094 L345.3,128.4844 L345.3,128.2594 L345.6094,127.8844 L345.9,127.8844 L345.9,127.8844 L345.9,124.2844 L345.9,124.2844 L345.6094,124.2844 L345.3,123.9094 L345.3,123.6844 L345.3,123.4594 L345.6094,123.0844 L345.9,123.0844 L350.7,123.0844 L350.7,124.8844 L350.7,125.175 L350.325,125.4844 L350.1,125.4844 L349.875,125.4844 L349.5,125.175 L349.5,124.8844 L349.5,124.2844 L347.1,124.2844 L347.1,125.4844 L347.7,125.4844 L347.7,125.1938 L347.7,125.1938 L348.075,124.8844 L348.3,124.8844 L348.525,124.8844 L348.9,125.1938 L348.9,125.4844 L348.9,126.6844 L348.9,126.975 L348.525,127.2844 L348.525,127.2844 L348.3,127.2844 L348.075,127.2844 L347.7,126.975 L347.7,126.975 L347.7,126.6844 L347.1,126.6844 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="25.8" x="365.4" y="119.9742">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="21" x="367.8" y="129.0305">«root»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="43.8" x="356.4" y="138.0867">ProductOrder</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="339.6" x2="401.4" y1="142.6688" y2="142.6688"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="49.8" x="342.6" y="151.9201">-numericIdentifier</text><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="39" x="342.6" y="160.2217">-dateOfOrder</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="339.6" x2="401.4" y1="164.0719" y2="164.0719"/><!--MD5=[e3d83ec5fd90ea9f3f2bfe265cb53458]
+class Status--><rect codeLine="19" fill="#F5F5DC" filter="url(#f8rkbuidxsm11)" height="28.9125" id="Status" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="65.4" x="456" y="114"/><ellipse cx="465" cy="126.0562" fill="#FF8B40" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M465,128.025 L465.9188,124.7063 L465.9188,124.7063 L465.6094,124.7063 L465.3,124.3313 L465.3,124.1062 L465.3,123.8813 L465.6094,123.5063 L465.9188,123.5063 L467.0438,123.5063 L467.3906,123.5063 L467.7,123.8813 L467.7,124.1062 L467.7,124.3313 L467.3906,124.7063 L467.3906,124.7063 L467.1188,124.7063 L465.7125,129.5063 L464.2875,129.5063 L462.8063,124.7063 L462.6094,124.7063 L462.6094,124.7063 L462.3,124.3313 L462.3,124.1062 L462.3,123.8813 L462.6094,123.5063 L462.9562,123.5063 L464.0812,123.5063 L464.3906,123.5063 L464.7,123.8813 L464.7,124.1062 L464.7,124.3313 L464.3906,124.7063 L464.0812,124.7063 L464.0812,124.7063 L465,128.025 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="472.2" y="124.4742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="21" x="486" y="133.5305">Status</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="456.6" x2="520.8" y1="138.1125" y2="138.1125"/><!--MD5=[7421f545a0d8420c5bec41e74b387d9c]
+class Employee--><rect codeLine="26" fill="#F5F5DC" filter="url(#f8rkbuidxsm11)" height="51.0703" id="Employee" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="52.2" x="40.8" y="69.9"/><ellipse cx="49.8" cy="86.4844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M48.9,87.0844 L48.9,88.2844 L51.3,88.2844 L51.3,87.6844 L51.3,87.3938 L51.675,87.0844 L51.9,87.0844 L52.125,87.0844 L52.5,87.3938 L52.5,87.6844 L52.5,89.4844 L47.7,89.4844 L47.4094,89.4844 L47.1,89.1094 L47.1,88.8844 L47.1,88.6594 L47.4094,88.2844 L47.7,88.2844 L47.7,88.2844 L47.7,84.6844 L47.7,84.6844 L47.4094,84.6844 L47.1,84.3094 L47.1,84.0844 L47.1,83.8594 L47.4094,83.4844 L47.7,83.4844 L52.5,83.4844 L52.5,85.2844 L52.5,85.575 L52.125,85.8844 L51.9,85.8844 L51.675,85.8844 L51.3,85.575 L51.3,85.2844 L51.3,84.6844 L48.9,84.6844 L48.9,85.8844 L49.5,85.8844 L49.5,85.5938 L49.5,85.5938 L49.875,85.2844 L50.1,85.2844 L50.325,85.2844 L50.7,85.5938 L50.7,85.8844 L50.7,87.0844 L50.7,87.375 L50.325,87.6844 L50.325,87.6844 L50.1,87.6844 L49.875,87.6844 L49.5,87.375 L49.5,87.375 L49.5,87.0844 L48.9,87.0844 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="25.8" x="61.8" y="80.3742">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="21" x="64.2" y="89.4305">«root»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="33" x="58.2" y="98.4867">Employee</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="41.4" x2="92.4" y1="103.0688" y2="103.0688"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="27" x="44.4" y="112.3201">-identifier</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="41.4" x2="92.4" y1="116.1703" y2="116.1703"/><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="35" fill="#F5F5DC" filter="url(#f8rkbuidxsm11)" height="37.9688" id="User" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="42.6" x="167.4" y="25.5"/><ellipse cx="176.4" cy="42.0844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M175.5,42.6844 L175.5,43.8844 L177.9,43.8844 L177.9,43.2844 L177.9,42.9938 L178.275,42.6844 L178.5,42.6844 L178.725,42.6844 L179.1,42.9938 L179.1,43.2844 L179.1,45.0844 L174.3,45.0844 L174.0094,45.0844 L173.7,44.7094 L173.7,44.4844 L173.7,44.2594 L174.0094,43.8844 L174.3,43.8844 L174.3,43.8844 L174.3,40.2844 L174.3,40.2844 L174.0094,40.2844 L173.7,39.9094 L173.7,39.6844 L173.7,39.4594 L174.0094,39.0844 L174.3,39.0844 L179.1,39.0844 L179.1,40.8844 L179.1,41.175 L178.725,41.4844 L178.5,41.4844 L178.275,41.4844 L177.9,41.175 L177.9,40.8844 L177.9,40.2844 L175.5,40.2844 L175.5,41.4844 L176.1,41.4844 L176.1,41.1938 L176.1,41.1938 L176.475,40.8844 L176.7,40.8844 L176.925,40.8844 L177.3,41.1938 L177.3,41.4844 L177.3,42.6844 L177.3,42.975 L176.925,43.2844 L176.925,43.2844 L176.7,43.2844 L176.475,43.2844 L176.1,42.975 L176.1,42.975 L176.1,42.6844 L175.5,42.6844 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="25.8" x="183.6" y="35.9742">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="21" x="186" y="45.0305">«root»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="16.2" x="188.4" y="54.0867">User</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="168" x2="209.4" y1="58.6687" y2="58.6687"/><!--MD5=[a3638c1e5b65d287ecad7f06f5c0f212]
+class Role--><rect codeLine="39" fill="#F5F5DC" filter="url(#f8rkbuidxsm11)" height="28.9125" id="Role" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="65.4" x="337.8" y="28.2"/><ellipse cx="346.8" cy="40.2563" fill="#FF8B40" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M346.8,42.225 L347.7188,38.9063 L347.7188,38.9063 L347.4094,38.9063 L347.1,38.5313 L347.1,38.3063 L347.1,38.0813 L347.4094,37.7063 L347.7188,37.7063 L348.8438,37.7063 L349.1906,37.7063 L349.5,38.0813 L349.5,38.3063 L349.5,38.5313 L349.1906,38.9063 L349.1906,38.9063 L348.9188,38.9063 L347.5125,43.7063 L346.0875,43.7063 L344.6063,38.9063 L344.4094,38.9063 L344.4094,38.9063 L344.1,38.5313 L344.1,38.3063 L344.1,38.0813 L344.4094,37.7063 L344.7562,37.7063 L345.8812,37.7063 L346.1906,37.7063 L346.5,38.0813 L346.5,38.3063 L346.5,38.5313 L346.1906,38.9063 L345.8812,38.9063 L345.8812,38.9063 L346.8,42.225 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="354" y="38.6742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="15.6" x="370.5" y="47.7305">Role</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="338.4" x2="402.6" y1="52.3125" y2="52.3125"/><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="46" fill="#F5F5DC" filter="url(#f8rkbuidxsm11)" height="37.9688" id="Client" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="42.6" x="673.2" y="155.7"/><ellipse cx="682.2" cy="172.2844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M681.3,172.8844 L681.3,174.0844 L683.7,174.0844 L683.7,173.4844 L683.7,173.1938 L684.075,172.8844 L684.3,172.8844 L684.525,172.8844 L684.9,173.1938 L684.9,173.4844 L684.9,175.2844 L680.1,175.2844 L679.8094,175.2844 L679.5,174.9094 L679.5,174.6844 L679.5,174.4594 L679.8094,174.0844 L680.1,174.0844 L680.1,174.0844 L680.1,170.4844 L680.1,170.4844 L679.8094,170.4844 L679.5,170.1094 L679.5,169.8844 L679.5,169.6594 L679.8094,169.2844 L680.1,169.2844 L684.9,169.2844 L684.9,171.0844 L684.9,171.375 L684.525,171.6844 L684.3,171.6844 L684.075,171.6844 L683.7,171.375 L683.7,171.0844 L683.7,170.4844 L681.3,170.4844 L681.3,171.6844 L681.9,171.6844 L681.9,171.3937 L681.9,171.3937 L682.275,171.0844 L682.5,171.0844 L682.725,171.0844 L683.1,171.3937 L683.1,171.6844 L683.1,172.8844 L683.1,173.175 L682.725,173.4844 L682.725,173.4844 L682.5,173.4844 L682.275,173.4844 L681.9,173.175 L681.9,173.175 L681.9,172.8844 L681.3,172.8844 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="25.8" x="689.4" y="166.1742">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="21" x="691.8" y="175.2305">«root»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="19.2" x="692.7" y="184.2867">Client</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="673.8" x2="715.2" y1="188.8688" y2="188.8688"/><!--MD5=[53f6a92bd21ca2f2960392a061f3a1c6]
+class Name--><rect codeLine="49" fill="#F5F5DC" filter="url(#f8rkbuidxsm11)" height="28.9125" id="Name" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="65.4" x="850.8" y="158.4"/><ellipse cx="859.8" cy="170.4562" fill="#FF8B40" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M859.8,172.425 L860.7188,169.1063 L860.7188,169.1063 L860.4094,169.1063 L860.1,168.7313 L860.1,168.5063 L860.1,168.2813 L860.4094,167.9063 L860.7188,167.9063 L861.8438,167.9063 L862.1906,167.9063 L862.5,168.2813 L862.5,168.5063 L862.5,168.7313 L862.1906,169.1063 L862.1906,169.1063 L861.9187,169.1063 L860.5125,173.9063 L859.0875,173.9063 L857.6062,169.1063 L857.4094,169.1063 L857.4094,169.1063 L857.1,168.7313 L857.1,168.5063 L857.1,168.2813 L857.4094,167.9063 L857.7563,167.9063 L858.8813,167.9063 L859.1906,167.9063 L859.5,168.2813 L859.5,168.5063 L859.5,168.7313 L859.1906,169.1063 L858.8813,169.1063 L858.8813,169.1063 L859.8,172.425 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="48.6" x="867" y="168.8742">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="20.4" x="881.1" y="177.9305">Name</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="851.4" x2="915.6" y1="182.5125" y2="182.5125"/><!--MD5=[70c37dc9bfbc8656942103c36f1181e4]
+link User to Role--><path codeLine="52" d="M210.018,44.196 C240.432,43.89 297.57,43.32 334.662,42.954 " fill="none" id="User-to-Role" style="stroke:#222222;stroke-width:0.6;"/><polygon fill="#222222" points="337.74,42.918,332.3129,40.5799,334.7402,42.9523,332.3678,45.3796,337.74,42.918" style="stroke:#222222;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="25.2" x="275.4" y="41.6971">plays a</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="12" x="321.0161" y="51.6448">1..*</text><!--MD5=[22fb9506fac029fc1d2ae00f0eb8d606]
+link Employee to User--><path codeLine="54" d="M93.078,84.582 C114.162,75.666 143.85,63.114 164.406,54.42 " fill="none" id="Employee-to-User" style="stroke:#222222;stroke-width:0.6;"/><polygon fill="#222222" points="167.37,53.166,161.4617,53.0561,164.6064,54.3332,163.3293,57.4779,167.37,53.166" style="stroke:#222222;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="12.6" x="135" y="60.2971">is a</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.2" x="158.3376" y="64.0654">1</text><!--MD5=[e53ba572a82d05a700e2b982cf1a8fc6]
+link Employee to ProductOrder--><path codeLine="56" d="M93.024,99.096 C147.42,106.974 274.806,125.424 335.958,134.286 " fill="none" id="Employee-to-ProductOrder" style="stroke:#222222;stroke-width:0.6;"/><polygon fill="#222222" points="339,134.724,333.9975,131.5784,336.0307,134.2961,333.3129,136.3293,339,134.724" style="stroke:#222222;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="27.6" x="228.6" y="116.6971">manage</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="13.2" x="320.9184" y="142.8779">0..1</text><!--MD5=[ac4c49bc24431560733104ccf6b1c608]
+link ProductOrder to Status--><path codeLine="57" d="M402.144,136.332 C417.696,134.898 436.59,133.152 452.706,131.67 " fill="none" id="ProductOrder-to-Status" style="stroke:#222222;stroke-width:0.6;"/><polygon fill="#222222" points="455.886,131.376,450.2894,129.4791,452.8985,131.6499,450.7277,134.259,455.886,131.376" style="stroke:#222222;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="14.4" x="423" y="131.0971">is in</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.2" x="446.9944" y="140.5246">1</text><!--MD5=[e711c884b53254feb0562ff5e23042b4]
+link ProductOrder to Client--><path codeLine="58" d="M402.114,154.008 C425.262,163.71 457.962,174.6 488.1,174.6 C488.1,174.6 488.1,174.6 635.4,174.6 C646.722,174.6 659.274,174.6 669.84,174.6 " fill="none" id="ProductOrder-to-Client" style="stroke:#222222;stroke-width:0.6;"/><polygon fill="#222222" points="673.05,174.6,667.65,172.2,670.05,174.6,667.65,177,673.05,174.6" style="stroke:#222222;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="37.8" x="559.8" y="172.4971">associated</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.2" x="664.2136" y="183.6462">1</text><!--MD5=[56e417e995f938959c376e4926a13260]
+link Client to Name--><path codeLine="59" d="M715.914,174.402 C747.684,174.096 808.656,173.514 847.482,173.142 " fill="none" id="Client-to-Name" style="stroke:#222222;stroke-width:0.6;"/><polygon fill="#222222" points="850.698,173.106,845.2776,170.7524,847.6981,173.1317,845.3188,175.5522,850.698,173.106" style="stroke:#222222;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="60.6" x="753" y="171.2971">associated with a</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.2" x="841.808" y="181.8958">1</text><!--MD5=[a872a20608723cd63fbcc5010f90643b]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+left to right direction
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> ProductOrder"{
+    entity ProductOrder
+    class Status
+}
+
+entity ProductOrder <<entity>> <<root>> {
+- numericIdentifier
+- dateOfOrder
+}
+
+class Status <<(V,#FF8B40) value object>> {}
+
+
+package "<<aggregate>> Employee" {
+    entity Employee
+}
+
+entity Employee <<entity>> <<root>> {
+    -identifier
+}
+
+package "<<aggregate>> User" {
+    entity User
+    class Role
+}
+
+entity User <<entity>> <<root>> {
+
+}
+
+class Role <<(V,#FF8B40) value object>> {}
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Name
+}
+
+entity Client <<entity>> <<root>> {
+
+}
+class Name <<(V,#FF8B40) value object>> {}
+
+
+User - - -> "1..*" Role : plays a
+
+Employee - -> "1" User : is a
+
+Employee  - - - -> "0..1" ProductOrder : manage
+ProductOrder - -> "1" Status : is in
+ProductOrder - - - - -> "1" Client : associated
+Client - - -> "1" Name: associated with a
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+left to right direction
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> ProductOrder"{
+    entity ProductOrder
+    class Status
+}
+
+entity ProductOrder <<entity>> <<root>> {
+- numericIdentifier
+- dateOfOrder
+}
+
+class Status <<(V,#FF8B40) value object>> {}
+
+
+package "<<aggregate>> Employee" {
+    entity Employee
+}
+
+entity Employee <<entity>> <<root>> {
+    -identifier
+}
+
+package "<<aggregate>> User" {
+    entity User
+    class Role
+}
+
+entity User <<entity>> <<root>> {
+
+}
+
+class Role <<(V,#FF8B40) value object>> {}
+
+package "<<aggregate>> Client" {
+    entity Client
+    class Name
+}
+
+entity Client <<entity>> <<root>> {
+
+}
+class Name <<(V,#FF8B40) value object>> {}
+
+
+User - - -> "1..*" Role : plays a
+
+Employee - -> "1" User : is a
+
+Employee  - - - -> "0..1" ProductOrder : manage
+ProductOrder - -> "1" Status : is in
+ProductOrder - - - - -> "1" Client : associated
+Client - - -> "1" Name: associated with a
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

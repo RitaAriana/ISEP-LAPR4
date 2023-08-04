@@ -1,0 +1,72 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+participant RegisterProductUI as UI <<presentation>>
+participant RegisterProductController as Controller <<application>>
+participant "product:Product" as Domain <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database  CategoryRepository as CategoryRepository <<repository>>
+database  ProductRepository as PRepository <<repository>>
+
+activate SC
+SC -> UI : Inicia o processo de registo de um produto
+activate UI
+UI -> Controller: create
+UI -> Controller: getCategories()
+activate Controller
+Controller -> Persistence: repositories()
+activate Persistence
+Persistence -> Factory:create
+activate Factory
+Factory -> CategoryRepository: create
+activate CategoryRepository
+deactivate CategoryRepository
+deactivate Factory
+deactivate Persistence
+Controller -> CategoryRepository: findAll
+activate CategoryRepository
+deactivate CategoryRepository
+Controller --> UI:categories
+deactivate Controller
+UI --> SC : Informa as categorias existentes no sistema e \n pede para que escolha a associada ao produto
+deactivate UI
+SC -> UI : Seleciona a Categoria desejada
+activate UI
+UI --> SC : Solicita os dados obrigatórios (uniqueInternalCode,shortDescription,\nextendedDescription, technicalDescription, barcode, priceWithoutTaxes,\npriceWithTaxes, brandName, reference, weight, volume, photo, productLocation)
+deactivate UI
+SC -> UI : Introduz os dados solicitados
+activate UI
+alt Sales Clerk deseja associar o productionCode
+UI --> SC : Solicita o productionCode
+deactivate UI
+SC -> UI : Introduz o productionCode
+activate UI
+end
+UI -> Controller: registerProduct(theCategory,uniqueInternalCode,shortDescription,\nextendedDescription,technicalDescription,barcode,brandName,\nreference,productionCode,priceWithoutTaxes,priceWithTaxes,weight,\nvolume,photoPaths,aisleId,rowId,shelfId)
+activate Controller
+Controller -> Domain: create(registerProduct(theCategory,uniqueInternalCode,shortDescription,\nextendedDescription,technicalDescription,barcode,brandName,\nreference,productionCode,priceWithoutTaxes,priceWithTaxes,weight,\nvolume,photoPaths,aisleId,rowId,shelfId)
+activate Domain
+Domain-> Controller:client
+deactivate Domain
+Controller -> Persistence: repositories()
+activate Persistence
+note right of Persistence: pode criar repositório em memória ou JPA
+Persistence -> Factory: create
+Persistence -> Controller: factory
+deactivate Persistence
+Controller -> Factory: products()
+activate Factory
+Factory -> PRepository: create
+Factory -> Controller: productRepository
+deactivate Factory
+Controller->PRepository:save(product)
+deactivate Controller
+UI --> SC : Informa o sucesso da operação
+deactivate UI
+
+
+deactivate SC
+
+@enduml

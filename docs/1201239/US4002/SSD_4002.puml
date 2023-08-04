@@ -1,0 +1,15 @@
+@startuml
+
+autonumber
+actor "Project Manager" as PM
+
+
+activate PM
+PM -> ":System" : Inicia o processo de atribuição automática de tarefas
+activate ":System"
+":System" --> PM : Informa sobre o sucesso da operação
+
+deactivate ":System"
+deactivate PM
+
+@enduml

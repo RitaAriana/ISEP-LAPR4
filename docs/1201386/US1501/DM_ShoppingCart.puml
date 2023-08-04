@@ -1,0 +1,82 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Client <<entity>> <<root>> {
+
+}
+
+
+entity Client <<entity>> <<root>> {
+
+}
+package "<<aggregate>> ShoppingCar"{
+    entity ShoppingCar
+    entity ShopCarItem
+}
+
+entity ShoppingCar <<entity>> <<root>>{
+
+}
+entity  ShopCarItem <<entity>> {
+    -productQuantity
+
+}
+package "<<aggregate>> Product"{
+     entity Product
+     class UniqueInternalCode
+     class ShortDescription
+     class PriceWithoutVAT
+}
+
+entity Product <<entity>> <<root>> {
+
+}
+
+package "<<aggregate>> User" {
+    entity User
+    class Password
+    class Username
+    class Role
+}
+
+class UniqueInternalCode <<(V,#FF8B40) value object>> {}
+class ShortDescription <<(V,#FF8B40) value object>> {}
+class PriceWithoutVAT <<(V,#FF8B40) value object>> {}
+
+
+entity User <<entity>> <<root>> {
+
+}
+
+class Password <<(V,#FF8B40) value object>> {}
+class Role <<(V,#FF8B40) value object>> {}
+class Username <<(V,#FF8B40) value object>> {}
+
+
+User ---> "1" Password : associated with a
+User --> "1" Username : characterized by
+User --> "1" Role : identified by
+
+
+Client -----> "1" ShoppingCar : associated
+Client ---> "1" User : is a
+ShopCarItem --> "1" Product : composed by
+ShoppingCar -> "1..*"  ShopCarItem : composed by
+
+Product ---> "1" ShortDescription: characterized by
+Product ---> "1" UniqueInternalCode: characterized by
+Product --> "1" PriceWithoutVAT: associated
+
+
+@enduml

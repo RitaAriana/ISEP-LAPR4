@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam classAttributeIconSize 0
+
+
+class AGVManagerDaemon {
++main()
+-buildServerDependencies()
+}
+
+class AgvManagerProtocolServer {
++run()
+-calculateSize(string)
+-getServerSocket(port)
+-listen()
++start()
+}
+
+class RequestMessageParser {
+-getManagerController()
+-getDashboardController()
++parse()
+-isStringParam(string)
+-callTaskAssignment(receivedArray, extraInfo)
+-callAGVInfo(receivedArray, extraInfo)
+}
+
+class AGVManagerProtocolRequest {
+-request
+---
++execute()
++isGoodbye()
+#buildServerError(errorDescription)
+#buildBadRequest(errorDescription)
+}
+
+AGVManagerDaemon -> AgvManagerProtocolServer
+AgvManagerProtocolServer -> RequestMessageParser
+AgvManagerProtocolServer -> AGVManagerProtocolRequest
+
+
+
+
+
+
+
+
+
+@enduml

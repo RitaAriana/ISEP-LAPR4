@@ -1,0 +1,25 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : Inicia o processo de visualizar as encomendas\nque se encontram no status Dispatched for Client
+activate ":System"
+":System" --> SC : Mostra a lista de encomendas
+deactivate ":System"
+loop enquanto desejar alterar o status de encomendas
+SC -> ":System" : Pergunta se pretende alterar o status de alguma\nencomenda para Being Delivered
+activate ":System"
+alt deseja alterar o status
+":System" --> SC : Solicita o identificador numérico da encomenda
+deactivate ":System"
+SC -> ":System" : Informa a identificador
+activate ":System"
+end
+end
+":System" --> SC : Informa o sucesso da operação
+deactivate ":System"
+deactivate SC
+
+@enduml

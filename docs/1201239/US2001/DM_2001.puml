@@ -1,0 +1,109 @@
+@startuml
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Warehouse" {
+    entity Warehouse
+    entity WarehousePlant
+    entity Aisle
+    entity Line
+    entity AGVDock
+    entity Shelf
+    class Dashboard
+    entity Bin
+    class Begin
+    class End
+    class Depth
+    class Accessibility
+}
+
+entity WarehousePlant <<entity>> {
+    -description
+    -length
+    -width
+    -square
+    -unit
+}
+
+entity AGVDock <<entity>> {
+    -id
+}
+
+entity Warehouse <<entity>> <<root>> {
+}
+
+class Dashboard <<(V,#FF8B40) value object>>{}
+
+entity Shelf <<entity>>{
+    -id
+    -isEmpty
+}
+
+entity Bin <<entity>>{
+    -id
+}
+
+entity Aisle <<entity>>{
+    -id
+}
+
+
+class Begin <<(V,#FF8B40) value object>>{
+    -lsquare
+    -wsquare
+}
+
+class End <<(V,#FF8B40) value object>>{
+    -lsquare
+    -wsquare
+}
+
+class Depth <<(V,#FF8B40) value object>>{
+    -lsquare
+    -wsquare
+}
+
+class Accessibility <<(V,#FF8B40) value object>>{
+    -rating
+}
+
+entity Line <<entity>>{
+    -id
+
+}
+
+Warehouse --> "1..*" Aisle : contains
+
+Warehouse --> "1" Dashboard : monitored by
+
+Warehouse --> "1..*" WarehousePlant : provides
+
+WarehousePlant --> "1..*" Aisle : provides information
+
+WarehousePlant --> "1..*" AGVDock : provides information
+
+Aisle --> "1..*" Line : organized by
+
+Aisle --> "1" Begin : located in
+Aisle --> "1" End : located in
+Aisle ----> "1" Depth : located in
+Aisle --> "1" Accessibility : associated
+
+Line --> "1..*" Shelf : divided by
+
+Line --> "1..*" Begin : located in
+
+Line --> "1..*" End : located in
+
+Shelf --> "1..*" Bin : define
+
+AGVDock ---> "1" Begin : located in
+AGVDock ---> "1" End : located in
+AGVDock ---> "1" Depth : located in
+AGVDock ---> "1" Accessibility : associated
+
+@enduml

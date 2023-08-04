@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class CriarCategoriaUi
+class CriarCategoriaController
+class CategoriaFactory
+class Categoria
+class PersistenceContext
+class RepositoryFactory
+class CategoriaRepositorio
+
+class CriarCategoriaController {
+    - addCategoria(codigoAlfanumerico, descricao, superCategoria)
+
+}
+
+class CategoriaFactory {
+     - setCodigoAlfanumerico()
+     - setDescricao()
+     - setSuperCategoria()
+     - createCategoria()
+}
+
+class Categoria {
+    - Categoria (codifoAlfanumerico, descricao, superCategoria)
+}
+
+class PersistenceContext {
+    - repositories()
+}
+
+class RepositoryFactory {
+    - RepositoryFactory()
+}
+
+class CategoriaRepositorio {
+    - CategoriaRepositorio()
+    - save(categoria)
+}
+
+CriarCategoriaUi ..> CriarCategoriaController
+CriarCategoriaController --> CategoriaFactory
+CategoriaFactory --> Categoria
+CriarCategoriaController ..> PersistenceContext
+PersistenceContext ..> RepositoryFactory
+RepositoryFactory --> CategoriaRepositorio
+
+@enduml

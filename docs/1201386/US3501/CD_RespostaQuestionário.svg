@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="517px" preserveAspectRatio="none" style="width:584px;height:517px;background:#FFFFFF;" version="1.1" viewBox="0 0 584 517" width="584px" zoomAndPan="magnify"><defs/><g><!--MD5=[dfccfb5894388a46eaa5d679d3ea0882]
+entity ClientRepository--><g id="elem_ClientRepository"><path d="M28.805,490.5 C28.805,485.5 59.805,485.5 59.805,485.5 C59.805,485.5 90.805,485.5 90.805,490.5 L90.805,503.8047 C90.805,508.8047 59.805,508.8047 59.805,508.8047 C59.805,508.8047 28.805,508.8047 28.805,503.8047 L28.805,490.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.25;"/><path d="M28.805,490.5 C28.805,495.5 59.805,495.5 59.805,495.5 C59.805,495.5 90.805,495.5 90.805,490.5 " fill="none" style="stroke:#181818;stroke-width:0.25;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="52" x="33.805" y="504.7666">ClientRepository</text></g><!--MD5=[e541b2dfaa39194f5c5b0a7bafc0c9d1]
+entity SurveyRepository--><g id="elem_SurveyRepository"><path d="M163.305,490.5 C163.305,485.5 196.305,485.5 196.305,485.5 C196.305,485.5 229.305,485.5 229.305,490.5 L229.305,503.8047 C229.305,508.8047 196.305,508.8047 196.305,508.8047 C196.305,508.8047 163.305,508.8047 163.305,503.8047 L163.305,490.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.25;"/><path d="M163.305,490.5 C163.305,495.5 196.305,495.5 196.305,495.5 C196.305,495.5 229.305,495.5 229.305,490.5 " fill="none" style="stroke:#181818;stroke-width:0.25;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="56" x="168.305" y="504.7666">SurveyRepository</text></g><!--MD5=[149a1c7f023ae6618377eaa02fe6b13d]
+entity AnswerRepository--><g id="elem_AnswerRepository"><path d="M254.805,490.5 C254.805,485.5 288.305,485.5 288.305,485.5 C288.305,485.5 321.805,485.5 321.805,490.5 L321.805,503.8047 C321.805,508.8047 288.305,508.8047 288.305,508.8047 C288.305,508.8047 254.805,508.8047 254.805,503.8047 L254.805,490.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.25;"/><path d="M254.805,490.5 C254.805,495.5 288.305,495.5 288.305,495.5 C288.305,495.5 321.805,495.5 321.805,490.5 " fill="none" style="stroke:#181818;stroke-width:0.25;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="57" x="259.805" y="504.7666">AnswerRepository</text></g><!--MD5=[a3ec9896533e40e99616965e2b5402b3]
+class ResponderQuestionarioUI--><g id="elem_ResponderQuestionarioUI"><rect codeLine="3" fill="#F1F1F1" height="24" id="ResponderQuestionarioUI" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="97.5" x="321.555" y="3.5"/><ellipse cx="329.055" cy="11.5" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M330.055,9.75 Q330.1566,9.5 330.2738,9.375 Q330.3909,9.25 330.5238,9.25 Q330.7581,9.25 330.9066,9.3906 Q331.055,9.5313 331.055,9.8594 L331.055,10.6406 Q331.055,10.9688 330.9144,11.1094 Q330.7738,11.25 330.555,11.25 Q330.3597,11.25 330.2347,11.1641 Q330.1097,11.0781 330.055,10.8516 Q330.0316,10.6953 329.9456,10.6094 Q329.7894,10.4453 329.5081,10.3516 Q329.2269,10.25 328.9456,10.25 Q328.5941,10.25 328.2972,10.3906 Q328.0081,10.5313 327.7816,10.8438 Q327.555,11.1563 327.555,11.5859 L327.555,12.0469 Q327.555,12.5625 327.9769,12.9063 Q328.3988,13.25 329.1488,13.25 Q329.5941,13.25 329.9066,13.1484 Q330.0863,13.0938 330.2894,12.9141 Q330.4222,12.8125 330.4925,12.7813 Q330.5628,12.75 330.6488,12.75 Q330.8128,12.75 330.93,12.8828 Q331.055,13.0078 331.055,13.1875 Q331.055,13.3594 330.8831,13.5625 Q330.6331,13.8594 330.2347,14.0234 Q329.7113,14.25 329.0706,14.25 Q328.3206,14.25 327.7191,13.9531 Q327.2347,13.7188 326.8909,13.2109 Q326.555,12.7031 326.555,12.1016 L326.555,11.5547 Q326.555,10.9297 326.8519,10.3828 Q327.1566,9.8359 327.68,9.5469 Q328.2113,9.25 328.805,9.25 Q329.1644,9.25 329.4769,9.375 Q329.7894,9.5 330.055,9.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="81.5" x="336.055" y="14.3643">ResponderQuestionarioUI</text><line style="stroke:#181818;stroke-width:0.25;" x1="322.055" x2="418.555" y1="19.5" y2="19.5"/><line style="stroke:#181818;stroke-width:0.25;" x1="322.055" x2="418.555" y1="23.5" y2="23.5"/></g><!--MD5=[129041fb83f2c31900f55fbe8dc94a3d]
+class ResponderQuestionarioController--><g id="elem_ResponderQuestionarioController"><rect codeLine="27" fill="#F1F1F1" height="85.6328" id="ResponderQuestionarioController" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="192" x="274.305" y="57.5"/><ellipse cx="314.93" cy="65.5" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M315.93,63.75 Q316.0316,63.5 316.1488,63.375 Q316.2659,63.25 316.3988,63.25 Q316.6331,63.25 316.7816,63.3906 Q316.93,63.5313 316.93,63.8594 L316.93,64.6406 Q316.93,64.9688 316.7894,65.1094 Q316.6488,65.25 316.43,65.25 Q316.2347,65.25 316.1097,65.1641 Q315.9847,65.0781 315.93,64.8516 Q315.9066,64.6953 315.8206,64.6094 Q315.6644,64.4453 315.3831,64.3516 Q315.1019,64.25 314.8206,64.25 Q314.4691,64.25 314.1722,64.3906 Q313.8831,64.5313 313.6566,64.8438 Q313.43,65.1563 313.43,65.5859 L313.43,66.0469 Q313.43,66.5625 313.8519,66.9063 Q314.2738,67.25 315.0238,67.25 Q315.4691,67.25 315.7816,67.1484 Q315.9613,67.0938 316.1644,66.9141 Q316.2972,66.8125 316.3675,66.7813 Q316.4378,66.75 316.5238,66.75 Q316.6878,66.75 316.805,66.8828 Q316.93,67.0078 316.93,67.1875 Q316.93,67.3594 316.7581,67.5625 Q316.5081,67.8594 316.1097,68.0234 Q315.5863,68.25 314.9456,68.25 Q314.1956,68.25 313.5941,67.9531 Q313.1097,67.7188 312.7659,67.2109 Q312.43,66.7031 312.43,66.1016 L312.43,65.5547 Q312.43,64.9297 312.7269,64.3828 Q313.0316,63.8359 313.555,63.5469 Q314.0863,63.25 314.68,63.25 Q315.0394,63.25 315.3519,63.375 Q315.6644,63.5 315.93,63.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="106.5" x="325.18" y="68.3643">ResponderQuestionarioController</text><line style="stroke:#181818;stroke-width:0.25;" x1="274.805" x2="465.805" y1="73.5" y2="73.5"/><rect fill="none" height="3" style="stroke:#C82930;stroke-width:0.5;" width="3" x="278.305" y="77.5"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="22.5" x="284.305" y="82.7666">service</text><rect fill="none" height="3" style="stroke:#C82930;stroke-width:0.5;" width="3" x="278.305" y="86.3047"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="27" x="284.305" y="91.5713">fileName</text><rect fill="none" height="3" style="stroke:#C82930;stroke-width:0.5;" width="3" x="278.305" y="95.1094"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="22.5" x="284.305" y="100.376">answer</text><line style="stroke:#181818;stroke-width:0.5;" x1="274.805" x2="465.805" y1="103.9141" y2="103.9141"/><ellipse cx="279.805" cy="109.4141" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="143.5" x="284.305" y="113.1807">getUnansweredCustomerSurveys(clientEmail)</text><ellipse cx="279.805" cy="118.2188" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="42.5" x="284.305" y="121.9854">getSurvey(id)</text><ellipse cx="279.805" cy="127.0234" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="82" x="284.305" y="130.79">writeFile(surveyId,answer)</text><ellipse cx="279.805" cy="135.8281" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="179" x="284.305" y="139.5947">validateAnswer(clientEmail,surveyId,sectionId,questionId)</text></g><!--MD5=[00db351c0e0a00090b3957bc51648b56]
+class ResponderQuestionarioService--><g id="elem_ResponderQuestionarioService"><rect codeLine="38" fill="#F1F1F1" height="50.4141" id="ResponderQuestionarioService" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="156.5" x="139.555" y="177.25"/><ellipse cx="166.18" cy="185.25" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M167.18,183.5 Q167.2816,183.25 167.3988,183.125 Q167.5159,183 167.6488,183 Q167.8831,183 168.0316,183.1406 Q168.18,183.2813 168.18,183.6094 L168.18,184.3906 Q168.18,184.7188 168.0394,184.8594 Q167.8988,185 167.68,185 Q167.4847,185 167.3597,184.9141 Q167.2347,184.8281 167.18,184.6016 Q167.1566,184.4453 167.0706,184.3594 Q166.9144,184.1953 166.6331,184.1016 Q166.3519,184 166.0706,184 Q165.7191,184 165.4222,184.1406 Q165.1331,184.2813 164.9066,184.5938 Q164.68,184.9063 164.68,185.3359 L164.68,185.7969 Q164.68,186.3125 165.1019,186.6563 Q165.5238,187 166.2738,187 Q166.7191,187 167.0316,186.8984 Q167.2113,186.8438 167.4144,186.6641 Q167.5472,186.5625 167.6175,186.5313 Q167.6878,186.5 167.7738,186.5 Q167.9378,186.5 168.055,186.6328 Q168.18,186.7578 168.18,186.9375 Q168.18,187.1094 168.0081,187.3125 Q167.7581,187.6094 167.3597,187.7734 Q166.8363,188 166.1956,188 Q165.4456,188 164.8441,187.7031 Q164.3597,187.4688 164.0159,186.9609 Q163.68,186.4531 163.68,185.8516 L163.68,185.3047 Q163.68,184.6797 163.9769,184.1328 Q164.2816,183.5859 164.805,183.2969 Q165.3363,183 165.93,183 Q166.2894,183 166.6019,183.125 Q166.9144,183.25 167.18,183.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="99" x="176.43" y="188.1143">ResponderQuestionarioService</text><line style="stroke:#181818;stroke-width:0.25;" x1="140.055" x2="295.555" y1="193.25" y2="193.25"/><line style="stroke:#181818;stroke-width:0.25;" x1="140.055" x2="295.555" y1="197.25" y2="197.25"/><ellipse cx="145.055" cy="202.75" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="143.5" x="149.555" y="206.5166">getUnansweredCustomerSurveys(clientEmail)</text><ellipse cx="145.055" cy="211.5547" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="63.5" x="149.555" y="215.3213">getSurvey(surveyId)</text><ellipse cx="145.055" cy="220.3594" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="65.5" x="149.555" y="224.126">saveAnswer(answer)</text></g><!--MD5=[881e719c386dedbbaba7a9d00a16a269]
+class ListQuestionnaireDTOService--><g id="elem_ListQuestionnaireDTOService"><rect codeLine="60" fill="#F1F1F1" height="41.6094" id="ListQuestionnaireDTOService" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="110" x="288.305" y="266.5"/><ellipse cx="295.805" cy="274.5" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M296.805,272.75 Q296.9066,272.5 297.0238,272.375 Q297.1409,272.25 297.2738,272.25 Q297.5081,272.25 297.6566,272.3906 Q297.805,272.5313 297.805,272.8594 L297.805,273.6406 Q297.805,273.9688 297.6644,274.1094 Q297.5238,274.25 297.305,274.25 Q297.1097,274.25 296.9847,274.1641 Q296.8597,274.0781 296.805,273.8516 Q296.7816,273.6953 296.6956,273.6094 Q296.5394,273.4453 296.2581,273.3516 Q295.9769,273.25 295.6956,273.25 Q295.3441,273.25 295.0472,273.3906 Q294.7581,273.5313 294.5316,273.8438 Q294.305,274.1563 294.305,274.5859 L294.305,275.0469 Q294.305,275.5625 294.7269,275.9063 Q295.1488,276.25 295.8988,276.25 Q296.3441,276.25 296.6566,276.1484 Q296.8363,276.0938 297.0394,275.9141 Q297.1722,275.8125 297.2425,275.7813 Q297.3128,275.75 297.3988,275.75 Q297.5628,275.75 297.68,275.8828 Q297.805,276.0078 297.805,276.1875 Q297.805,276.3594 297.6331,276.5625 Q297.3831,276.8594 296.9847,277.0234 Q296.4613,277.25 295.8206,277.25 Q295.0706,277.25 294.4691,276.9531 Q293.9847,276.7188 293.6409,276.2109 Q293.305,275.7031 293.305,275.1016 L293.305,274.5547 Q293.305,273.9297 293.6019,273.3828 Q293.9066,272.8359 294.43,272.5469 Q294.9613,272.25 295.555,272.25 Q295.9144,272.25 296.2269,272.375 Q296.5394,272.5 296.805,272.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="94" x="302.805" y="277.3643">ListQuestionnaireDTOService</text><line style="stroke:#181818;stroke-width:0.25;" x1="288.805" x2="397.805" y1="282.5" y2="282.5"/><line style="stroke:#181818;stroke-width:0.25;" x1="288.805" x2="397.805" y1="286.5" y2="286.5"/><ellipse cx="293.805" cy="292" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="96" x="298.305" y="295.7666">getUnansweredSurveys(client)</text><ellipse cx="293.805" cy="300.8047" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="63.5" x="298.305" y="304.5713">getSurvey(surveyId)</text></g><!--MD5=[fe4f3f83a51d21fc9306dfc278fe5ea6]
+class TcpOrderSrv--><g id="elem_TcpOrderSrv"><rect codeLine="54" fill="#F1F1F1" height="50.4141" id="TcpOrderSrv" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="146" x="124.805" y="262"/><ellipse cx="175.18" cy="270" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M176.18,268.25 Q176.2816,268 176.3988,267.875 Q176.5159,267.75 176.6488,267.75 Q176.8831,267.75 177.0316,267.8906 Q177.18,268.0313 177.18,268.3594 L177.18,269.1406 Q177.18,269.4688 177.0394,269.6094 Q176.8988,269.75 176.68,269.75 Q176.4847,269.75 176.3597,269.6641 Q176.2347,269.5781 176.18,269.3516 Q176.1566,269.1953 176.0706,269.1094 Q175.9144,268.9453 175.6331,268.8516 Q175.3519,268.75 175.0706,268.75 Q174.7191,268.75 174.4222,268.8906 Q174.1331,269.0313 173.9066,269.3438 Q173.68,269.6563 173.68,270.0859 L173.68,270.5469 Q173.68,271.0625 174.1019,271.4063 Q174.5238,271.75 175.2738,271.75 Q175.7191,271.75 176.0316,271.6484 Q176.2113,271.5938 176.4144,271.4141 Q176.5472,271.3125 176.6175,271.2813 Q176.6878,271.25 176.7738,271.25 Q176.9378,271.25 177.055,271.3828 Q177.18,271.5078 177.18,271.6875 Q177.18,271.8594 177.0081,272.0625 Q176.7581,272.3594 176.3597,272.5234 Q175.8363,272.75 175.1956,272.75 Q174.4456,272.75 173.8441,272.4531 Q173.3597,272.2188 173.0159,271.7109 Q172.68,271.2031 172.68,270.6016 L172.68,270.0547 Q172.68,269.4297 172.9769,268.8828 Q173.2816,268.3359 173.805,268.0469 Q174.3363,267.75 174.93,267.75 Q175.2894,267.75 175.6019,267.875 Q175.9144,268 176.18,268.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="41" x="185.43" y="272.8643">TcpOrderSrv</text><line style="stroke:#181818;stroke-width:0.25;" x1="125.305" x2="270.305" y1="278" y2="278"/><line style="stroke:#181818;stroke-width:0.25;" x1="125.305" x2="270.305" y1="282" y2="282"/><ellipse cx="130.305" cy="287.5" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="133" x="134.805" y="291.2666">unansweredCustomerSurveys(clientEmail)</text><ellipse cx="130.305" cy="296.3047" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="42.5" x="134.805" y="300.0713">getSurvey(id)</text><ellipse cx="130.305" cy="305.1094" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="65.5" x="134.805" y="308.876">saveAnswer(answer)</text></g><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><g id="elem_Client"><rect codeLine="21" fill="#F1F1F1" height="41.6094" id="Client" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="92.5" x="43.055" y="342.5"/><ellipse cx="78.18" cy="350.5" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M79.18,348.75 Q79.2816,348.5 79.3988,348.375 Q79.5159,348.25 79.6488,348.25 Q79.8831,348.25 80.0316,348.3906 Q80.18,348.5313 80.18,348.8594 L80.18,349.6406 Q80.18,349.9688 80.0394,350.1094 Q79.8988,350.25 79.68,350.25 Q79.4847,350.25 79.3597,350.1641 Q79.2347,350.0781 79.18,349.8516 Q79.1566,349.6953 79.0706,349.6094 Q78.9144,349.4453 78.6331,349.3516 Q78.3519,349.25 78.0706,349.25 Q77.7191,349.25 77.4222,349.3906 Q77.1331,349.5313 76.9066,349.8438 Q76.68,350.1563 76.68,350.5859 L76.68,351.0469 Q76.68,351.5625 77.1019,351.9063 Q77.5238,352.25 78.2738,352.25 Q78.7191,352.25 79.0316,352.1484 Q79.2113,352.0938 79.4144,351.9141 Q79.5472,351.8125 79.6175,351.7813 Q79.6878,351.75 79.7738,351.75 Q79.9378,351.75 80.055,351.8828 Q80.18,352.0078 80.18,352.1875 Q80.18,352.3594 80.0081,352.5625 Q79.7581,352.8594 79.3597,353.0234 Q78.8363,353.25 78.1956,353.25 Q77.4456,353.25 76.8441,352.9531 Q76.3597,352.7188 76.0159,352.2109 Q75.68,351.7031 75.68,351.1016 L75.68,350.5547 Q75.68,349.9297 75.9769,349.3828 Q76.2816,348.8359 76.805,348.5469 Q77.3363,348.25 77.93,348.25 Q78.2894,348.25 78.6019,348.375 Q78.9144,348.5 79.18,348.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="18" x="88.43" y="353.3643">Client</text><line style="stroke:#181818;stroke-width:0.25;" x1="43.555" x2="135.055" y1="358.5" y2="358.5"/><line style="stroke:#181818;stroke-width:0.25;" x1="43.555" x2="135.055" y1="362.5" y2="362.5"/><ellipse cx="48.555" cy="368" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="25" x="53.055" y="371.7666">create()</text><ellipse cx="48.555" cy="376.8047" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="79.5" x="53.055" y="380.5713">getUnansweredSurveys()</text></g><!--MD5=[0f1131a8e6f348498103841d1c42d754]
+class AnswerMain--><g id="elem_AnswerMain"><rect codeLine="65" fill="#F1F1F1" height="41.6094" id="AnswerMain" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="96.5" x="359.555" y="181.75"/><ellipse cx="386.68" cy="189.75" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M387.68,188 Q387.7816,187.75 387.8988,187.625 Q388.0159,187.5 388.1488,187.5 Q388.3831,187.5 388.5316,187.6406 Q388.68,187.7813 388.68,188.1094 L388.68,188.8906 Q388.68,189.2188 388.5394,189.3594 Q388.3988,189.5 388.18,189.5 Q387.9847,189.5 387.8597,189.4141 Q387.7347,189.3281 387.68,189.1016 Q387.6566,188.9453 387.5706,188.8594 Q387.4144,188.6953 387.1331,188.6016 Q386.8519,188.5 386.5706,188.5 Q386.2191,188.5 385.9222,188.6406 Q385.6331,188.7813 385.4066,189.0938 Q385.18,189.4063 385.18,189.8359 L385.18,190.2969 Q385.18,190.8125 385.6019,191.1563 Q386.0238,191.5 386.7738,191.5 Q387.2191,191.5 387.5316,191.3984 Q387.7113,191.3438 387.9144,191.1641 Q388.0472,191.0625 388.1175,191.0313 Q388.1878,191 388.2738,191 Q388.4378,191 388.555,191.1328 Q388.68,191.2578 388.68,191.4375 Q388.68,191.6094 388.5081,191.8125 Q388.2581,192.1094 387.8597,192.2734 Q387.3363,192.5 386.6956,192.5 Q385.9456,192.5 385.3441,192.2031 Q384.8597,191.9688 384.5159,191.4609 Q384.18,190.9531 384.18,190.3516 L384.18,189.8047 Q384.18,189.1797 384.4769,188.6328 Q384.7816,188.0859 385.305,187.7969 Q385.8363,187.5 386.43,187.5 Q386.7894,187.5 387.1019,187.625 Q387.4144,187.75 387.68,188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="38" x="396.93" y="192.6143">AnswerMain</text><line style="stroke:#181818;stroke-width:0.25;" x1="360.055" x2="455.555" y1="197.75" y2="197.75"/><line style="stroke:#181818;stroke-width:0.25;" x1="360.055" x2="455.555" y1="201.75" y2="201.75"/><ellipse cx="365.055" cy="207.25" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="25" x="369.555" y="211.0166">create()</text><ellipse cx="365.055" cy="216.0547" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="83.5" x="369.555" y="219.8213">parseWithVisitor(fileName)</text></g><!--MD5=[5a3b85c54cc1c79904e0b827443986bf]
+class Questionnaire--><g id="elem_Questionnaire"><rect codeLine="77" fill="#F1F1F1" height="32.8047" id="Questionnaire" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="60.5" x="319.055" y="346.75"/><ellipse cx="326.555" cy="354.75" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M327.555,353 Q327.6566,352.75 327.7738,352.625 Q327.8909,352.5 328.0238,352.5 Q328.2581,352.5 328.4066,352.6406 Q328.555,352.7813 328.555,353.1094 L328.555,353.8906 Q328.555,354.2188 328.4144,354.3594 Q328.2738,354.5 328.055,354.5 Q327.8597,354.5 327.7347,354.4141 Q327.6097,354.3281 327.555,354.1016 Q327.5316,353.9453 327.4456,353.8594 Q327.2894,353.6953 327.0081,353.6016 Q326.7269,353.5 326.4456,353.5 Q326.0941,353.5 325.7972,353.6406 Q325.5081,353.7813 325.2816,354.0938 Q325.055,354.4063 325.055,354.8359 L325.055,355.2969 Q325.055,355.8125 325.4769,356.1563 Q325.8988,356.5 326.6488,356.5 Q327.0941,356.5 327.4066,356.3984 Q327.5863,356.3438 327.7894,356.1641 Q327.9222,356.0625 327.9925,356.0313 Q328.0628,356 328.1488,356 Q328.3128,356 328.43,356.1328 Q328.555,356.2578 328.555,356.4375 Q328.555,356.6094 328.3831,356.8125 Q328.1331,357.1094 327.7347,357.2734 Q327.2113,357.5 326.5706,357.5 Q325.8206,357.5 325.2191,357.2031 Q324.7347,356.9688 324.3909,356.4609 Q324.055,355.9531 324.055,355.3516 L324.055,354.8047 Q324.055,354.1797 324.3519,353.6328 Q324.6566,353.0859 325.18,352.7969 Q325.7113,352.5 326.305,352.5 Q326.6644,352.5 326.9769,352.625 Q327.2894,352.75 327.555,353 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="44.5" x="333.555" y="357.6143">Questionnaire</text><line style="stroke:#181818;stroke-width:0.25;" x1="319.555" x2="379.055" y1="362.75" y2="362.75"/><line style="stroke:#181818;stroke-width:0.25;" x1="319.555" x2="379.055" y1="366.75" y2="366.75"/><ellipse cx="324.555" cy="372.25" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="26" x="329.055" y="376.0166">toDTO()</text></g><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><g id="elem_PersistenceContext"><rect codeLine="12" fill="#F1F1F1" height="32.8047" id="PersistenceContext" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="77" x="153.305" y="346.75"/><ellipse cx="160.805" cy="354.75" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M161.805,353 Q161.9066,352.75 162.0238,352.625 Q162.1409,352.5 162.2738,352.5 Q162.5081,352.5 162.6566,352.6406 Q162.805,352.7813 162.805,353.1094 L162.805,353.8906 Q162.805,354.2188 162.6644,354.3594 Q162.5238,354.5 162.305,354.5 Q162.1097,354.5 161.9847,354.4141 Q161.8597,354.3281 161.805,354.1016 Q161.7816,353.9453 161.6956,353.8594 Q161.5394,353.6953 161.2581,353.6016 Q160.9769,353.5 160.6956,353.5 Q160.3441,353.5 160.0472,353.6406 Q159.7581,353.7813 159.5316,354.0938 Q159.305,354.4063 159.305,354.8359 L159.305,355.2969 Q159.305,355.8125 159.7269,356.1563 Q160.1488,356.5 160.8988,356.5 Q161.3441,356.5 161.6566,356.3984 Q161.8363,356.3438 162.0394,356.1641 Q162.1722,356.0625 162.2425,356.0313 Q162.3128,356 162.3988,356 Q162.5628,356 162.68,356.1328 Q162.805,356.2578 162.805,356.4375 Q162.805,356.6094 162.6331,356.8125 Q162.3831,357.1094 161.9847,357.2734 Q161.4613,357.5 160.8206,357.5 Q160.0706,357.5 159.4691,357.2031 Q158.9847,356.9688 158.6409,356.4609 Q158.305,355.9531 158.305,355.3516 L158.305,354.8047 Q158.305,354.1797 158.6019,353.6328 Q158.9066,353.0859 159.43,352.7969 Q159.9613,352.5 160.555,352.5 Q160.9144,352.5 161.2269,352.625 Q161.5394,352.75 161.805,353 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="61" x="167.805" y="357.6143">PersistenceContext</text><line style="stroke:#181818;stroke-width:0.25;" x1="153.805" x2="229.805" y1="362.75" y2="362.75"/><line style="stroke:#181818;stroke-width:0.25;" x1="153.805" x2="229.805" y1="366.75" y2="366.75"/><ellipse cx="158.805" cy="372.25" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="42" x="163.305" y="376.0166">repositories()</text></g><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><g id="elem_RepositoryFactory"><rect codeLine="16" fill="#F1F1F1" height="41.6094" id="RepositoryFactory" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="74" x="155.305" y="414"/><ellipse cx="162.805" cy="422" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M163.805,420.25 Q163.9066,420 164.0238,419.875 Q164.1409,419.75 164.2738,419.75 Q164.5081,419.75 164.6566,419.8906 Q164.805,420.0313 164.805,420.3594 L164.805,421.1406 Q164.805,421.4688 164.6644,421.6094 Q164.5238,421.75 164.305,421.75 Q164.1097,421.75 163.9847,421.6641 Q163.8597,421.5781 163.805,421.3516 Q163.7816,421.1953 163.6956,421.1094 Q163.5394,420.9453 163.2581,420.8516 Q162.9769,420.75 162.6956,420.75 Q162.3441,420.75 162.0472,420.8906 Q161.7581,421.0313 161.5316,421.3438 Q161.305,421.6563 161.305,422.0859 L161.305,422.5469 Q161.305,423.0625 161.7269,423.4063 Q162.1488,423.75 162.8988,423.75 Q163.3441,423.75 163.6566,423.6484 Q163.8363,423.5938 164.0394,423.4141 Q164.1722,423.3125 164.2425,423.2813 Q164.3128,423.25 164.3988,423.25 Q164.5628,423.25 164.68,423.3828 Q164.805,423.5078 164.805,423.6875 Q164.805,423.8594 164.6331,424.0625 Q164.3831,424.3594 163.9847,424.5234 Q163.4613,424.75 162.8206,424.75 Q162.0706,424.75 161.4691,424.4531 Q160.9847,424.2188 160.6409,423.7109 Q160.305,423.2031 160.305,422.6016 L160.305,422.0547 Q160.305,421.4297 160.6019,420.8828 Q160.9066,420.3359 161.43,420.0469 Q161.9613,419.75 162.555,419.75 Q162.9144,419.75 163.2269,419.875 Q163.5394,420 163.805,420.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="58" x="169.805" y="424.8643">RepositoryFactory</text><line style="stroke:#181818;stroke-width:0.25;" x1="155.805" x2="228.805" y1="430" y2="430"/><line style="stroke:#181818;stroke-width:0.25;" x1="155.805" x2="228.805" y1="434" y2="434"/><ellipse cx="160.805" cy="439.5" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="25" x="165.305" y="443.2666">create()</text><ellipse cx="160.805" cy="448.3047" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="31" x="165.305" y="452.0713">answers()</text></g><!--MD5=[f9fadfa5a66b7e5a67b370cd443ffe52]
+class Answer--><g id="elem_Answer"><rect codeLine="70" fill="#F1F1F1" height="59.2188" id="Answer" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="107" x="473.805" y="173"/><ellipse cx="513.68" cy="181" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M514.68,179.25 Q514.7816,179 514.8988,178.875 Q515.0159,178.75 515.1488,178.75 Q515.3831,178.75 515.5316,178.8906 Q515.68,179.0313 515.68,179.3594 L515.68,180.1406 Q515.68,180.4688 515.5394,180.6094 Q515.3988,180.75 515.18,180.75 Q514.9847,180.75 514.8597,180.6641 Q514.7347,180.5781 514.68,180.3516 Q514.6566,180.1953 514.5706,180.1094 Q514.4144,179.9453 514.1331,179.8516 Q513.8519,179.75 513.5706,179.75 Q513.2191,179.75 512.9222,179.8906 Q512.6331,180.0313 512.4066,180.3438 Q512.18,180.6563 512.18,181.0859 L512.18,181.5469 Q512.18,182.0625 512.6019,182.4063 Q513.0238,182.75 513.7738,182.75 Q514.2191,182.75 514.5316,182.6484 Q514.7113,182.5938 514.9144,182.4141 Q515.0472,182.3125 515.1175,182.2813 Q515.1878,182.25 515.2738,182.25 Q515.4378,182.25 515.555,182.3828 Q515.68,182.5078 515.68,182.6875 Q515.68,182.8594 515.5081,183.0625 Q515.2581,183.3594 514.8597,183.5234 Q514.3363,183.75 513.6956,183.75 Q512.9456,183.75 512.3441,183.4531 Q511.8597,183.2188 511.5159,182.7109 Q511.18,182.2031 511.18,181.6016 L511.18,181.0547 Q511.18,180.4297 511.4769,179.8828 Q511.7816,179.3359 512.305,179.0469 Q512.8363,178.75 513.43,178.75 Q513.7894,178.75 514.1019,178.875 Q514.4144,179 514.68,179.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="23" x="523.93" y="183.8643">Answer</text><line style="stroke:#181818;stroke-width:0.25;" x1="474.305" x2="580.305" y1="189" y2="189"/><line style="stroke:#181818;stroke-width:0.25;" x1="474.305" x2="580.305" y1="193" y2="193"/><ellipse cx="479.305" cy="198.5" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="94" x="483.805" y="202.2666">modifyClientEmail(clientEmail)</text><ellipse cx="479.305" cy="207.3047" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="79.5" x="483.805" y="211.0713">modifyIdSurvey(surveyId)</text><ellipse cx="479.305" cy="216.1094" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="83.5" x="483.805" y="219.876">modifyIdSection(idSection)</text><ellipse cx="479.305" cy="224.9141" fill="#84BE84" rx="1.5" ry="1.5" style="stroke:#038048;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="93.5" x="483.805" y="228.6807">modifyIdQuestion(idQuestion)</text></g><!--MD5=[d8548ff04a31c3afcb44fb3dedf69ca8]
+link ResponderQuestionarioUI to ResponderQuestionarioController--><g id="link_ResponderQuestionarioUI_ResponderQuestionarioController"><path codeLine="82" d="M370.305,27.645 C370.305,34.895 370.305,44.735 370.305,54.815 " fill="none" id="ResponderQuestionarioUI-to-ResponderQuestionarioController" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="370.305,57.38,372.305,52.88,370.305,54.88,368.305,52.88,370.305,57.38" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[355bf75622a8d374487f7853099e19f4]
+link ResponderQuestionarioController to ResponderQuestionarioService--><g id="link_ResponderQuestionarioController_ResponderQuestionarioService"><path codeLine="84" d="M306.515,143.1 C289.87,154.155 272.405,165.75 257.42,175.7 " fill="none" id="ResponderQuestionarioController-to-ResponderQuestionarioService" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="255.225,177.155,260.0786,176.3229,257.3051,175.7682,257.8598,172.9947,255.225,177.155" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[e59e55b5c9f2bbf8cb6f406afa8b6d39]
+link ResponderQuestionarioController to ListQuestionnaireDTOService--><g id="link_ResponderQuestionarioController_ListQuestionnaireDTOService"><path codeLine="85" d="M357.395,143.04 C354.835,152.8 352.435,163.195 350.805,173 C345.62,204.205 343.985,240.79 343.49,263.87 " fill="none" id="ResponderQuestionarioController-to-ListQuestionnaireDTOService" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="343.435,266.475,345.5248,262.016,343.4851,263.9755,341.5256,261.9358,343.435,266.475" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[96060e596ce69dab36da21fb16407125]
+link ResponderQuestionarioController to AnswerMain--><g id="link_ResponderQuestionarioController_AnswerMain"><path codeLine="86" d="M385.99,143.1 C390.58,155.495 395.425,168.57 399.375,179.24 " fill="none" id="ResponderQuestionarioController-to-AnswerMain" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="400.26,181.62,400.5789,176.7059,399.3947,179.2745,396.8261,178.0903,400.26,181.62" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[94d027b4aa69637dc00a071c940360d7]
+link ResponderQuestionarioController to Answer--><g id="link_ResponderQuestionarioController_Answer"><path codeLine="87" d="M435.98,143.1 C450.735,152.62 466.11,162.535 479.95,171.46 " fill="none" id="ResponderQuestionarioController-to-Answer" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="482.155,172.88,479.4611,168.7577,480.0553,171.5231,477.29,172.1173,482.155,172.88" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[cda66738f92f56fc4a5bdcf5933f9a62]
+link ResponderQuestionarioService to TcpOrderSrv--><g id="link_ResponderQuestionarioService_TcpOrderSrv"><path codeLine="89" d="M211.86,227.9 C209.49,237.815 206.76,249.255 204.34,259.395 " fill="none" id="ResponderQuestionarioService-to-TcpOrderSrv" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="203.73,261.945,206.7184,258.031,204.3094,259.5131,202.8273,257.104,203.73,261.945" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[35d3100f15c768389552b164c5801d02]
+link ListQuestionnaireDTOService to Questionnaire--><g id="link_ListQuestionnaireDTOService_Questionnaire"><path codeLine="91" d="M344.93,308.045 C345.83,319.29 346.94,333.17 347.815,344.135 " fill="none" id="ListQuestionnaireDTOService-to-Questionnaire" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="348.025,346.715,349.6587,342.0695,347.8251,344.223,345.6715,342.3894,348.025,346.715" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[754b775031405e096442b27febffa290]
+link PersistenceContext to RepositoryFactory--><g id="link_PersistenceContext_RepositoryFactory"><path codeLine="94" d="M191.92,379.925 C191.985,389.255 192.07,401.14 192.145,411.41 " fill="none" id="PersistenceContext-to-RepositoryFactory" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="192.16,413.985,194.1343,409.4736,192.1457,411.485,190.1343,409.4965,192.16,413.985" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[7e98ba641e2771e3efc9b333390cc0aa]
+link RepositoryFactory to ClientRepository--><g id="link_RepositoryFactory_ClientRepository"><path codeLine="96" d="M155.22,452.465 C133.37,462.605 106.235,475.2 86.49,484.365 " fill="none" id="RepositoryFactory-to-ClientRepository" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="84.12,485.465,89.0437,485.3795,86.3865,484.4101,87.3559,481.753,84.12,485.465" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[a081d1a26d5604e7c1db8e565489dcad]
+link RepositoryFactory to AnswerRepository--><g id="link_RepositoryFactory_AnswerRepository"><path codeLine="97" d="M224.005,455.56 C238.67,464.95 255.635,475.82 268.455,484.035 " fill="none" id="RepositoryFactory-to-AnswerRepository" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="270.635,485.43,267.9249,481.3184,268.53,484.0814,265.767,484.6865,270.635,485.43" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[b2261c22df95718c10e32de77a70473c]
+link RepositoryFactory to SurveyRepository--><g id="link_RepositoryFactory_SurveyRepository"><path codeLine="98" d="M193.625,455.56 C194.205,464.485 194.875,474.745 195.4,482.79 " fill="none" id="RepositoryFactory-to-SurveyRepository" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="195.57,485.43,197.2698,480.8082,195.4056,482.9354,193.2784,481.0713,195.57,485.43" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[9fc08ca98ce18fbfa324afdc41f1f34a]
+link TcpOrderSrv to SurveyRepository--><g id="link_TcpOrderSrv_SurveyRepository"><path codeLine="100" d="M221.615,312.5 C228.54,321.28 235.205,331.685 238.805,342.5 C243.145,355.53 243.69,441.63 237.805,455.5 C233.01,466.805 223.495,476.625 214.78,483.85 " fill="none" id="TcpOrderSrv-to-SurveyRepository" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="212.82,485.445,217.5714,484.151,214.7574,483.865,215.0434,481.0511,212.82,485.445" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[71e1560c0428c3f9bffe2c6dc1e08479]
+link TcpOrderSrv to ClientRepository--><g id="link_TcpOrderSrv_ClientRepository"><path codeLine="101" d="M124.695,293.29 C91.445,299.9 54.985,313.77 34.305,342.5 C3,386 35.155,454.16 51.5,483.06 " fill="none" id="TcpOrderSrv-to-ClientRepository" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="52.84,485.405,52.3404,480.506,51.5981,483.2353,48.8688,482.493,52.84,485.405" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[ad16a4186c1efdd93c83f55237b1d101]
+link TcpOrderSrv to AnswerRepository--><g id="link_TcpOrderSrv_AnswerRepository"><path codeLine="102" d="M229.37,312.5 C238.48,321.1 247.62,331.395 253.805,342.5 C279.88,389.29 286.25,454.41 287.805,482.7 " fill="none" id="TcpOrderSrv-to-AnswerRepository" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="287.94,485.32,289.7062,480.7232,287.8116,482.8233,285.7115,480.9287,287.94,485.32" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[23d6416d2396c98b1f4f055c763c4ed7]
+link TcpOrderSrv to Client--><g id="link_TcpOrderSrv_Client"><path codeLine="103" d="M161.98,312.515 C148.735,321.67 133.825,331.975 120.975,340.86 " fill="none" id="TcpOrderSrv-to-Client" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="118.765,342.385,123.6041,341.4723,120.8218,340.9638,121.3302,338.1815,118.765,342.385" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[affc374d826f29e8bcf174aad39df96b]
+link TcpOrderSrv to ListQuestionnaireDTOService--><g id="link_TcpOrderSrv_ListQuestionnaireDTOService"><path codeLine="104" d="M270.84,287.25 C275.78,287.25 280.725,287.25 285.665,287.25 " fill="none" id="TcpOrderSrv-to-ListQuestionnaireDTOService" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="288.25,287.25,283.75,285.25,285.75,287.25,283.75,289.25,288.25,287.25" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[b2762c66afa416a41250d4f4f03e5f20]
+link TcpOrderSrv to PersistenceContext--><g id="link_TcpOrderSrv_PersistenceContext"><path codeLine="105" d="M195.825,312.515 C195,322.81 194.06,334.56 193.295,344.105 " fill="none" id="TcpOrderSrv-to-PersistenceContext" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="193.085,346.74,195.4385,342.4144,193.2849,344.248,191.4513,342.0945,193.085,346.74" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[c64212253f8e227a1c103a8b2e3a871e]
+@startuml
+'https://plantuml.com/class-diagram
+
+class ResponderQuestionarioUI
+class ResponderQuestionarioController
+class ResponderQuestionarioService
+class ListQuestionnaireDTOService
+class TcpOrderSrv
+class Client
+class AnswerMain
+class Questionnaire
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++answers()
+}
+
+class Client{
++create()
++getUnansweredSurveys()
+}
+
+
+class ResponderQuestionarioController {
+-service
+-fileName
+-answer
+- -
++getUnansweredCustomerSurveys(clientEmail)
++getSurvey(id)
++writeFile(surveyId,answer)
++validateAnswer(clientEmail,surveyId,sectionId,questionId)
+}
+
+class ResponderQuestionarioService {
++getUnansweredCustomerSurveys(clientEmail)
++getSurvey(surveyId)
++saveAnswer(answer)
+}
+
+database ClientRepository{
+}
+
+database SurveyRepository {
+}
+
+database AnswerRepository {
+}
+
+
+class TcpOrderSrv{
++unansweredCustomerSurveys(clientEmail)
++getSurvey(id)
++saveAnswer(answer)
+}
+
+class ListQuestionnaireDTOService{
++getUnansweredSurveys(client)
++getSurvey(surveyId)
+}
+
+class AnswerMain{
++create()
++parseWithVisitor(fileName)
+}
+
+class Answer{
++modifyClientEmail(clientEmail)
++modifyIdSurvey(surveyId)
++modifyIdSection(idSection)
++modifyIdQuestion(idQuestion)
+}
+
+class Questionnaire{
++toDTO()
+}
+
+
+ResponderQuestionarioUI - -> ResponderQuestionarioController
+
+ResponderQuestionarioController - -> ResponderQuestionarioService
+ResponderQuestionarioController - -> ListQuestionnaireDTOService
+ResponderQuestionarioController - -> AnswerMain
+ResponderQuestionarioController - -> Answer
+
+ResponderQuestionarioService - -> TcpOrderSrv
+
+ListQuestionnaireDTOService - -> Questionnaire
+
+
+PersistenceContext - -> RepositoryFactory
+
+RepositoryFactory - ->ClientRepository
+RepositoryFactory - ->AnswerRepository
+RepositoryFactory - ->SurveyRepository
+
+TcpOrderSrv - -> SurveyRepository
+TcpOrderSrv - -> ClientRepository
+TcpOrderSrv - -> AnswerRepository
+TcpOrderSrv - -> Client
+TcpOrderSrv -> ListQuestionnaireDTOService
+TcpOrderSrv - ->PersistenceContext
+
+
+@enduml
+
+@startuml
+
+class ResponderQuestionarioUI
+class ResponderQuestionarioController
+class ResponderQuestionarioService
+class ListQuestionnaireDTOService
+class TcpOrderSrv
+class Client
+class AnswerMain
+class Questionnaire
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++answers()
+}
+
+class Client{
++create()
++getUnansweredSurveys()
+}
+
+
+class ResponderQuestionarioController {
+-service
+-fileName
+-answer
+- -
++getUnansweredCustomerSurveys(clientEmail)
++getSurvey(id)
++writeFile(surveyId,answer)
++validateAnswer(clientEmail,surveyId,sectionId,questionId)
+}
+
+class ResponderQuestionarioService {
++getUnansweredCustomerSurveys(clientEmail)
++getSurvey(surveyId)
++saveAnswer(answer)
+}
+
+database ClientRepository{
+}
+
+database SurveyRepository {
+}
+
+database AnswerRepository {
+}
+
+
+class TcpOrderSrv{
++unansweredCustomerSurveys(clientEmail)
++getSurvey(id)
++saveAnswer(answer)
+}
+
+class ListQuestionnaireDTOService{
++getUnansweredSurveys(client)
++getSurvey(surveyId)
+}
+
+class AnswerMain{
++create()
++parseWithVisitor(fileName)
+}
+
+class Answer{
++modifyClientEmail(clientEmail)
++modifyIdSurvey(surveyId)
++modifyIdSection(idSection)
++modifyIdQuestion(idQuestion)
+}
+
+class Questionnaire{
++toDTO()
+}
+
+
+ResponderQuestionarioUI - -> ResponderQuestionarioController
+
+ResponderQuestionarioController - -> ResponderQuestionarioService
+ResponderQuestionarioController - -> ListQuestionnaireDTOService
+ResponderQuestionarioController - -> AnswerMain
+ResponderQuestionarioController - -> Answer
+
+ResponderQuestionarioService - -> TcpOrderSrv
+
+ListQuestionnaireDTOService - -> Questionnaire
+
+
+PersistenceContext - -> RepositoryFactory
+
+RepositoryFactory - ->ClientRepository
+RepositoryFactory - ->AnswerRepository
+RepositoryFactory - ->SurveyRepository
+
+TcpOrderSrv - -> SurveyRepository
+TcpOrderSrv - -> ClientRepository
+TcpOrderSrv - -> AnswerRepository
+TcpOrderSrv - -> Client
+TcpOrderSrv -> ListQuestionnaireDTOService
+TcpOrderSrv - ->PersistenceContext
+
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

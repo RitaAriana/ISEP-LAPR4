@@ -1,0 +1,65 @@
+@startuml
+'http://plantuml.com/skinparam.html
+
+actor Balconista as B
+participant CriarCategoriaUi as UI <<presentation>>
+participant CriarCategoriaController as Controller <<application>>
+participant CategoriaFactory as FactoryCategoria <<factory>>
+participant "categoriar:Categoria" as Domain <<domain>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database CategoriaRepository as Repository <<repository>>
+
+B --> UI: Inicia a processo de criação de uma categoria
+activate UI
+    UI -> Controller: create()
+    UI --> B: Pergunta as informações relativas a uma categoria
+    B --> UI: CódigoAlfanumérico, Descrição, SuperCategoria
+
+
+    UI -> Controller: addCategoria(CódigoAlfanumérico, Descrição, SuperCategoria)
+    activate Controller
+        note right of FactoryCategoria:CategoriaFactory é usado para criar uma entidade do tipo Category num estado válido
+        Controller -> FactoryCategoria: create
+        activate FactoryCategoria
+            Controller -> FactoryCategoria:setCodigoAlfanumerico(codigoAlfanumerico)
+            Controller -> FactoryCategoria:setDescricao(descricao)
+            Controller -> FactoryCategoria:setSuperCategoria(superCategoria)
+
+            Controller -> FactoryCategoria:createCategoria()
+
+            FactoryCategoria -> Domain: create (codigoAlfanumerico, descricao, superCategoria)
+            activate Domain
+            Domain->FactoryCategoria: categoria
+            deactivate Domain
+            FactoryCategoria -> Controller: categoria
+
+        deactivate FactoryCategoria
+
+        Controller -> Persistence: repositories()
+        activate Persistence
+            note right of Persistence: pode criar repositório em memória ou JPA
+            Persistence -> Factory: create
+            activate Factory
+            Persistence -> Controller: factory
+            deactivate Factory
+
+        deactivate Persistence
+
+        Controller -> Factory: categorias()
+        activate Factory
+            Factory -> Repository: create
+            activate Repository
+            deactivate Repository
+            Factory -> Controller: CategoriaRepositorio
+        deactivate Factory
+
+        Controller->Repository:save(categoria)
+        activate Repository
+        deactivate Repository
+        Controller->UI: categoria
+    deactivate Controller
+
+        UI-->B: mostra a informação relativa a categoria criada
+deactivate UI
+@enduml

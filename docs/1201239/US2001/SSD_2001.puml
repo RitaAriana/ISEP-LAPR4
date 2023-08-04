@@ -1,0 +1,19 @@
+@startuml
+
+autonumber
+actor "Warehouse Employee" as WH
+
+
+activate WH
+WH -> ":System" : Inicia o processo de importação de dados de um ficheiro .json
+activate ":System"
+":System" --> WH : Questiona o nome do ficheiro que pretende importar
+deactivate ":System"
+WH -> ":System" : Insere o nome do ficheiro que deseja importar
+activate ":System"
+
+":System" --> WH : Informa o utilizador acerca do sucesso da operação
+deactivate ":System"
+deactivate WH
+
+@enduml

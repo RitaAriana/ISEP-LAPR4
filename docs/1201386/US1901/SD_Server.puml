@@ -1,0 +1,36 @@
+@startuml
+autonumber
+hide footbox
+
+participant "<<server>>\nTcpOrderServer" as SRV
+participant "<<thread>>\nTcpSrvOrderThread" as RQ
+participant "<<domain>>\nServerSocket" as SS
+participant "<<domain>>\ncliSock:\nSocket" as S
+
+[o-> SRV :
+
+activate SRV
+
+SRV -> SS** : create(port)
+
+loop every time the server receives a request
+
+SRV -> SS : cliSock = accept()
+activate SS
+deactivate SS
+
+SRV -> RQ** : create(cliSock)
+
+SRV -> RQ : start()
+activate RQ
+
+
+
+deactivate RQ
+
+end
+
+deactivate SRV
+
+@enduml
+

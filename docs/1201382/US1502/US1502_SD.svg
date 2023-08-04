@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="626px" preserveAspectRatio="none" style="width:1320px;height:626px;background:#FFFFFF;" version="1.1" viewBox="0 0 1320 626" width="1320px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="411.25" style="stroke:#181818;stroke-width:1.0;" width="10" x="21" y="114.9609"/><rect fill="#FFFFFF" height="411.25" style="stroke:#181818;stroke-width:1.0;" width="10" x="252" y="114.9609"/><rect fill="#FFFFFF" height="342.1953" style="stroke:#181818;stroke-width:1.0;" width="10" x="444" y="145.3125"/><rect fill="#FFFFFF" height="296.8438" style="stroke:#181818;stroke-width:1.0;" width="10" x="623.5" y="175.6641"/><rect fill="#FFFFFF" height="266.4922" style="stroke:#181818;stroke-width:1.0;" width="10" x="856.5" y="206.0156"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1043.5" y="442.5078"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1174" y="321.9375"/><rect height="199.2734" style="stroke:#000000;stroke-width:1.5;fill:none;" width="445.5" x="793" y="281.2344"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="82.6094" y2="544.2109"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="256.5" x2="256.5" y1="82.6094" y2="544.2109"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="448.5" x2="448.5" y1="82.6094" y2="544.2109"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="628.5" x2="628.5" y1="82.6094" y2="544.2109"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="861" x2="861" y1="82.6094" y2="544.2109"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1048.5" x2="1048.5" y1="400.0469" y2="544.2109"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1178.5" x2="1178.5" y1="254.125" y2="544.2109"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1276.5" x2="1276.5" y1="82.6094" y2="544.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="79.5332">Client</text><ellipse cx="26" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M26,21.5 L26,48.5 M13,29.5 L39,29.5 M26,48.5 L13,63.5 M26,48.5 L39,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="557.7441">Client</text><ellipse cx="26" cy="569.3203" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M26,577.3203 L26,604.3203 M13,585.3203 L39,585.3203 M26,604.3203 L13,619.3203 M26,604.3203 L39,619.3203 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="193.5" y="32.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="209.5" y="53.9238">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="200.5" y="71.5332">ListOpenOrdersUI</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="193.5" y="543.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="209.5" y="564.7441">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="200.5" y="582.3535">ListOpenOrdersUI</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="177" x="360.5" y="32.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="411" y="53.9238">«aplication»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="367.5" y="71.5332">ListOpenOrdersController</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="177" x="360.5" y="543.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="411" y="564.7441">«aplication»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="367.5" y="582.3535">ListOpenOrdersController</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="547.5" y="32.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="590.5" y="53.9238">«aplication»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="554.5" y="71.5332">ListOpenOrdersService</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="547.5" y="543.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="590.5" y="564.7441">«aplication»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="554.5" y="582.3535">ListOpenOrdersService</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="803" y="32.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="55" x="834" y="53.9238">«server»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="810" y="71.5332">TcpOrderServer</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="803" y="543.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="55" x="834" y="564.7441">«server»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="810" y="582.3535">TcpOrderServer</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="977.5" y="543.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="57" x="1020" y="564.7441">«thread»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="984.5" y="582.3535">TcpSrvOrderThread</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="1129.5" y="543.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1148" y="564.7441">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1136.5" y="582.3535">ServerSocket</text><rect fill="#E2E2F0" height="66.8281" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="1238.5" y="14.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1245.5" y="36.3145">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1248.5" y="53.9238">ncliSock:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="1255" y="71.5332">Socket</text><rect fill="#E2E2F0" height="66.8281" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="1238.5" y="543.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1245.5" y="564.7441">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1248.5" y="582.3535">ncliSock:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="1255" y="599.9629">Socket</text><rect fill="#FFFFFF" height="411.25" style="stroke:#181818;stroke-width:1.0;" width="10" x="21" y="114.9609"/><rect fill="#FFFFFF" height="411.25" style="stroke:#181818;stroke-width:1.0;" width="10" x="252" y="114.9609"/><rect fill="#FFFFFF" height="342.1953" style="stroke:#181818;stroke-width:1.0;" width="10" x="444" y="145.3125"/><rect fill="#FFFFFF" height="296.8438" style="stroke:#181818;stroke-width:1.0;" width="10" x="623.5" y="175.6641"/><rect fill="#FFFFFF" height="266.4922" style="stroke:#181818;stroke-width:1.0;" width="10" x="856.5" y="206.0156"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1043.5" y="442.5078"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1174" y="321.9375"/><polygon fill="#181818" points="240,110.9609,250,114.9609,240,118.9609,244,114.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="31" x2="246" y1="114.9609" y2="114.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="181" x="38" y="110.1045">Request to see his open orders</text><polygon fill="#181818" points="432,141.3125,442,145.3125,432,149.3125,436,145.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="262" x2="438" y1="145.3125" y2="145.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="269" y="140.4561">getOpenOrdersOfTheClient()</text><polygon fill="#181818" points="611.5,171.6641,621.5,175.6641,611.5,179.6641,615.5,175.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="454" x2="617.5" y1="175.6641" y2="175.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="461" y="170.8076">runService()</text><polygon fill="#181818" points="844.5,202.0156,854.5,206.0156,844.5,210.0156,848.5,206.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="633.5" x2="850.5" y1="206.0156" y2="206.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="204" x="640.5" y="201.1592">getOpenOrdersOfTheClient(clientId)</text><polygon fill="#181818" points="1117.5,232.3672,1127.5,236.3672,1117.5,240.3672,1121.5,236.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="633.5" x2="1123.5" y1="236.3672" y2="236.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="640.5" y="231.5107">create(port)</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="1129.5" y="214.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="1148" y="235.5488">«domain»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1136.5" y="253.1582">ServerSocket</text><path d="M793,281.2344 L866,281.2344 L866,289.5859 L856,299.5859 L793,299.5859 L793,281.2344 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="199.2734" style="stroke:#000000;stroke-width:1.5;" width="445.5" x="793" y="281.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="808" y="295.7295">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="235" x="881" y="294.6533">[every time the server receives a request]</text><polygon fill="#181818" points="1162,317.9375,1172,321.9375,1162,325.9375,1166,321.9375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="866.5" x2="1168" y1="321.9375" y2="321.9375"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="873.5" y="317.0811">cliSock = accept()</text><polygon fill="#181818" points="965.5,378.2891,975.5,382.2891,965.5,386.2891,969.5,382.2891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="866.5" x2="971.5" y1="382.2891" y2="382.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="873.5" y="377.4326">create(cliSock)</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="977.5" y="359.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="57" x="1020" y="381.4707">«thread»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="984.5" y="399.0801">TcpSrvOrderThread</text><polygon fill="#181818" points="1031.5,438.5078,1041.5,442.5078,1031.5,446.5078,1035.5,442.5078" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="866.5" x2="1037.5" y1="442.5078" y2="442.5078"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="873.5" y="437.6514">start()</text><polygon fill="#181818" points="37,522.2109,27,526.2109,37,530.2109,33,526.2109" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="31" x2="256" y1="526.2109" y2="526.2109"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="43" y="505.0029">Show the open orders and informs</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="43" y="521.3545">the operation success</text><!--MD5=[d80f99abe40b9902fefd516f73a83d45]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Client" as EMPLOYEE
+participant ListOpenOrdersUI as UI <<presentation>>
+participant ListOpenOrdersController as CT <<aplication>>
+participant ListOpenOrdersService as SV <<aplication>>
+participant TcpOrderServer as SRV <<server>>
+participant TcpSrvOrderThread as RQ <<thread>>
+participant ServerSocket as SS <<domain>>
+participant "ncliSock:\nSocket" as S <<domain>>
+
+EMPLOYEE -> UI : Request to see his open orders
+activate EMPLOYEE
+
+activate UI
+UI -> CT : getOpenOrdersOfTheClient()
+activate CT
+CT -> SV : runService()
+activate SV
+
+
+
+SV -> SRV : getOpenOrdersOfTheClient(clientId)
+
+activate SRV
+
+
+SV -> SS** : create(port)
+
+loop every time the server receives a request
+
+SRV -> SS : cliSock = accept()
+
+activate SS
+deactivate SS
+
+SRV -> RQ** : create(cliSock)
+
+SRV -> RQ : start()
+activate RQ
+deactivate SRV
+
+
+deactivate RQ
+deactivate SV
+end
+deactivate CT
+
+UI - -> EMPLOYEE : Show the open orders and informs\nthe operation success
+deactivate UI
+deactivate EMPLOYEE
+
+
+
+
+
+deactivate SRV
+@enduml
+
+@startuml
+
+actor "Client" as EMPLOYEE
+participant ListOpenOrdersUI as UI <<presentation>>
+participant ListOpenOrdersController as CT <<aplication>>
+participant ListOpenOrdersService as SV <<aplication>>
+participant TcpOrderServer as SRV <<server>>
+participant TcpSrvOrderThread as RQ <<thread>>
+participant ServerSocket as SS <<domain>>
+participant "ncliSock:\nSocket" as S <<domain>>
+
+EMPLOYEE -> UI : Request to see his open orders
+activate EMPLOYEE
+
+activate UI
+UI -> CT : getOpenOrdersOfTheClient()
+activate CT
+CT -> SV : runService()
+activate SV
+
+
+
+SV -> SRV : getOpenOrdersOfTheClient(clientId)
+
+activate SRV
+
+
+SV -> SS** : create(port)
+
+loop every time the server receives a request
+
+SRV -> SS : cliSock = accept()
+
+activate SS
+deactivate SS
+
+SRV -> RQ** : create(cliSock)
+
+SRV -> RQ : start()
+activate RQ
+deactivate SRV
+
+
+deactivate RQ
+deactivate SV
+end
+deactivate CT
+
+UI - -> EMPLOYEE : Show the open orders and informs\nthe operation success
+deactivate UI
+deactivate EMPLOYEE
+
+
+
+
+
+deactivate SRV
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

@@ -1,0 +1,91 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class RegisterClientOrderUI
+class ViewProductCatalogUI
+class RegisterClientOrderController
+class RegisterClientUI
+class ProductOrder
+class OrderItem
+class Product
+class ListProductService
+
+
+class ListProductService {
++findProductById(code)
+}
+
+database OrderRepository{
+}
+
+class PersistenceContext{
++repositories()
+}
+
+
+
+class Client{
++create()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+class RegisterClientOrderController {
++create()
++verifyProductId(productId)
++verifyClientById(clientId)
++registerOrder(addresses, shipment, payment, sourceChannel, interactionDate, additionalCommentText, items)
++registerOrder(addresses, shipment, payment, sourceChannel, interactionDate, items)
++fillOrderItems(items, setItems)
+}
+
+
+database ClientRepository{
+}
+
+database ProductRepository {
+}
+
+
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+RegisterClientOrderUI ---> RegisterClientUI
+RegisterClientOrderUI ---> ViewProductCatalogUI
+RegisterClientOrderUI ---> RegisterClientOrderController
+RegisterClientOrderController --> ProductOrder
+RegisterClientOrderController --> OrderRepository
+
+
+ProductOrder --> "1..*" OrderItem
+OrderItem --> "1" Product
+ProductOrder --> "1" Client
+
+RegisterClientOrderController --> ClientRepository
+
+
+RegisterClientOrderController --> ListProductService
+
+ListProductService --> ProductRepository
+
+RegisterClientOrderController -->PersistenceContext
+RegisterClientOrderController -->TransactionalContext
+
+PersistenceContext -->RepositoryFactory
+RepositoryFactory -->ClientRepository
+RepositoryFactory -->ProductRepository
+RepositoryFactory -->OrderRepository
+
+
+
+@enduml

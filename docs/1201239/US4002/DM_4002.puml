@@ -1,0 +1,44 @@
+@startuml
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> AGV" {
+    entity AGV
+
+    entity AGVTask
+}
+
+entity AGV <<entity>> <<root>> {
+    -state
+}
+
+entity AGV <<entity>> <<root>> {}
+
+class AGVPosition <<(V,#FF8B40) value object>> {
+-agvPosition
+}
+
+class AGVStatus<<(V,#FF8B40) value object>> {
+    -taskState
+}
+
+class AGVId <<(V,#FF8B40) value object>> {
+-id
+}
+
+entity AGVTask <<entity>> {
+    -id
+    -agvTaskDescription
+}
+
+
+AGV --> "1" AGVId : has
+AGV --> "1..*" AGVStatus : collects
+AGV --> "1" AGVPosition : located in
+AGV --> "1" AGVTask : associated
+AGVTask --> "1..*" ProductOrder : composed by
+@enduml

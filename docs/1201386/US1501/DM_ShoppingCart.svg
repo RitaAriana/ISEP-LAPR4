@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1034px" preserveAspectRatio="none" style="width:874px;height:1034px;background:#FFFFFF;" version="1.1" viewBox="0 0 874 1034" width="874px" zoomAndPan="magnify"><defs><filter height="300%" id="f11hh9m4kyth1h" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[20e996825fabf2618e164db4892593a3]
+cluster <<aggregate>> Client--><polygon fill="#FFFFFF" filter="url(#f11hh9m4kyth1h)" points="230,6,385,6,392,29.6094,395,29.6094,395,121,230,121,230,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="230" x2="392" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="234" y="22.5332">&lt;&lt;aggregate&gt;&gt; Client</text><!--MD5=[32c848f3ed90cec4e586f35ccc2b047f]
+cluster <<aggregate>> ShoppingCar--><polygon fill="#FFFFFF" filter="url(#f11hh9m4kyth1h)" points="16,505,221,505,228,528.6094,374,528.6094,374,627,16,627,16,505" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="228" y1="528.6094" y2="528.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="199" x="20" y="521.5332">&lt;&lt;aggregate&gt;&gt; ShoppingCar</text><!--MD5=[cd1e467dd42714edd782c72995bbc617]
+cluster <<aggregate>> Product--><polygon fill="#FFFFFF" filter="url(#f11hh9m4kyth1h)" points="86,677,255,677,262,700.6094,576,700.6094,576,1027,86,1027,86,677" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="86" x2="262" y1="700.6094" y2="700.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="163" x="90" y="693.5332">&lt;&lt;aggregate&gt;&gt; Product</text><!--MD5=[597c9b6a35d8038d4b40fd8870ba90aa]
+cluster <<aggregate>> User--><polygon fill="#FFFFFF" filter="url(#f11hh9m4kyth1h)" points="398,233,545,233,552,256.6094,857,256.6094,857,616,398,616,398,233" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="398" x2="552" y1="256.6094" y2="256.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="141" x="402" y="249.5332">&lt;&lt;aggregate&gt;&gt; User</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="19" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="63.2813" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="71" x="254.5" y="42"/><ellipse cx="269.5" cy="69.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M268,70.6406 L268,72.6406 L272,72.6406 L272,71.6406 L272,71.1563 L272.625,70.6406 L273,70.6406 L273.375,70.6406 L274,71.1563 L274,71.6406 L274,74.6406 L266,74.6406 L265.5156,74.6406 L265,74.0156 L265,73.6406 L265,73.2656 L265.5156,72.6406 L266,72.6406 L266,72.6406 L266,66.6406 L266,66.6406 L265.5156,66.6406 L265,66.0156 L265,65.6406 L265,65.2656 L265.5156,64.6406 L266,64.6406 L274,64.6406 L274,67.6406 L274,68.125 L273.375,68.6406 L273,68.6406 L272.625,68.6406 L272,68.125 L272,67.6406 L272,66.6406 L268,66.6406 L268,68.6406 L269,68.6406 L269,68.1563 L269,68.1563 L269.625,67.6406 L270,67.6406 L270.375,67.6406 L271,68.1563 L271,68.6406 L271,70.6406 L271,71.125 L270.375,71.6406 L270.375,71.6406 L270,71.6406 L269.625,71.6406 L269,71.125 L269,71.125 L269,70.6406 L268,70.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="281.5" y="59.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="285.5" y="74.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="287" y="89.6445">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="255.5" x2="324.5" y1="97.2813" y2="97.2813"/><!--MD5=[456a0650b3ce0b39f10b06fd0428ee80]
+class ShoppingCar--><rect codeLine="27" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="63.2813" id="ShoppingCar" style="stroke:#A80036;stroke-width:1.5;" width="105" x="32.5" y="544.5"/><ellipse cx="47.5" cy="572.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M46,573.1406 L46,575.1406 L50,575.1406 L50,574.1406 L50,573.6563 L50.625,573.1406 L51,573.1406 L51.375,573.1406 L52,573.6563 L52,574.1406 L52,577.1406 L44,577.1406 L43.5156,577.1406 L43,576.5156 L43,576.1406 L43,575.7656 L43.5156,575.1406 L44,575.1406 L44,575.1406 L44,569.1406 L44,569.1406 L43.5156,569.1406 L43,568.5156 L43,568.1406 L43,567.7656 L43.5156,567.1406 L44,567.1406 L52,567.1406 L52,570.1406 L52,570.625 L51.375,571.1406 L51,571.1406 L50.625,571.1406 L50,570.625 L50,570.1406 L50,569.1406 L46,569.1406 L46,571.1406 L47,571.1406 L47,570.6563 L47,570.6563 L47.625,570.1406 L48,570.1406 L48.375,570.1406 L49,570.6563 L49,571.1406 L49,573.1406 L49,573.625 L48.375,574.1406 L48.375,574.1406 L48,574.1406 L47.625,574.1406 L47,573.625 L47,573.625 L47,573.1406 L46,573.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="76.5" y="561.957">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="80.5" y="577.0508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="61.5" y="592.1445">ShoppingCar</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="136.5" y1="599.7813" y2="599.7813"/><!--MD5=[13dd5a658d78c1efef6aab4718227448]
+class ShopCarItem--><rect codeLine="30" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="70.0234" id="ShopCarItem" style="stroke:#A80036;stroke-width:1.5;" width="105" x="252.5" y="541"/><ellipse cx="267.5" cy="561.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M266,562.0938 L266,564.0938 L270,564.0938 L270,563.0938 L270,562.6094 L270.625,562.0938 L271,562.0938 L271.375,562.0938 L272,562.6094 L272,563.0938 L272,566.0938 L264,566.0938 L263.5156,566.0938 L263,565.4688 L263,565.0938 L263,564.7188 L263.5156,564.0938 L264,564.0938 L264,564.0938 L264,558.0938 L264,558.0938 L263.5156,558.0938 L263,557.4688 L263,557.0938 L263,556.7188 L263.5156,556.0938 L264,556.0938 L272,556.0938 L272,559.0938 L272,559.5781 L271.375,560.0938 L271,560.0938 L270.625,560.0938 L270,559.5781 L270,559.0938 L270,558.0938 L266,558.0938 L266,560.0938 L267,560.0938 L267,559.6094 L267,559.6094 L267.625,559.0938 L268,559.0938 L268.375,559.0938 L269,559.6094 L269,560.0938 L269,562.0938 L269,562.5781 L268.375,563.0938 L268.375,563.0938 L268,563.0938 L267.625,563.0938 L267,562.5781 L267,562.5781 L267,562.0938 L266,562.0938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="296.5" y="558.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="281.5" y="573.5508">ShopCarItem</text><line style="stroke:#A80036;stroke-width:1.5;" x1="253.5" x2="356.5" y1="581.1875" y2="581.1875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="258.5" y="596.6064">-productQuantity</text><line style="stroke:#A80036;stroke-width:1.5;" x1="253.5" x2="356.5" y1="603.0234" y2="603.0234"/><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="41" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="63.2813" id="Product" style="stroke:#A80036;stroke-width:1.5;" width="74" x="268" y="713"/><ellipse cx="283" cy="740.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M281.5,741.6406 L281.5,743.6406 L285.5,743.6406 L285.5,742.6406 L285.5,742.1563 L286.125,741.6406 L286.5,741.6406 L286.875,741.6406 L287.5,742.1563 L287.5,742.6406 L287.5,745.6406 L279.5,745.6406 L279.0156,745.6406 L278.5,745.0156 L278.5,744.6406 L278.5,744.2656 L279.0156,743.6406 L279.5,743.6406 L279.5,743.6406 L279.5,737.6406 L279.5,737.6406 L279.0156,737.6406 L278.5,737.0156 L278.5,736.6406 L278.5,736.2656 L279.0156,735.6406 L279.5,735.6406 L287.5,735.6406 L287.5,738.6406 L287.5,739.125 L286.875,739.6406 L286.5,739.6406 L286.125,739.6406 L285.5,739.125 L285.5,738.6406 L285.5,737.6406 L281.5,737.6406 L281.5,739.6406 L282.5,739.6406 L282.5,739.1563 L282.5,739.1563 L283.125,738.6406 L283.5,738.6406 L283.875,738.6406 L284.5,739.1563 L284.5,739.6406 L284.5,741.6406 L284.5,742.125 L283.875,742.6406 L283.875,742.6406 L283.5,742.6406 L283.125,742.6406 L282.5,742.125 L282.5,742.125 L282.5,741.6406 L281.5,741.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="296.5" y="730.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="300.5" y="745.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="297" y="760.6445">Product</text><line style="stroke:#A80036;stroke-width:1.5;" x1="269" x2="341" y1="768.2813" y2="768.2813"/><!--MD5=[bcd52e17685b8c6ef90ac5de173a2d81]
+class UniqueInternalCode--><rect codeLine="52" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="48.1875" id="UniqueInternalCode" style="stroke:#A80036;stroke-width:1.5;" width="143" x="102.5" y="963"/><ellipse cx="117.5" cy="983.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M117.5,986.375 L119.0313,980.8438 L119.0313,980.8438 L118.5156,980.8438 L118,980.2188 L118,979.8438 L118,979.4688 L118.5156,978.8438 L119.0313,978.8438 L120.9063,978.8438 L121.4844,978.8438 L122,979.4688 L122,979.8438 L122,980.2188 L121.4844,980.8438 L121.4844,980.8438 L121.0313,980.8438 L118.6875,988.8438 L116.3125,988.8438 L113.8438,980.8438 L113.5156,980.8438 L113.5156,980.8438 L113,980.2188 L113,979.8438 L113,979.4688 L113.5156,978.8438 L114.0938,978.8438 L115.9688,978.8438 L116.4844,978.8438 L117,979.4688 L117,979.8438 L117,980.2188 L116.4844,980.8438 L115.9688,980.8438 L115.9688,980.8438 L117.5,986.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="146.5" y="980.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="131.5" y="995.5508">UniqueInternalCode</text><line style="stroke:#A80036;stroke-width:1.5;" x1="103.5" x2="244.5" y1="1003.1875" y2="1003.1875"/><!--MD5=[79d3acb8d8b4a000645cdf546551f625]
+class ShortDescription--><rect codeLine="53" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="48.1875" id="ShortDescription" style="stroke:#A80036;stroke-width:1.5;" width="124" x="281" y="963"/><ellipse cx="296" cy="983.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M296,986.375 L297.5313,980.8438 L297.5313,980.8438 L297.0156,980.8438 L296.5,980.2188 L296.5,979.8438 L296.5,979.4688 L297.0156,978.8438 L297.5313,978.8438 L299.4063,978.8438 L299.9844,978.8438 L300.5,979.4688 L300.5,979.8438 L300.5,980.2188 L299.9844,980.8438 L299.9844,980.8438 L299.5313,980.8438 L297.1875,988.8438 L294.8125,988.8438 L292.3438,980.8438 L292.0156,980.8438 L292.0156,980.8438 L291.5,980.2188 L291.5,979.8438 L291.5,979.4688 L292.0156,978.8438 L292.5938,978.8438 L294.4688,978.8438 L294.9844,978.8438 L295.5,979.4688 L295.5,979.8438 L295.5,980.2188 L294.9844,980.8438 L294.4688,980.8438 L294.4688,980.8438 L296,986.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="315.5" y="980.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="310" y="995.5508">ShortDescription</text><line style="stroke:#A80036;stroke-width:1.5;" x1="282" x2="404" y1="1003.1875" y2="1003.1875"/><!--MD5=[1ec76a0a72b04a65c95a0899f0ab5f6d]
+class PriceWithoutVAT--><rect codeLine="54" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="48.1875" id="PriceWithoutVAT" style="stroke:#A80036;stroke-width:1.5;" width="122" x="438" y="854"/><ellipse cx="453" cy="874.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M453,877.375 L454.5313,871.8438 L454.5313,871.8438 L454.0156,871.8438 L453.5,871.2188 L453.5,870.8438 L453.5,870.4688 L454.0156,869.8438 L454.5313,869.8438 L456.4063,869.8438 L456.9844,869.8438 L457.5,870.4688 L457.5,870.8438 L457.5,871.2188 L456.9844,871.8438 L456.9844,871.8438 L456.5313,871.8438 L454.1875,879.8438 L451.8125,879.8438 L449.3438,871.8438 L449.0156,871.8438 L449.0156,871.8438 L448.5,871.2188 L448.5,870.8438 L448.5,870.4688 L449.0156,869.8438 L449.5938,869.8438 L451.4688,869.8438 L451.9844,869.8438 L452.5,870.4688 L452.5,870.8438 L452.5,871.2188 L451.9844,871.8438 L451.4688,871.8438 L451.4688,871.8438 L453,877.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="471.5" y="871.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="467" y="886.5508">PriceWithoutVAT</text><line style="stroke:#A80036;stroke-width:1.5;" x1="439" x2="559" y1="894.1875" y2="894.1875"/><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="57" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="63.2813" id="User" style="stroke:#A80036;stroke-width:1.5;" width="71" x="434.5" y="269"/><ellipse cx="449.5" cy="296.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M448,297.6406 L448,299.6406 L452,299.6406 L452,298.6406 L452,298.1563 L452.625,297.6406 L453,297.6406 L453.375,297.6406 L454,298.1563 L454,298.6406 L454,301.6406 L446,301.6406 L445.5156,301.6406 L445,301.0156 L445,300.6406 L445,300.2656 L445.5156,299.6406 L446,299.6406 L446,299.6406 L446,293.6406 L446,293.6406 L445.5156,293.6406 L445,293.0156 L445,292.6406 L445,292.2656 L445.5156,291.6406 L446,291.6406 L454,291.6406 L454,294.6406 L454,295.125 L453.375,295.6406 L453,295.6406 L452.625,295.6406 L452,295.125 L452,294.6406 L452,293.6406 L448,293.6406 L448,295.6406 L449,295.6406 L449,295.1563 L449,295.1563 L449.625,294.6406 L450,294.6406 L450.375,294.6406 L451,295.1563 L451,295.6406 L451,297.6406 L451,298.125 L450.375,298.6406 L450.375,298.6406 L450,298.6406 L449.625,298.6406 L449,298.125 L449,298.125 L449,297.6406 L448,297.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="461.5" y="286.457">«entity»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="465.5" y="301.5508">«root»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="469.5" y="316.6445">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="435.5" x2="504.5" y1="324.2813" y2="324.2813"/><!--MD5=[2f01b1126ff33a0669651ec2488a5ef9]
+class Password--><rect codeLine="61" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="48.1875" id="Password" style="stroke:#A80036;stroke-width:1.5;" width="109" x="414.5" y="552"/><ellipse cx="429.5" cy="572.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M429.5,575.375 L431.0313,569.8438 L431.0313,569.8438 L430.5156,569.8438 L430,569.2188 L430,568.8438 L430,568.4688 L430.5156,567.8438 L431.0313,567.8438 L432.9063,567.8438 L433.4844,567.8438 L434,568.4688 L434,568.8438 L434,569.2188 L433.4844,569.8438 L433.4844,569.8438 L433.0313,569.8438 L430.6875,577.8438 L428.3125,577.8438 L425.8438,569.8438 L425.5156,569.8438 L425.5156,569.8438 L425,569.2188 L425,568.8438 L425,568.4688 L425.5156,567.8438 L426.0938,567.8438 L427.9688,567.8438 L428.4844,567.8438 L429,568.4688 L429,568.8438 L429,569.2188 L428.4844,569.8438 L427.9688,569.8438 L427.9688,569.8438 L429.5,575.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="441.5" y="569.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="454" y="584.5508">Password</text><line style="stroke:#A80036;stroke-width:1.5;" x1="415.5" x2="522.5" y1="592.1875" y2="592.1875"/><!--MD5=[f694847fc702e0723b49e5500a5c29a4]
+class Username--><rect codeLine="63" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="48.1875" id="Username" style="stroke:#A80036;stroke-width:1.5;" width="109" x="587.5" y="410"/><ellipse cx="602.5" cy="430.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M602.5,433.375 L604.0313,427.8438 L604.0313,427.8438 L603.5156,427.8438 L603,427.2188 L603,426.8438 L603,426.4688 L603.5156,425.8438 L604.0313,425.8438 L605.9063,425.8438 L606.4844,425.8438 L607,426.4688 L607,426.8438 L607,427.2188 L606.4844,427.8438 L606.4844,427.8438 L606.0313,427.8438 L603.6875,435.8438 L601.3125,435.8438 L598.8438,427.8438 L598.5156,427.8438 L598.5156,427.8438 L598,427.2188 L598,426.8438 L598,426.4688 L598.5156,425.8438 L599.0938,425.8438 L600.9688,425.8438 L601.4844,425.8438 L602,426.4688 L602,426.8438 L602,427.2188 L601.4844,427.8438 L600.9688,427.8438 L600.9688,427.8438 L602.5,433.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="614.5" y="427.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="59" x="625.5" y="442.5508">Username</text><line style="stroke:#A80036;stroke-width:1.5;" x1="588.5" x2="695.5" y1="450.1875" y2="450.1875"/><!--MD5=[a3638c1e5b65d287ecad7f06f5c0f212]
+class Role--><rect codeLine="62" fill="#F5F5DC" filter="url(#f11hh9m4kyth1h)" height="48.1875" id="Role" style="stroke:#A80036;stroke-width:1.5;" width="109" x="731.5" y="410"/><ellipse cx="746.5" cy="430.0938" fill="#FF8B40" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M746.5,433.375 L748.0313,427.8438 L748.0313,427.8438 L747.5156,427.8438 L747,427.2188 L747,426.8438 L747,426.4688 L747.5156,425.8438 L748.0313,425.8438 L749.9063,425.8438 L750.4844,425.8438 L751,426.4688 L751,426.8438 L751,427.2188 L750.4844,427.8438 L750.4844,427.8438 L750.0313,427.8438 L747.6875,435.8438 L745.3125,435.8438 L742.8438,427.8438 L742.5156,427.8438 L742.5156,427.8438 L742,427.2188 L742,426.8438 L742,426.4688 L742.5156,425.8438 L743.0938,425.8438 L744.9688,425.8438 L745.4844,425.8438 L746,426.4688 L746,426.8438 L746,427.2188 L745.4844,427.8438 L744.9688,427.8438 L744.9688,427.8438 L746.5,433.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="758.5" y="427.457">«value object»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="786" y="442.5508">Role</text><line style="stroke:#A80036;stroke-width:1.5;" x1="732.5" x2="839.5" y1="450.1875" y2="450.1875"/><!--MD5=[5ab1f46e477a8163e64d30b24bef4255]
+link User to Password--><path codeLine="66" d="M468.92,332.36 C468.22,354.07 467.36,383.81 467,410 C466.34,457.99 467.4,513.84 468.21,546.7 " fill="none" id="User-to-Password" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="468.34,551.77,472.1073,542.6702,468.2115,546.7717,464.11,542.8758,468.34,551.77" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="468" y="439.4951">associated with a</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="460.274" y="541.0272">1</text><!--MD5=[9f2010a726ff0d425086a1b968f0297b]
+link User to Username--><path codeLine="67" d="M505.64,328.75 C535.56,351.62 578.03,384.09 607.59,406.7 " fill="none" id="User-to-Username" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="611.86,409.96,607.1487,401.3111,607.891,406.919,602.2831,407.6614,611.86,409.96" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="572" y="376.4951">characterized by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="596.2398" y="399.2659">1</text><!--MD5=[70c37dc9bfbc8656942103c36f1181e4]
+link User to Role--><path codeLine="68" d="M505.55,308.56 C547.71,317.67 619.51,335.57 677,362 C703.55,374.2 731.1,392.21 751.86,407.03 " fill="none" id="User-to-Role" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="755.92,409.95,750.9637,401.4391,751.8659,407.0236,746.2814,407.9258,755.92,409.95" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="709" y="376.4951">identified by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="740.3151" y="399.2533">1</text><!--MD5=[16f74e5cf05a0822841fd965e5758351]
+link Client to ShoppingCar--><path codeLine="71" d="M254.31,96.03 C229.55,113.97 201,142.02 201,176 C201,176 201,176 201,435 C201,478.65 167.15,516 136.02,541.11 " fill="none" id="Client-to-ShoppingCar" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="131.85,544.42,141.3888,541.9681,135.7696,541.3158,136.422,535.6966,131.85,544.42" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="202" y="305.9951">associated</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="133.7909" y="533.759">1</text><!--MD5=[9a8dc34b38f85b9f3fcdb440f4bffc6a]
+link Client to User--><path codeLine="72" d="M314.65,105.31 C347.95,146.94 407.14,220.93 442.06,264.57 " fill="none" id="Client-to-User" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="445.36,268.7,442.8485,259.1768,442.2313,264.7998,436.6082,264.1827,445.36,268.7" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="379" y="182.4951">is a</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="432.5561" y="257.9936">1</text><!--MD5=[2f7397c50d5445573acc3035a15480c1]
+link ShopCarItem to Product--><path codeLine="73" d="M305,611.1 C305,639.22 305,679 305,707.61 " fill="none" id="ShopCarItem-to-Product" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="305,712.81,309,703.81,305,707.81,301,703.81,305,712.81" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="306" y="657.4951">composed by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="297.2781" y="702.1263">1</text><!--MD5=[5f5e5f69fbdfa98732b4273d5ccddffd]
+link ShoppingCar to ShopCarItem--><path codeLine="74" d="M137.7,576 C170.64,576 213.09,576 246.99,576 " fill="none" id="ShoppingCar-to-ShopCarItem" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="252.35,576,243.35,572,247.35,576,243.35,580,252.35,576" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="156" y="569.4951">composed by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="224.323" y="590.5411">1..*</text><!--MD5=[ff6f7e6c179b97a3a11d359eab0adb49]
+link Product to ShortDescription--><path codeLine="76" d="M307.45,776.24 C310.22,807.91 315.37,858.63 323,902 C326.32,920.87 331.31,941.83 335.47,958.09 " fill="none" id="Product-to-ShortDescription" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="336.74,962.98,338.3503,953.2637,335.4837,958.1404,330.607,955.2738,336.74,962.98" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="324" y="883.4951">characterized by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="327.239" y="952.291">1</text><!--MD5=[d5e50d5e9f373aebb7ed82ef75d5b71c]
+link Product to UniqueInternalCode--><path codeLine="77" d="M270.75,776.15 C250.09,796.38 224.8,824.51 209,854 C191.19,887.25 182,930.15 177.59,957.87 " fill="none" id="Product-to-UniqueInternalCode" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="176.82,962.86,182.1366,954.5694,177.5771,957.9176,174.2288,953.3581,176.82,962.86" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="210" y="883.4951">characterized by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="169.6458" y="952.1403">1</text><!--MD5=[7460415386b109d24f9c7a92799907f2]
+link Product to PriceWithoutVAT--><path codeLine="78" d="M342.41,770.85 C376.34,793.85 426.15,827.62 460.44,850.86 " fill="none" id="Product-to-PriceWithoutVAT" style="stroke:#222222;stroke-width:1.0;"/><polygon fill="#222222" points="464.96,853.93,459.7432,845.5763,460.8174,851.1302,455.2635,852.2044,464.96,853.93" style="stroke:#222222;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="420" y="820.4951">associated</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="448.3404" y="843.2282">1</text><!--MD5=[af80e2a16f397389a6c5ab3df7e950ca]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Client <<entity>> <<root>> {
+
+}
+
+
+entity Client <<entity>> <<root>> {
+
+}
+package "<<aggregate>> ShoppingCar"{
+    entity ShoppingCar
+    entity ShopCarItem
+}
+
+entity ShoppingCar <<entity>> <<root>>{
+
+}
+entity  ShopCarItem <<entity>> {
+    -productQuantity
+
+}
+package "<<aggregate>> Product"{
+     entity Product
+     class UniqueInternalCode
+     class ShortDescription
+     class PriceWithoutVAT
+}
+
+entity Product <<entity>> <<root>> {
+
+}
+
+package "<<aggregate>> User" {
+    entity User
+    class Password
+    class Username
+    class Role
+}
+
+class UniqueInternalCode <<(V,#FF8B40) value object>> {}
+class ShortDescription <<(V,#FF8B40) value object>> {}
+class PriceWithoutVAT <<(V,#FF8B40) value object>> {}
+
+
+entity User <<entity>> <<root>> {
+
+}
+
+class Password <<(V,#FF8B40) value object>> {}
+class Role <<(V,#FF8B40) value object>> {}
+class Username <<(V,#FF8B40) value object>> {}
+
+
+User - - -> "1" Password : associated with a
+User - -> "1" Username : characterized by
+User - -> "1" Role : identified by
+
+
+Client - - - - -> "1" ShoppingCar : associated
+Client - - -> "1" User : is a
+ShopCarItem - -> "1" Product : composed by
+ShoppingCar -> "1..*"  ShopCarItem : composed by
+
+Product - - -> "1" ShortDescription: characterized by
+Product - - -> "1" UniqueInternalCode: characterized by
+Product - -> "1" PriceWithoutVAT: associated
+
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Client <<entity>> <<root>> {
+
+}
+
+
+entity Client <<entity>> <<root>> {
+
+}
+package "<<aggregate>> ShoppingCar"{
+    entity ShoppingCar
+    entity ShopCarItem
+}
+
+entity ShoppingCar <<entity>> <<root>>{
+
+}
+entity  ShopCarItem <<entity>> {
+    -productQuantity
+
+}
+package "<<aggregate>> Product"{
+     entity Product
+     class UniqueInternalCode
+     class ShortDescription
+     class PriceWithoutVAT
+}
+
+entity Product <<entity>> <<root>> {
+
+}
+
+package "<<aggregate>> User" {
+    entity User
+    class Password
+    class Username
+    class Role
+}
+
+class UniqueInternalCode <<(V,#FF8B40) value object>> {}
+class ShortDescription <<(V,#FF8B40) value object>> {}
+class PriceWithoutVAT <<(V,#FF8B40) value object>> {}
+
+
+entity User <<entity>> <<root>> {
+
+}
+
+class Password <<(V,#FF8B40) value object>> {}
+class Role <<(V,#FF8B40) value object>> {}
+class Username <<(V,#FF8B40) value object>> {}
+
+
+User - - -> "1" Password : associated with a
+User - -> "1" Username : characterized by
+User - -> "1" Role : identified by
+
+
+Client - - - - -> "1" ShoppingCar : associated
+Client - - -> "1" User : is a
+ShopCarItem - -> "1" Product : composed by
+ShoppingCar -> "1..*"  ShopCarItem : composed by
+
+Product - - -> "1" ShortDescription: characterized by
+Product - - -> "1" UniqueInternalCode: characterized by
+Product - -> "1" PriceWithoutVAT: associated
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,39 @@
+@startuml
+autonumber
+actor "Sales Manager" as SM
+participant "NewQuestionnaireUI" as SYS
+participant "CreateNewQuestionnaireController" as CTR
+participant "QuestionnaireMain" as MAIN
+
+participant "SurveyLexer" as SL
+participant "CommonTokenStream" as CMS
+participant ":ParseTree" as PT
+participant "SurveyParser" as SP
+participant "SurveyVisitor" as VISITOR
+
+
+activate SM
+SM -> SYS : Request to create a new questionnaire
+activate SYS
+SYS -> CTR : create()
+activate CTR
+deactivate CTR
+SYS --> SM : Requests to enter the file path
+deactivate SYS
+
+SM -> SYS : Types the file path
+activate SYS
+SYS -> CTR : createQuestionnaire(fileName)
+activate CTR
+CTR -> MAIN : parseWithVisitor(file)
+activate MAIN
+MAIN -> VISITOR : eval = visit(tree)
+activate VISITOR
+deactivate VISITOR
+deactivate MAIN
+deactivate CTR
+SYS --> SM : Evaluates the fulfillment of specific criteria \nand shows the success of the operation
+deactivate SYS
+
+deactivate SM
+@enduml

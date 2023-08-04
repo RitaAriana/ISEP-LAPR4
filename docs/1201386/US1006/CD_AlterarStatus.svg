@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="609.6px" preserveAspectRatio="none" style="width:582px;height:609px;background:#FFFFFF;" version="1.1" viewBox="0 0 582 609" width="582.4px" zoomAndPan="magnify"><defs><filter height="300%" id="ftwyy7e7deqe0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.6000000000000003"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.2000000000000006" dy="3.2000000000000006" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[435c65a0bab2a1d04bc88e370aaa4382]
+entity OrderRepository--><path d="M71.6,575.2 C71.6,567.2 121.6,567.2 121.6,567.2 C121.6,567.2 171.6,567.2 171.6,575.2 L171.6,596.4875 C171.6,604.4875 121.6,604.4875 121.6,604.4875 C121.6,604.4875 71.6,604.4875 71.6,596.4875 L71.6,575.2 " fill="#FFFFFF" filter="url(#ftwyy7e7deqe0)" style="stroke:#000000;stroke-width:1.2000000000000002;"/><path d="M71.6,575.2 C71.6,583.2 121.6,583.2 121.6,583.2 C121.6,583.2 171.6,583.2 171.6,575.2 " fill="none" style="stroke:#000000;stroke-width:1.2000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="84" x="79.6" y="598.0266">OrderRepository</text><!--MD5=[038ef65cc5074b00c512c7cc1ee5d9f2]
+class ViewOrdersSentToCustomerUI--><rect codeLine="3" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="38.4" id="ViewOrdersSentToCustomerUI" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="161.6" x="192" y="5.6"/><ellipse cx="204" cy="18.4" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M205.6,15.6 Q205.7625,15.2 205.95,15 Q206.1375,14.8 206.35,14.8 Q206.725,14.8 206.9625,15.025 Q207.2,15.25 207.2,15.775 L207.2,17.025 Q207.2,17.55 206.975,17.775 Q206.75,18 206.4,18 Q206.0875,18 205.8875,17.8625 Q205.6875,17.725 205.6,17.3625 Q205.5625,17.1125 205.425,16.975 Q205.175,16.7125 204.725,16.5625 Q204.275,16.4 203.825,16.4 Q203.2625,16.4 202.7875,16.625 Q202.325,16.85 201.9625,17.35 Q201.6,17.85 201.6,18.5375 L201.6,19.275 Q201.6,20.1 202.275,20.65 Q202.95,21.2 204.15,21.2 Q204.8625,21.2 205.3625,21.0375 Q205.65,20.95 205.975,20.6625 Q206.1875,20.5 206.3,20.45 Q206.4125,20.4 206.55,20.4 Q206.8125,20.4 207,20.6125 Q207.2,20.8125 207.2,21.1 Q207.2,21.375 206.925,21.7 Q206.525,22.175 205.8875,22.4375 Q205.05,22.8 204.025,22.8 Q202.825,22.8 201.8625,22.325 Q201.0875,21.95 200.5375,21.1375 Q200,20.325 200,19.3625 L200,18.4875 Q200,17.4875 200.475,16.6125 Q200.9625,15.7375 201.8,15.275 Q202.65,14.8 203.6,14.8 Q204.175,14.8 204.675,15 Q205.175,15.2 205.6,15.6 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="136" x="215.2" y="22.3281">ViewOrdersSentToCustomerUI</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="192.8" x2="352.8" y1="31.2" y2="31.2"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="192.8" x2="352.8" y1="37.6" y2="37.6"/><!--MD5=[3fb0d0ea07781a4206676e9e716efdc0]
+class ViewOrdersSentToCustomerController--><rect codeLine="6" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="71.6063" id="ViewOrdersSentToCustomerController" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="195.2" x="175.2" y="92.8"/><ellipse cx="187.2" cy="105.6" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M188.8,102.8 Q188.9625,102.4 189.15,102.2 Q189.3375,102 189.55,102 Q189.925,102 190.1625,102.225 Q190.4,102.45 190.4,102.975 L190.4,104.225 Q190.4,104.75 190.175,104.975 Q189.95,105.2 189.6,105.2 Q189.2875,105.2 189.0875,105.0625 Q188.8875,104.925 188.8,104.5625 Q188.7625,104.3125 188.625,104.175 Q188.375,103.9125 187.925,103.7625 Q187.475,103.6 187.025,103.6 Q186.4625,103.6 185.9875,103.825 Q185.525,104.05 185.1625,104.55 Q184.8,105.05 184.8,105.7375 L184.8,106.475 Q184.8,107.3 185.475,107.85 Q186.15,108.4 187.35,108.4 Q188.0625,108.4 188.5625,108.2375 Q188.85,108.15 189.175,107.8625 Q189.3875,107.7 189.5,107.65 Q189.6125,107.6 189.75,107.6 Q190.0125,107.6 190.2,107.8125 Q190.4,108.0125 190.4,108.3 Q190.4,108.575 190.125,108.9 Q189.725,109.375 189.0875,109.6375 Q188.25,110 187.225,110 Q186.025,110 185.0625,109.525 Q184.2875,109.15 183.7375,108.3375 Q183.2,107.525 183.2,106.5625 L183.2,105.6875 Q183.2,104.6875 183.675,103.8125 Q184.1625,102.9375 185,102.475 Q185.85,102 186.8,102 Q187.375,102 187.875,102.2 Q188.375,102.4 188.8,102.8 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="169.6" x="198.4" y="109.5281">ViewOrdersSentToCustomerController</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="176" x2="369.6" y1="118.4" y2="118.4"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="176" x2="369.6" y1="124.8" y2="124.8"/><ellipse cx="184" cy="133.6" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="31.2" x="191.2" y="137.1352">create()</text><ellipse cx="184" cy="144.6688" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="169.6" x="191.2" y="148.2039">getOrdersDispatchedForCustomerDelivery()</text><ellipse cx="184" cy="155.7375" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="127.2" x="191.2" y="159.2727">changeStatusToBeingDelivered()</text><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><rect codeLine="13" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="49.4688" id="PersistenceContext" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="111.2" x="79.6" y="328.8"/><ellipse cx="91.6" cy="341.6" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M93.2,338.8 Q93.3625,338.4 93.55,338.2 Q93.7375,338 93.95,338 Q94.325,338 94.5625,338.225 Q94.8,338.45 94.8,338.975 L94.8,340.225 Q94.8,340.75 94.575,340.975 Q94.35,341.2 94,341.2 Q93.6875,341.2 93.4875,341.0625 Q93.2875,340.925 93.2,340.5625 Q93.1625,340.3125 93.025,340.175 Q92.775,339.9125 92.325,339.7625 Q91.875,339.6 91.425,339.6 Q90.8625,339.6 90.3875,339.825 Q89.925,340.05 89.5625,340.55 Q89.2,341.05 89.2,341.7375 L89.2,342.475 Q89.2,343.3 89.875,343.85 Q90.55,344.4 91.75,344.4 Q92.4625,344.4 92.9625,344.2375 Q93.25,344.15 93.575,343.8625 Q93.7875,343.7 93.9,343.65 Q94.0125,343.6 94.15,343.6 Q94.4125,343.6 94.6,343.8125 Q94.8,344.0125 94.8,344.3 Q94.8,344.575 94.525,344.9 Q94.125,345.375 93.4875,345.6375 Q92.65,346 91.625,346 Q90.425,346 89.4625,345.525 Q88.6875,345.15 88.1375,344.3375 Q87.6,343.525 87.6,342.5625 L87.6,341.6875 Q87.6,340.6875 88.075,339.8125 Q88.5625,338.9375 89.4,338.475 Q90.25,338 91.2,338 Q91.775,338 92.275,338.2 Q92.775,338.4 93.2,338.8 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="85.6" x="102.8" y="345.5281">PersistenceContext</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="80.4" x2="190" y1="354.4" y2="354.4"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="80.4" x2="190" y1="360.8" y2="360.8"/><ellipse cx="88.4" cy="369.6" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="52" x="95.6" y="373.1352">repositories()</text><!--MD5=[09a8340bb3e79637083ed7aea7860a73]
+class ListOrderDTOService--><rect codeLine="17" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="49.4688" id="ListOrderDTOService" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="190.4" x="177.6" y="219.2"/><ellipse cx="223" cy="232" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M224.6,229.2 Q224.7625,228.8 224.95,228.6 Q225.1375,228.4 225.35,228.4 Q225.725,228.4 225.9625,228.625 Q226.2,228.85 226.2,229.375 L226.2,230.625 Q226.2,231.15 225.975,231.375 Q225.75,231.6 225.4,231.6 Q225.0875,231.6 224.8875,231.4625 Q224.6875,231.325 224.6,230.9625 Q224.5625,230.7125 224.425,230.575 Q224.175,230.3125 223.725,230.1625 Q223.275,230 222.825,230 Q222.2625,230 221.7875,230.225 Q221.325,230.45 220.9625,230.95 Q220.6,231.45 220.6,232.1375 L220.6,232.875 Q220.6,233.7 221.275,234.25 Q221.95,234.8 223.15,234.8 Q223.8625,234.8 224.3625,234.6375 Q224.65,234.55 224.975,234.2625 Q225.1875,234.1 225.3,234.05 Q225.4125,234 225.55,234 Q225.8125,234 226,234.2125 Q226.2,234.4125 226.2,234.7 Q226.2,234.975 225.925,235.3 Q225.525,235.775 224.8875,236.0375 Q224.05,236.4 223.025,236.4 Q221.825,236.4 220.8625,235.925 Q220.0875,235.55 219.5375,234.7375 Q219,233.925 219,232.9625 L219,232.0875 Q219,231.0875 219.475,230.2125 Q219.9625,229.3375 220.8,228.875 Q221.65,228.4 222.6,228.4 Q223.175,228.4 223.675,228.6 Q224.175,228.8 224.6,229.2 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="92.8" x="239.4" y="235.9281">ListOrderDTOService</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="178.4" x2="367.2" y1="244.8" y2="244.8"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="178.4" x2="367.2" y1="251.2" y2="251.2"/><ellipse cx="186.4" cy="260" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="169.6" x="193.6" y="263.5352">getOrdersDispatchedForCustomerDelivery()</text><!--MD5=[136efa52ae524f6891ef3a669b0ebd18]
+class OrderDTO--><rect codeLine="21" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="38.4" id="OrderDTO" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="70.4" x="280.8" y="334.4"/><ellipse cx="292.8" cy="347.2" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M294.4,344.4 Q294.5625,344 294.75,343.8 Q294.9375,343.6 295.15,343.6 Q295.525,343.6 295.7625,343.825 Q296,344.05 296,344.575 L296,345.825 Q296,346.35 295.775,346.575 Q295.55,346.8 295.2,346.8 Q294.8875,346.8 294.6875,346.6625 Q294.4875,346.525 294.4,346.1625 Q294.3625,345.9125 294.225,345.775 Q293.975,345.5125 293.525,345.3625 Q293.075,345.2 292.625,345.2 Q292.0625,345.2 291.5875,345.425 Q291.125,345.65 290.7625,346.15 Q290.4,346.65 290.4,347.3375 L290.4,348.075 Q290.4,348.9 291.075,349.45 Q291.75,350 292.95,350 Q293.6625,350 294.1625,349.8375 Q294.45,349.75 294.775,349.4625 Q294.9875,349.3 295.1,349.25 Q295.2125,349.2 295.35,349.2 Q295.6125,349.2 295.8,349.4125 Q296,349.6125 296,349.9 Q296,350.175 295.725,350.5 Q295.325,350.975 294.6875,351.2375 Q293.85,351.6 292.825,351.6 Q291.625,351.6 290.6625,351.125 Q289.8875,350.75 289.3375,349.9375 Q288.8,349.125 288.8,348.1625 L288.8,347.2875 Q288.8,346.2875 289.275,345.4125 Q289.7625,344.5375 290.6,344.075 Q291.45,343.6 292.4,343.6 Q292.975,343.6 293.475,343.8 Q293.975,344 294.4,344.4 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="44.8" x="304" y="351.1281">OrderDTO</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="281.6" x2="350.4" y1="360" y2="360"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="281.6" x2="350.4" y1="366.4" y2="366.4"/><!--MD5=[9265192601ae3d68217fc2a2ce1ea439]
+class ProductOrder--><rect codeLine="24" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="60.5375" id="ProductOrder" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="132.8" x="379.2" y="323.2"/><ellipse cx="413.16" cy="336" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M414.76,333.2 Q414.9225,332.8 415.11,332.6 Q415.2975,332.4 415.51,332.4 Q415.885,332.4 416.1225,332.625 Q416.36,332.85 416.36,333.375 L416.36,334.625 Q416.36,335.15 416.135,335.375 Q415.91,335.6 415.56,335.6 Q415.2475,335.6 415.0475,335.4625 Q414.8475,335.325 414.76,334.9625 Q414.7225,334.7125 414.585,334.575 Q414.335,334.3125 413.885,334.1625 Q413.435,334 412.985,334 Q412.4225,334 411.9475,334.225 Q411.485,334.45 411.1225,334.95 Q410.76,335.45 410.76,336.1375 L410.76,336.875 Q410.76,337.7 411.435,338.25 Q412.11,338.8 413.31,338.8 Q414.0225,338.8 414.5225,338.6375 Q414.81,338.55 415.135,338.2625 Q415.3475,338.1 415.46,338.05 Q415.5725,338 415.71,338 Q415.9725,338 416.16,338.2125 Q416.36,338.4125 416.36,338.7 Q416.36,338.975 416.085,339.3 Q415.685,339.775 415.0475,340.0375 Q414.21,340.4 413.185,340.4 Q411.985,340.4 411.0225,339.925 Q410.2475,339.55 409.6975,338.7375 Q409.16,337.925 409.16,336.9625 L409.16,336.0875 Q409.16,335.0875 409.635,334.2125 Q410.1225,333.3375 410.96,332.875 Q411.81,332.4 412.76,332.4 Q413.335,332.4 413.835,332.6 Q414.335,332.8 414.76,333.2 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="58.4" x="429.24" y="339.9281">ProductOrder</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="380" x2="511.2" y1="348.8" y2="348.8"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="380" x2="511.2" y1="355.2" y2="355.2"/><ellipse cx="388" cy="364" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="30.4" x="395.2" y="367.5352">toDTO()</text><ellipse cx="388" cy="375.0688" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="112" x="395.2" y="378.6039">changeProductOrderStatus()</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="29" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="38.4" id="Client" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="51.2" x="420" y="463.2"/><ellipse cx="432" cy="476" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M433.6,473.2 Q433.7625,472.8 433.95,472.6 Q434.1375,472.4 434.35,472.4 Q434.725,472.4 434.9625,472.625 Q435.2,472.85 435.2,473.375 L435.2,474.625 Q435.2,475.15 434.975,475.375 Q434.75,475.6 434.4,475.6 Q434.0875,475.6 433.8875,475.4625 Q433.6875,475.325 433.6,474.9625 Q433.5625,474.7125 433.425,474.575 Q433.175,474.3125 432.725,474.1625 Q432.275,474 431.825,474 Q431.2625,474 430.7875,474.225 Q430.325,474.45 429.9625,474.95 Q429.6,475.45 429.6,476.1375 L429.6,476.875 Q429.6,477.7 430.275,478.25 Q430.95,478.8 432.15,478.8 Q432.8625,478.8 433.3625,478.6375 Q433.65,478.55 433.975,478.2625 Q434.1875,478.1 434.3,478.05 Q434.4125,478 434.55,478 Q434.8125,478 435,478.2125 Q435.2,478.4125 435.2,478.7 Q435.2,478.975 434.925,479.3 Q434.525,479.775 433.8875,480.0375 Q433.05,480.4 432.025,480.4 Q430.825,480.4 429.8625,479.925 Q429.0875,479.55 428.5375,478.7375 Q428,477.925 428,476.9625 L428,476.0875 Q428,475.0875 428.475,474.2125 Q428.9625,473.3375 429.8,472.875 Q430.65,472.4 431.6,472.4 Q432.175,472.4 432.675,472.6 Q433.175,472.8 433.6,473.2 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="25.6" x="443.2" y="479.9281">Client</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="420.8" x2="470.4" y1="488.8" y2="488.8"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="420.8" x2="470.4" y1="495.2" y2="495.2"/><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><rect codeLine="32" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="71.6063" id="RepositoryFactory" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="148" x="47.6" y="446.4"/><ellipse cx="79.4" cy="459.2" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M81,456.4 Q81.1625,456 81.35,455.8 Q81.5375,455.6 81.75,455.6 Q82.125,455.6 82.3625,455.825 Q82.6,456.05 82.6,456.575 L82.6,457.825 Q82.6,458.35 82.375,458.575 Q82.15,458.8 81.8,458.8 Q81.4875,458.8 81.2875,458.6625 Q81.0875,458.525 81,458.1625 Q80.9625,457.9125 80.825,457.775 Q80.575,457.5125 80.125,457.3625 Q79.675,457.2 79.225,457.2 Q78.6625,457.2 78.1875,457.425 Q77.725,457.65 77.3625,458.15 Q77,458.65 77,459.3375 L77,460.075 Q77,460.9 77.675,461.45 Q78.35,462 79.55,462 Q80.2625,462 80.7625,461.8375 Q81.05,461.75 81.375,461.4625 Q81.5875,461.3 81.7,461.25 Q81.8125,461.2 81.95,461.2 Q82.2125,461.2 82.4,461.4125 Q82.6,461.6125 82.6,461.9 Q82.6,462.175 82.325,462.5 Q81.925,462.975 81.2875,463.2375 Q80.45,463.6 79.425,463.6 Q78.225,463.6 77.2625,463.125 Q76.4875,462.75 75.9375,461.9375 Q75.4,461.125 75.4,460.1625 L75.4,459.2875 Q75.4,458.2875 75.875,457.4125 Q76.3625,456.5375 77.2,456.075 Q78.05,455.6 79,455.6 Q79.575,455.6 80.075,455.8 Q80.575,456 81,456.4 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="78.4" x="95" y="463.1281">RepositoryFactory</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="48.4" x2="194.8" y1="472" y2="472"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="48.4" x2="194.8" y1="478.4" y2="478.4"/><ellipse cx="56.4" cy="487.2" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="31.2" x="63.6" y="490.7352">create()</text><ellipse cx="56.4" cy="498.2688" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="105.6" x="63.6" y="501.8039">newTransactionalContext()</text><ellipse cx="56.4" cy="509.3375" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="127.2" x="63.6" y="512.8727">create(TransactionalContext ctx)</text><!--MD5=[288bffab58163169a8d16c57b889bc0c]
+class TransactionalContext--><rect codeLine="42" fill="#FEFECE" filter="url(#ftwyy7e7deqe0)" height="60.5375" id="TransactionalContext" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="118.4" x="452.8" y="213.6"/><ellipse cx="464.8" cy="226.4" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><path d="M466.4,223.6 Q466.5625,223.2 466.75,223 Q466.9375,222.8 467.15,222.8 Q467.525,222.8 467.7625,223.025 Q468,223.25 468,223.775 L468,225.025 Q468,225.55 467.775,225.775 Q467.55,226 467.2,226 Q466.8875,226 466.6875,225.8625 Q466.4875,225.725 466.4,225.3625 Q466.3625,225.1125 466.225,224.975 Q465.975,224.7125 465.525,224.5625 Q465.075,224.4 464.625,224.4 Q464.0625,224.4 463.5875,224.625 Q463.125,224.85 462.7625,225.35 Q462.4,225.85 462.4,226.5375 L462.4,227.275 Q462.4,228.1 463.075,228.65 Q463.75,229.2 464.95,229.2 Q465.6625,229.2 466.1625,229.0375 Q466.45,228.95 466.775,228.6625 Q466.9875,228.5 467.1,228.45 Q467.2125,228.4 467.35,228.4 Q467.6125,228.4 467.8,228.6125 Q468,228.8125 468,229.1 Q468,229.375 467.725,229.7 Q467.325,230.175 466.6875,230.4375 Q465.85,230.8 464.825,230.8 Q463.625,230.8 462.6625,230.325 Q461.8875,229.95 461.3375,229.1375 Q460.8,228.325 460.8,227.3625 L460.8,226.4875 Q460.8,225.4875 461.275,224.6125 Q461.7625,223.7375 462.6,223.275 Q463.45,222.8 464.4,222.8 Q464.975,222.8 465.475,223 Q465.975,223.2 466.4,223.6 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="92.8" x="476" y="230.3281">TransactionalContext</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="453.6" x2="570.4" y1="239.2" y2="239.2"/><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="453.6" x2="570.4" y1="245.6" y2="245.6"/><ellipse cx="461.6" cy="254.4" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="72.8" x="468.8" y="257.9352">beginTransaction()</text><ellipse cx="461.6" cy="265.4688" fill="#84BE84" rx="2.4" ry="2.4" style="stroke:#038048;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="32.8" x="468.8" y="269.0039">commit()</text><!--MD5=[7837b3b92d35c1a114600b08abff52e9]
+link ViewOrdersSentToCustomerUI to ViewOrdersSentToCustomerController--><path codeLine="48" d="M272.8,44.144 C272.8,56.472 272.8,73.136 272.8,88.36 " fill="none" id="ViewOrdersSentToCustomerUI-to-ViewOrdersSentToCustomerController" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="272.8,92.608,276,85.408,272.8,88.608,269.6,85.408,272.8,92.608" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[e9d6eefa958a4dad46c35778db4887d7]
+link ViewOrdersSentToCustomerController to PersistenceContext--><path codeLine="50" d="M211.008,164.968 C193.072,178.072 175.128,194.48 163.2,213.6 C141.936,247.688 136.4,294.792 135.184,324.528 " fill="none" id="ViewOrdersSentToCustomerController-to-PersistenceContext" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="135.032,328.784,138.4768,321.6979,135.1691,324.7863,132.0806,321.4786,135.032,328.784" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[b737b8516d1d108dbee04ca7dbd5cd7d]
+link ViewOrdersSentToCustomerController to TransactionalContext--><path codeLine="51" d="M370.48,161.992 C390.928,169.912 412.08,178.96 431.2,188.8 C443.736,195.248 456.68,203.272 468.432,211.152 " fill="none" id="ViewOrdersSentToCustomerController-to-TransactionalContext" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="472.04,213.592,467.8666,206.909,468.7259,211.3521,464.2828,212.2115,472.04,213.592" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[aa3e7eea176efaa41f36d18a91cdac92]
+link ViewOrdersSentToCustomerController to OrderRepository--><path codeLine="52" d="M174.912,132.704 C98.352,140.992 4.8,166.768 4.8,243.2 C4.8,243.2 4.8,243.2 4.8,483.2 C4.8,521.36 40.608,548.528 72.568,565.184 " fill="none" id="ViewOrdersSentToCustomerController-to-OrderRepository" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="76.44,567.16,71.4935,561.0271,72.8807,565.3347,68.5731,566.7219,76.44,567.16" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[a0bdcf8adbcdc95ed9734799bde52970]
+link ViewOrdersSentToCustomerController to ListOrderDTOService--><path codeLine="53" d="M272.8,164.92 C272.8,180.992 272.8,199.76 272.8,214.888 " fill="none" id="ViewOrdersSentToCustomerController-to-ListOrderDTOService" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="272.8,219.056,276,211.856,272.8,215.056,269.6,211.856,272.8,219.056" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[8983667b5e54e28568aa780f9226fc87]
+link ViewOrdersSentToCustomerController to ProductOrder--><path codeLine="54" d="M329.056,164.976 C347.48,178.536 366.968,195.208 381.6,213.6 C407.04,245.568 424.992,289.288 435.28,319.152 " fill="none" id="ViewOrdersSentToCustomerController-to-ProductOrder" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="436.624,323.088,437.3262,315.2403,435.3317,319.3025,431.2694,317.308,436.624,323.088" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[754b775031405e096442b27febffa290]
+link PersistenceContext to RepositoryFactory--><path codeLine="56" d="M132.608,378.624 C130.696,396.536 128.048,421.304 125.824,442.064 " fill="none" id="PersistenceContext-to-RepositoryFactory" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="125.392,446.16,129.3353,439.3387,125.8149,442.1824,122.9712,438.662,125.392,446.16" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[4961dc0a1f38b4bb8bde6c7779428d74]
+link RepositoryFactory to OrderRepository--><path codeLine="58" d="M121.6,518.592 C121.6,533.272 121.6,549.864 121.6,562.816 " fill="none" id="RepositoryFactory-to-OrderRepository" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="121.6,567.056,124.8,559.856,121.6,563.056,118.4,559.856,121.6,567.056" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[e183d9d84bacb0998a8da59e0a2dc517]
+link ListOrderDTOService to PersistenceContext--><path codeLine="60" d="M241.92,269.04 C220.32,285.992 191.472,308.632 169.208,326.104 " fill="none" id="ListOrderDTOService-to-PersistenceContext" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="165.976,328.64,173.6105,326.692,169.1161,326.1622,169.6459,321.6678,165.976,328.64" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[aba3aef6bd1cc09f26632388a4267fb0]
+link ListOrderDTOService to OrderRepository--><path codeLine="61" d="M269.376,268.912 C260.704,327.704 236.608,476.648 209.6,518.4 C197.144,537.648 177.136,553.488 159.344,564.904 " fill="none" id="ListOrderDTOService-to-OrderRepository" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="155.816,567.128,163.6149,566.0067,159.2028,564.9998,160.2097,560.5877,155.816,567.128" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[4607d8a4ab512f46f6eff27206466cb7]
+link ListOrderDTOService to OrderDTO--><path codeLine="62" d="M282.496,269.04 C289.848,287.424 299.88,312.504 307.048,330.416 " fill="none" id="ListOrderDTOService-to-OrderDTO" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="308.624,334.352,308.9127,326.4782,307.1345,330.6397,302.973,328.8614,308.624,334.352" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[37cb38ba76f95102731403e6caf492a7]
+link ListOrderDTOService to ProductOrder--><path codeLine="63" d="M311.368,268.904 C335.928,284.256 368.016,304.312 394.664,320.96 " fill="none" id="ListOrderDTOService-to-ProductOrder" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="398.216,323.184,393.8123,316.6504,394.8259,321.0609,390.4154,322.0745,398.216,323.184" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><!--MD5=[e711c884b53254feb0562ff5e23042b4]
+link ProductOrder to Client--><path codeLine="65" d="M445.6,384.224 C445.6,407.08 445.6,438.128 445.6,458.968 " fill="none" id="ProductOrder-to-Client" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><polygon fill="#A80036" points="445.6,462.992,448.8,455.792,445.6,458.992,442.4,455.792,445.6,462.992" style="stroke:#A80036;stroke-width:0.8000000000000002;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="50.4" x="446.4" y="419.5961">associated</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="5.6" x="439.2825" y="454.4108">1</text><!--MD5=[8beb9f13dc50574d1fa0b7a2601eed2d]
+@startuml
+'https://plantuml.com/class-diagram
+
+class ViewOrdersSentToCustomerUI{
+}
+
+class ViewOrdersSentToCustomerController{
++create()
++getOrdersDispatchedForCustomerDelivery()
++changeStatusToBeingDelivered()
+}
+
+
+class PersistenceContext{
++repositories()
+}
+
+class ListOrderDTOService{
++getOrdersDispatchedForCustomerDelivery()
+}
+
+class OrderDTO{
+}
+
+class ProductOrder{
++toDTO()
++changeProductOrderStatus()
+}
+
+class Client{
+}
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+database OrderRepository{
+}
+
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+ViewOrdersSentToCustomerUI - -> ViewOrdersSentToCustomerController
+
+ViewOrdersSentToCustomerController- ->PersistenceContext
+ViewOrdersSentToCustomerController- ->TransactionalContext
+ViewOrdersSentToCustomerController- ->OrderRepository
+ViewOrdersSentToCustomerController- ->ListOrderDTOService
+ViewOrdersSentToCustomerController - -> ProductOrder
+
+PersistenceContext- ->RepositoryFactory
+
+RepositoryFactory- ->OrderRepository
+
+ListOrderDTOService- ->PersistenceContext
+ListOrderDTOService- ->OrderRepository
+ListOrderDTOService- ->OrderDTO
+ListOrderDTOService- ->ProductOrder
+
+ProductOrder - -> "1" Client : associated
+
+@enduml
+
+@startuml
+
+class ViewOrdersSentToCustomerUI{
+}
+
+class ViewOrdersSentToCustomerController{
++create()
++getOrdersDispatchedForCustomerDelivery()
++changeStatusToBeingDelivered()
+}
+
+
+class PersistenceContext{
++repositories()
+}
+
+class ListOrderDTOService{
++getOrdersDispatchedForCustomerDelivery()
+}
+
+class OrderDTO{
+}
+
+class ProductOrder{
++toDTO()
++changeProductOrderStatus()
+}
+
+class Client{
+}
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+database OrderRepository{
+}
+
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+ViewOrdersSentToCustomerUI - -> ViewOrdersSentToCustomerController
+
+ViewOrdersSentToCustomerController- ->PersistenceContext
+ViewOrdersSentToCustomerController- ->TransactionalContext
+ViewOrdersSentToCustomerController- ->OrderRepository
+ViewOrdersSentToCustomerController- ->ListOrderDTOService
+ViewOrdersSentToCustomerController - -> ProductOrder
+
+PersistenceContext- ->RepositoryFactory
+
+RepositoryFactory- ->OrderRepository
+
+ListOrderDTOService- ->PersistenceContext
+ListOrderDTOService- ->OrderRepository
+ListOrderDTOService- ->OrderDTO
+ListOrderDTOService- ->ProductOrder
+
+ProductOrder - -> "1" Client : associated
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

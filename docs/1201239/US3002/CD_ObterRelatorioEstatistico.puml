@@ -1,0 +1,75 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ObterRelatorioEstatisticoUI
+class ObterRelatorioEstatisticoController
+class Questionnaire
+class ListQuestionnaireDTOService
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++surveys()
+}
+
+class ObterRelatorioEstatisticoController {
++findAllQuestionnaires()
++obterQuantidadeClientsInquiridos(id)
++obterQuantidadeRespostas(id)
++obterQuestõesRespostas(id)
++obterQuantidadeRespostasOpcao(questionId,op,surveyId)
++obterQuantClientesRespondeuPergunta(questionId,surveyId)
++obterRespostasMedia(questionId,id)
++obterQuantidadeRespostasOutra(questionId,op,id)
+}
+
+class ListQuestionnaireDTOService{
++getSurveys()
+}
+
+class Questionnaire{
++toDTO()
++getQuantityInquiredCustomers()
++getAmountAnswered()
++getSections()
+}
+
+class QuestionnaireDTO{
+-id
+-titulo
+}
+
+database SurveyRepository {
+}
+
+database AnswerRepository {
+}
+
+
+
+
+ObterRelatorioEstatisticoUI --> ObterRelatorioEstatisticoController
+
+ObterRelatorioEstatisticoController --> ListQuestionnaireDTOService
+ObterRelatorioEstatisticoController --> SurveyRepository
+ObterRelatorioEstatisticoController --> AnswerRepository
+ObterRelatorioEstatisticoController --> Questionnaire
+
+ListQuestionnaireDTOService --> Questionnaire
+ListQuestionnaireDTOService --> PersistenceContext
+ListQuestionnaireDTOService --> RepositoryFactory
+ListQuestionnaireDTOService --> SurveyRepository
+
+
+PersistenceContext --> RepositoryFactory
+
+RepositoryFactory -->AnswerRepository
+RepositoryFactory -->SurveyRepository
+
+Questionnaire --> QuestionnaireDTO
+
+
+@enduml

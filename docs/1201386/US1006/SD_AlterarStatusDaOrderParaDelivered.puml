@@ -1,0 +1,78 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+participant ViewOrdersSentToCustomerUI as UI <<presentation>>
+participant ViewOrdersSentToCustomerController as Controller <<application>>
+participant ListOrderDTOService as serv <<application>>
+participant "ProductOrder" as Domain <<domain>>
+participant "OrderDTO" as DTO <<dto>>
+participant PersistenceContext as Persistence <<persistence>>
+participant RepositoryFactory as Factory <<factory>>
+database OrderRepository as repository <<repository>>
+
+activate SC
+SC -> UI : Inicia o processo de visualizar as encomendas\nque se encontram no status Dispatched for Client
+activate UI
+UI -> Controller: getOrdersDispatchedForCustomerDelivery()
+activate Controller
+Controller -> serv: getOrdersDispatchedForCustomerDelivery()
+activate serv
+serv -> Persistence: repositories()
+activate Persistence
+Persistence -> Factory: create
+Persistence -> serv: factory
+deactivate Persistence
+serv -> Factory: orders()
+activate Factory
+Factory -> repository: create
+Factory -> serv: orderRepository
+deactivate Factory
+serv->repository:findOrdersDispatchedForCustomerDelivery()
+activate repository
+repository --> serv: ordersList
+deactivate repository
+loop
+serv -> Domain: toDTO()
+activate Domain
+end
+deactivate Domain
+serv --> Controller: ordersListDTO
+deactivate serv
+Controller --> UI: ordersListDTO
+deactivate Controller
+UI --> SC : Mostra a lista de encomendas
+deactivate UI
+loop enquanto desejar alterar o status de encomendas
+SC -> UI : Pergunta se pretende alterar o status de alguma\nencomenda para Being Delivered
+activate UI
+alt deseja alterar o status
+UI --> SC : Solicita o identificador numérico da encomenda
+deactivate UI
+SC -> UI : Informa a identificador
+activate UI
+UI -> Controller: findDispacthedOrderById(orderId)
+activate Controller
+Controller -> repository: findDispatchedOrderById(orderId)
+activate repository
+deactivate repository
+deactivate Controller
+UI -> Controller: changeStatusToBeingDelivered(orderId)
+activate Controller
+Controller->repository:findByNumericIdentifier(orderId)
+activate repository
+deactivate repository
+Controller -> Domain: changeProductOrderStatus(DELIVERED_BY_CARRIER)
+activate Domain
+deactivate Domain
+Controller --> repository: save(order)
+activate repository
+deactivate repository
+deactivate Controller
+end
+end
+UI --> SC : Informa o sucesso da operação
+deactivate UI
+deactivate SC
+
+@enduml

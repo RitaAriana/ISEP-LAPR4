@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ViewOrdersSentToCustomerUI{
+}
+
+class ViewOrdersSentToCustomerController{
++create()
++getOrdersDispatchedForCustomerDelivery()
++changeStatusToBeingDelivered()
+}
+
+
+class PersistenceContext{
++repositories()
+}
+
+class ListOrderDTOService{
++getOrdersDispatchedForCustomerDelivery()
+}
+
+class OrderDTO{
+}
+
+class ProductOrder{
++toDTO()
++changeProductOrderStatus()
+}
+
+class Client{
+}
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+database OrderRepository{
+}
+
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+
+ViewOrdersSentToCustomerUI --> ViewOrdersSentToCustomerController
+
+ViewOrdersSentToCustomerController-->PersistenceContext
+ViewOrdersSentToCustomerController-->TransactionalContext
+ViewOrdersSentToCustomerController-->OrderRepository
+ViewOrdersSentToCustomerController-->ListOrderDTOService
+ViewOrdersSentToCustomerController --> ProductOrder
+
+PersistenceContext-->RepositoryFactory
+
+RepositoryFactory-->OrderRepository
+
+ListOrderDTOService-->PersistenceContext
+ListOrderDTOService-->OrderRepository
+ListOrderDTOService-->OrderDTO
+ListOrderDTOService-->ProductOrder
+
+ProductOrder --> "1" Client : associated
+
+@enduml

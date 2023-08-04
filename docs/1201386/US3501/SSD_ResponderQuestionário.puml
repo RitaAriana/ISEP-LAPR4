@@ -1,0 +1,25 @@
+@startuml
+
+autonumber
+actor "Client" as C
+
+activate C
+C -> ":System" : Inicia o processo de responder a um questionário
+activate ":System"
+":System" --> C : Mostra os questionários que existem por responder
+deactivate ":System"
+C -> ":System" : Seleciona o questionário que pretende responder
+activate ":System"
+":System" --> C : Mostra a informação inicial do questionário
+loop enquanto existirem perguntas a serem feitas
+":System" --> C : Mostra a pergunta do questionário
+deactivate ":System"
+C -> ":System" : Responde à pergunta apresentada
+activate ":System"
+end
+":System" --> C : Mostra a informação final do questionário
+":System" --> C : Informa o sucesso da operação
+deactivate ":System"
+deactivate C
+
+@enduml

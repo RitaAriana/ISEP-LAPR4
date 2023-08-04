@@ -1,0 +1,84 @@
+01-SAT2 Customer Satisfaction
+Hello!
+Please take a few minutes of your time to complete the following questionnaire.
+
+1
+Service feedback
+Section Obligatoriness: mandatory
+1
+How is the quality of our services compared to other companies?
+(mandatory)
+Type: Single-Choice
+1)Much better
+2)A bit better
+3)Equal
+4)A bit worse
+5)Much worse
+
+Answer the question by selecting one (and only one) of the options provided.
+2
+What changes can the company make to improve the quality of its services?
+(optional)
+Type: Free-Text
+
+Answer the question by typing some text.
+3
+How many purchases have you made with us?
+(mandatory)
+Type: Numeric
+
+Answer the question by entering a numeric value.
+4
+Have you ever had a problem shopping with us?
+(mandatory)
+Type: Multiple-Choice with input value
+1)Payment Error
+2)Packaging damage
+3)Order loss
+4)Other:
+
+The last option, if selected, implies that you write a numeric value or free text.
+5
+How would you compare our products to our competitors?
+(optional)
+Type: Scaling Options
+Scale: Strongly Agree, Agree, Neutral, Disagree, Strongly disagree
+1)Our products have a higher quality than the ones from our competitors
+2)Our products are cheaper than the ones from our competitors
+3)Our products have more availability than the ones from our competitors
+4)You prefer to buy products from us
+
+Select a scale value for each of the specified options.
+
+2
+Personal Preference
+Section Obligatoriness: mandatory
+6
+What items would you like us to have more on offer?
+(mandatory)
+Type: Multiple-Choice
+1)Clothing
+2)Cosmetic
+3)Home appliances
+4)House and Garden and decoration
+5)Books and Stationery
+
+Select more than one.
+7
+We are proud to work with renowned brands in all our categories, in terms of cosmetics, please order them in your order of preference?
+(optional)
+Sort the following categories according to your taste.
+
+Type: Sorting Options
+1)Nivea
+2)Garnier
+3)Uriage
+4)Vichy
+5)Dove
+
+Sorting the options as desired and according to the instructions provided.
+
+
+Thank you for answering the questionnaire!
+
+FIM

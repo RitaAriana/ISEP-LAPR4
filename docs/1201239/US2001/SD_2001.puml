@@ -1,0 +1,64 @@
+@startuml
+
+autonumber
+actor "Warehouse Employee" as WH
+participant ImportJsonUI as UI <<presentation>>
+participant ImportJsonController as controller <<application>>
+participant "jsonImport : JsonImport" as json <<domain>>
+participant PersistenceContext as persistence <<persistence>>
+participant RepositoryFactory as factory <<factory>>
+database WarehouseRepository as repository <<repository>>
+
+activate WH
+
+WH -> UI : Inicia o processo de importação de dados de um ficheiro .json
+activate UI
+
+UI -> controller : create()
+
+UI --> WH : Questiona o nome do ficheiro que pretende importar
+deactivate UI
+
+WH -> UI : Insere o nome do ficheiro que deseja importar
+activate UI
+
+UI -> controller : importWarehouse(jsonName)
+activate controller
+
+controller -> json : create()
+
+activate json
+controller -> json ++: importJson(jsonName)
+deactivate json
+
+json -> json ++: databaseImport(object)
+json -> persistence : create()
+
+json -> factory: create()
+activate factory
+factory -> repository : save(object)
+note right of factory: Exemplificada a criação e persistência de um warehouse na base de dados.
+deactivate factory
+
+deactivate json
+
+json -> json ++: importAisles(array, warehouse)
+json -> json ++: databaseImport(object)
+deactivate json
+deactivate json
+
+
+json -> json ++: importDocks(array, warehouse)
+json -> json ++: databaseImport(object)
+deactivate json
+deactivate
+
+deactivate json
+
+
+
+UI -> WH : Informa o utilizador acerca do sucesso da operação
+deactivate controller
+deactivate UI
+
+@enduml

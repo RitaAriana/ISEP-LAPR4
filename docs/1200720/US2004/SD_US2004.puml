@@ -1,0 +1,193 @@
+@startuml
+'http://plantuml.com/skinparam.html
+
+actor "Warehouse Employee" as EMPLOYEE
+participant ListOrdersBeingPreparedUI as UI <<presentation>>
+participant ListOrdersBeingPreparedController as CONTROLLER <<application>>
+participant "agv : AGV" as AGV <<domain>>
+participant AGVTask as TASK <<domain>>
+participant ProductOrder as ORDER <<domain>>
+participant AgvDto as DTO_AGV <<dto>>
+participant ProductOrderDto as DTO_ORDER <<dto>>
+participant PersistenceContext as PERSISTENCE <<persistence>>
+participant RepositoryFactory as FACTORY <<factory>>
+database AGVRepository as REPOSITORY_AGV <<repository>>
+database ProductOrderRepository as REPOSITORY_ORDERS <<repository>>
+
+EMPLOYEE -> UI: Ask for the list of products prepared by an
+activate EMPLOYEE
+activate UI
+
+UI -> CONTROLLER: create()
+
+activate CONTROLLER
+deactivate CONTROLLER
+
+UI -> CONTROLLER : getAGVsAvaiable()
+activate CONTROLLER
+
+CONTROLLER -> PERSISTENCE : repositories()
+
+activate PERSISTENCE
+
+PERSISTENCE -> FACTORY : create()
+
+activate FACTORY
+deactivate FACTORY
+
+PERSISTENCE --> CONTROLLER : repositoryFactory
+
+deactivate PERSISTENCE
+
+CONTROLLER -> FACTORY : getAGVRepository()
+
+activate FACTORY
+
+FACTORY -> REPOSITORY_AGV : create()
+
+activate REPOSITORY_AGV
+deactivate REPOSITORY_AGV
+
+FACTORY --> CONTROLLER : agvRepository
+deactivate FACTORY
+
+CONTROLLER -> REPOSITORY_AGV : getAGVsAvaiable()
+
+activate REPOSITORY_AGV
+
+REPOSITORY_AGV --> CONTROLLER : agvsAvaiable
+
+deactivate REPOSITORY_AGV
+
+CONTROLLER -> DTO_AGV : toDto()
+
+activate DTO_AGV
+
+DTO_AGV -> CONTROLLER : agvsAvaiableDto
+
+deactivate DTO_AGV
+
+CONTROLLER --> UI : agvsAvaiableDto
+deactivate CONTROLLER
+
+UI --> EMPLOYEE: Shows the list of AGVs and asks to select one
+
+
+deactivate CONTROLLER
+deactivate UI
+
+EMPLOYEE -> UI : Select the AGV
+
+activate UI
+
+UI -> CONTROLLER : getOrdersWhoNeedToBePreparedByAGV(idAGV)
+
+activate CONTROLLER
+
+CONTROLLER -> FACTORY : getOrderRepository()
+
+activate FACTORY
+
+FACTORY --> CONTROLLER : orderRepository
+
+deactivate FACTORY
+
+CONTROLLER -> REPOSITORY_ORDERS : getOrdersWhoNeedToBePrepared()
+
+activate REPOSITORY_ORDERS
+
+REPOSITORY_ORDERS --> CONTROLLER : listOfOrdersWhoNeedToByPrepared
+deactivate REPOSITORY_ORDERS
+
+CONTROLLER --> UI : listOfOrdersWhoNeedToByPreparedDto
+deactivate CONTROLLER
+
+
+UI --> EMPLOYEE : Shows the list of products prepared by the selected AGV
+
+deactivate UI
+
+EMPLOYEE -> UI : Select the orders you want to change the status to 'dispatched for customer'
+activate UI
+
+UI -> CONTROLLER : changeStatusOfOrdersSelectToBeingPreparedByAGV(listOfOrdersSelected)
+activate CONTROLLER
+CONTROLLER -> REPOSITORY_AGV : getAGVById(idAGV)
+activate REPOSITORY_AGV
+
+REPOSITORY_AGV --> CONTROLLER : agvSelected
+deactivate REPOSITORY_AGV
+
+CONTROLLER -> AGV : assignATaskForAGV(taskDescription)
+activate AGV
+
+AGV -> TASK : assignATaskForAGV(taskDescription)
+activate TASK
+deactivate TASK
+
+CONTROLLER -> AGV : changeStatusOfAGVForOccupied()
+deactivate AGV
+
+
+
+loop for each productOrder in listOfOrdersWhoNeedToByPrepared
+CONTROLLER -> ORDER : changeStatusOfOrderToBeingPreparedByAnAGV()
+activate ORDER
+deactivate ORDER
+
+CONTROLLER -> AGV : addOrdersToATask(taskDescription, productOrder)
+activate AGV
+deactivate AGV
+CONTROLLER -> REPOSITORY_AGV : save(agvSelected)
+activate REPOSITORY_AGV
+deactivate REPOSITORY_AGV
+CONTROLLER -> REPOSITORY_ORDERS : save(productOrder)
+activate REPOSITORY_ORDERS
+deactivate REPOSITORY_ORDERS
+
+end
+
+
+deactivate CONTROLLER
+
+UI -> CONTROLLER : changeTheStatusOfOrdersForDispatchedToCustomer(listOfOrdersSelected)
+activate CONTROLLER
+
+loop for each ProducOrderDto in listOfOrdersSelected
+CONTROLLER -> ORDER : getOrderById(orderId)
+activate ORDER
+ORDER --> CONTROLLER : order
+deactivate ORDER
+
+CONTROLLER -> ORDER : changeStatusToDispatchedToCustomer()
+activate ORDER
+deactivate ORDER
+
+CONTROLLER -> AGV : changeStatusOfAGVForFree()
+activate AGV
+deactivate AGV
+
+CONTROLLER -> REPOSITORY_ORDERS : save(productOrder)
+activate REPOSITORY_ORDERS
+deactivate REPOSITORY_ORDERS
+
+CONTROLLER -> REPOSITORY_AGV : save(agv)
+activate REPOSITORY_AGV
+deactivate REPOSITORY_AGV
+CONTROLLER -> DTO_ORDER : toDto(order)
+activate DTO_ORDER
+deactivate DTO_ORDER
+end loop
+
+CONTROLLER --> UI : listOfOrdersReadyForClientsDto
+deactivate CONTROLLER
+
+UI --> EMPLOYEE : Shows orders with the new status
+
+
+deactivate UI
+
+
+deactivate EMPLOYEE
+
+@enduml

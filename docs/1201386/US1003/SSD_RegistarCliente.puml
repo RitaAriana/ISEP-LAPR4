@@ -1,0 +1,49 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : Inicia o processo de registo do cliente
+activate ":System"
+":System" --> SC : Solicita os dados obrigatórios (Name, Email, \nPhoneNumber, VAT, Postal Address)
+deactivate ":System"
+SC -> ":System" : Introduz os dados solicitados
+activate ":System"
+
+
+
+alt Sales Clerk deseja associar mais endereços
+loop Enquanto o Sales Clerk quiser associar \nmais endereços
+":System" --> SC : Solicita o endereço
+deactivate ":System"
+
+
+SC -> ":System" : Introduz o endereço
+activate ":System"
+end
+end
+alt Sales Clerk deseja associar a \ndata de nascimento do cliente
+activate ":System"
+":System" --> SC : Solicita a data de nascimento
+deactivate ":System"
+SC -> ":System" : introduz data de nascimento
+activate ":System"
+end
+alt Sales Clerk deseja associar o sexo do cliente
+":System" --> SC : Solicita o sexo
+deactivate ":System"
+SC -> ":System" : Introduz o sexo
+activate ":System"
+end
+":System" --> SC : Apresenta os dados e solicita a confirmação
+deactivate ":System"
+SC -> ":System" : Confirma os dados
+activate ":System"
+":System" --> SC : Informa o sucesso da operação
+deactivate ":System"
+deactivate SC
+
+
+
+@enduml

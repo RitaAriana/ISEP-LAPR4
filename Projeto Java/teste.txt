@@ -1,0 +1,113 @@
+01-COSM228 Cosmetics Questionnaire
+
+1
+About You
+Section Obligatoriness: mandatory
+1
+What is your gender?
+(optional)
+Type: Single-Choice with input value
+1)Male
+2)Female
+3)Other:
+
+The last option, if selected, implies that you write a numeric value or free text.
+2
+What age group do?
+(mandatory)
+Type: Single-Choice
+1)18 to 24
+2)25 to 34
+3)35 to 44
+4)45 to 54
+5)55 to 64
+6)65 to 74
+7)Over 75
+
+Answer the question by selecting one (and only one) of the options provided.
+3
+What country do you live in?
+(mandatory)
+Type: Free-Text
+
+Answer the question by typing some text.
+
+2
+Product Feedback
+This is section 2 with questions regarding your opinion on our products.
+Section Obligatoriness: mandatory
+4
+How often do you use our products?
+(mandatory)
+Type: Numeric
+
+Answer the question by entering a numeric value.
+5
+Which features are most valuable to you in a product?
+(mandatory)
+Type: Multiple-Choice with input value
+1)Efficiency
+2)Stock availability
+3)Design
+4)Eco friendliness
+5)Brand
+6)Other:
+
+The last option, if selected, implies that you write a numeric value or free text.
+6
+How would you compare our products to our competitors?
+(mandatory)
+Type: Scaling Options
+Scale: Strongly Agree, Agree, Neutral, Disagree, Strongly disagree
+1)Our products have a higher quality than the ones from our competitors
+2)Our products are cheaper than the ones from our competitors
+3)Our products have more availability than the ones from our competitors
+4)You prefer to buy products from us
+
+Select a scale value for each of the specified options.
+7
+What important features are we missing?
+(mandatory)
+Type: Free-Text
+
+Answer the question by typing some text.
+8
+How would you rate the value for money?
+(mandatory)
+Type: Single-Choice
+1)5 stars
+2)4 stars
+3)3 stars
+4)2 stars
+5)1 star
+6)0 stars
+
+Answer the question by selecting one (and only one) of the options provided.
+9
+When do you feel the need to buy our products?
+(mandatory)
+Type: Multiple-Choice
+1)When I have no more stock of them
+2)When they are in discount
+3)When they are cheaper than our competitors
+4)When I feel like it
+
+Select more than one.
+10
+Which categories are you the most fond of?
+(mandatory)
+Sort the following categories according to your taste.
+
+Type: Sorting Options
+1)Skin care
+2)Food
+3)Hair care
+4)Cleaning
+5)Outdoors
+
+Sorting the options as desired and according to the instructions provided.
+
+
+Thank you for answering the questionnaire!
+
+FIM

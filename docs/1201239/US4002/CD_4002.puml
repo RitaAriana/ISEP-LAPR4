@@ -1,0 +1,28 @@
+@startuml
+
+class TaskManagementUI {}
+
+class CallAGVManagerController {
++create()
++connectDaemon(address,port)
++callFIFO()
++getAGVInfo()
++closeConnection()
+}
+
+class AgvManager {
++execute()
+}
+
+class TaskManagement {
++assignTasks()
+-removeUnfittedAGVs(agvList)
+}
+
+
+TaskManagementUI ..> CallAGVManagerController
+
+CallAGVManagerController -> AgvManager
+CallAGVManagerController -> TaskManagement
+
+@enduml

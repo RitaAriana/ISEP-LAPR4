@@ -1,0 +1,112 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+package "<<aggregate>> Survey" {
+    entity Survey
+    class AlphanumericCode
+    class Description
+    class Period
+    class Rule
+    entity Section
+    entity Question
+    class SectionTitle
+    class MandatoryCondition
+    class Type
+    class FreeText
+    class MultipleChoice
+    class Numeric
+    class MultipleChoiceValue
+    class SingleChoice
+    class SingleChoiceValue
+    class SortingOptions
+    class ScalingOptions
+    entity Answer
+}
+
+entity Survey <<entity>> <<root>> {
+
+
+}
+
+class AlphanumericCode <<(V,#FF8B40) value object>>
+class Description <<(V,#FF8B40) value object>>
+class Period <<(V,#FF8B40) value object>> {
+- initialDate
+- finalDate
+- activeDays
+}
+class Rule <<(V,#FF8B40) value object>>
+entity Section <<entity>> {
+- id
+- description
+- obligatoriness
+- repeatability
+}
+
+class SectionTitle <<(V,#FF8B40) value object>>
+class MandatoryCondition <<(V,#FF8B40) value object>>
+entity Question <<entity>> {
+- id
+- statement
+- instruction
+- obligatoriness
+}
+entity Answer <<entity>> {
+}
+class Type <<(V,#FF8B40) value object>>
+class FreeText <<(V,#FF8B40) value object>>
+class Numeric <<(V,#FF8B40) value object>>
+class SingleChoice <<(V,#FF8B40) value object>>
+class SingleChoiceValue <<(V,#FF8B40) value object>>
+class MultipleChoice <<(V,#FF8B40) value object>>
+class MultipleChoiceValue <<(V,#FF8B40) value object>>
+class SortingOptions <<(V,#FF8B40) value object>>
+class ScalingOptions <<(V,#FF8B40) value object>>
+
+Survey --> "1" AlphanumericCode : identified by
+Survey --> "1" Description : characterized by
+Survey --> "1" Period : available
+Survey --> "1" Rule : determined
+Survey --> "1..*" Section : organized
+Section ---> "1..*" Question: composed by
+Section ---> "1" SectionTitle: characterized by
+Section --> "1"  MandatoryCondition: dependent
+Question ---> "1" MandatoryCondition: dependent
+Question --> "1" Type: associated
+FreeText --> "1" Type: is a
+Numeric --> "1" Type: is a
+SingleChoice --> "1" Type: is a
+SingleChoiceValue --> "1" Type: is a
+MultipleChoice --> "1" Type: is a
+MultipleChoiceValue --> "1" Type: is a
+SortingOptions --> "1" Type: is a
+ScalingOptions --> "1" Type: is a
+Question --> "1" Answer : has
+package "<<aggregate>> Notification" {
+    entity Notification
+}
+
+entity Notification <<entity>> <<root>> {
+
+
+}
+
+Survey --> "1..*" Notification : emits
+
+package "<<aggregate>> Client" {
+    entity Client
+}
+
+entity Client <<entity>> <<root>> {
+
+}
+
+Client --> "1..*" Notification : receive
+Client --> "1..*" Survey : answers
+
+
+@enduml

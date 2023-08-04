@@ -1,0 +1,31 @@
+@startuml
+
+autonumber
+actor "Sales Clerk" as SC
+
+activate SC
+SC -> ":System" : Inicia o processo de registo de um produto
+activate ":System"
+":System" --> SC : Informa as categorias existentes no sistema e \n pede para que escolha a associada ao produto
+deactivate ":System"
+SC -> ":System" : Seleciona a Categoria desejada
+activate ":System"
+":System" --> SC : Solicita os dados obrigatórios (uniqueInternalCode,shortDescription,\nextendedDescription, technicalDescription, barcode, priceWithoutTaxes,\npriceWithTaxes, brandName, reference, weight, volume, photo, productLocation)
+deactivate ":System"
+SC -> ":System" : Introduz os dados solicitados
+activate ":System"
+alt Sales Clerk deseja associar o productionCode
+":System" --> SC : Solicita o productionCode
+deactivate ":System"
+SC -> ":System" : Introduz o productionCode
+activate ":System"
+end
+":System" --> SC : Informa o sucesso da operação
+deactivate ":System"
+
+
+deactivate SC
+
+
+
+@enduml

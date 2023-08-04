@@ -1,0 +1,109 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ResponderQuestionarioUI
+class ResponderQuestionarioController
+class ResponderQuestionarioService
+class ListQuestionnaireDTOService
+class TcpOrderSrv
+class Client
+class AnswerMain
+class Questionnaire
+
+class PersistenceContext{
++repositories()
+}
+
+class RepositoryFactory{
++create()
++answers()
+}
+
+class Client{
++create()
++getUnansweredSurveys()
+}
+
+
+class ResponderQuestionarioController {
+-service
+-fileName
+-answer
+--
++getUnansweredCustomerSurveys(clientEmail)
++getSurvey(id)
++writeFile(surveyId,answer)
++validateAnswer(clientEmail,surveyId,sectionId,questionId)
+}
+
+class ResponderQuestionarioService {
++getUnansweredCustomerSurveys(clientEmail)
++getSurvey(surveyId)
++saveAnswer(answer)
+}
+
+database ClientRepository{
+}
+
+database SurveyRepository {
+}
+
+database AnswerRepository {
+}
+
+
+class TcpOrderSrv{
++unansweredCustomerSurveys(clientEmail)
++getSurvey(id)
++saveAnswer(answer)
+}
+
+class ListQuestionnaireDTOService{
++getUnansweredSurveys(client)
++getSurvey(surveyId)
+}
+
+class AnswerMain{
++create()
++parseWithVisitor(fileName)
+}
+
+class Answer{
++modifyClientEmail(clientEmail)
++modifyIdSurvey(surveyId)
++modifyIdSection(idSection)
++modifyIdQuestion(idQuestion)
+}
+
+class Questionnaire{
++toDTO()
+}
+
+
+ResponderQuestionarioUI --> ResponderQuestionarioController
+
+ResponderQuestionarioController --> ResponderQuestionarioService
+ResponderQuestionarioController --> ListQuestionnaireDTOService
+ResponderQuestionarioController --> AnswerMain
+ResponderQuestionarioController --> Answer
+
+ResponderQuestionarioService --> TcpOrderSrv
+
+ListQuestionnaireDTOService --> Questionnaire
+
+
+PersistenceContext --> RepositoryFactory
+
+RepositoryFactory -->ClientRepository
+RepositoryFactory -->AnswerRepository
+RepositoryFactory -->SurveyRepository
+
+TcpOrderSrv --> SurveyRepository
+TcpOrderSrv --> ClientRepository
+TcpOrderSrv --> AnswerRepository
+TcpOrderSrv --> Client
+TcpOrderSrv -> ListQuestionnaireDTOService
+TcpOrderSrv -->PersistenceContext
+
+
+@enduml

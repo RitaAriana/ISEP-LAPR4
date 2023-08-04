@@ -1,0 +1,41 @@
+@startuml
+
+autonumber
+
+participant WarehouseMovement as wm <<application>>
+participant RepositoryFactory as factory <<factory>>
+
+database WarehousePlantRepository as repository <<repository>>
+database AislesRepository as aislerepository <<repository>>
+database AGVDockRepository as agvrepository <<repository>>
+
+
+ -> wm :
+activate wm
+wm -> factory : repositories()
+activate factory
+factory -> repository : create
+factory -> repository : create
+factory -> repository : create
+deactivate factory
+wm -> repository : findById(id)
+activate repository
+deactivate repository
+wm -> wm : buildGrid
+activate wm
+wm -> wm : markObstacules()
+activate wm
+wm -> aislerepository : aisleList = findAll()
+activate aislerepository
+deactivate aislerepository
+wm -> agvrepository : agvDockList = findAll()
+activate agvrepository
+deactivate agvrepository
+deactivate wm
+deactivate wm
+
+
+ <-- wm : info about agv
+ deactivate wm
+
+@enduml

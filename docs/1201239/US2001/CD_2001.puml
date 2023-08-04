@@ -1,0 +1,89 @@
+@startuml
+
+
+class ImportJsonUI
+class ImportJsonController
+class JsonImport
+
+ImportJsonUI -> ImportJsonController
+ImportJsonController -> JsonImport
+
+database AGVDockRepository{
+}
+database AisleRepository{
+}
+database BinRepository{
+}
+database LineRepository{
+}
+database ShelfRepository{
+}
+database WarehousePlantRepository{
+}
+database WarehouseRepository{
+}
+
+class PersistenceContext{
++repositories()
+}
+
+class TransactionalContext{
++beginTransaction()
++commit()
+}
+
+class RepositoryFactory{
++create()
++newTransactionalContext()
++create(TransactionalContext ctx)
+}
+
+JsonImport -->PersistenceContext
+JsonImport -->TransactionalContext
+
+PersistenceContext -->RepositoryFactory
+
+RepositoryFactory -->AGVDockRepository
+RepositoryFactory -->AisleRepository
+RepositoryFactory -->BinRepository
+RepositoryFactory -->LineRepository
+RepositoryFactory -->ShelfRepository
+RepositoryFactory -->WarehousePlantRepository
+RepositoryFactory -->WarehouseRepository
+
+JsonImport --> Accessibility
+JsonImport --> AGVDock
+JsonImport --> AGVDockBuilder
+AGVDockBuilder --> AGVDock
+JsonImport --> Aisle
+JsonImport --> AisleBuilder
+AisleBuilder --> Aisle
+JsonImport --> Begin
+JsonImport --> Bin
+JsonImport --> BinBuilder
+JsonImport --> BinId
+BinBuilder --> Bin
+Bin -> BinId
+JsonImport --> Dashboard
+JsonImport --> Depth
+JsonImport --> End
+JsonImport --> Line
+JsonImport --> LineBuilder
+JsonImport --> LineId
+LineBuilder --> Line
+Line --> LineId
+JsonImport --> Shelf
+JsonImport --> ShelfBuilder
+JsonImport --> ShelfId
+ShelfBuilder --> Shelf
+Shelf --> ShelfId
+JsonImport --> Warehouse
+JsonImport --> WarehouseBuilder
+WarehouseBuilder --> WarehouseBuilder
+JsonImport --> WarehousePlanr
+JsonImport --> WarehousePlantBuilder
+WarehouseBuilder --> WarehousePlantBuilder
+
+
+
+@enduml

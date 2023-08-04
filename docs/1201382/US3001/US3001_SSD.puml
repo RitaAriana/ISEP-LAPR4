@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Sales Manager" as SM
+participant "System" as SYS
+
+activate SM
+SM -> SYS : Request to create a new questionnaire
+activate SYS
+SYS --> SM : Requests to enter the file path
+deactivate SYS
+
+SM -> SYS : Types the file path
+activate SYS
+SYS --> SM : Evaluates the fulfillment of specific criteria \nand shows the success of the operation
+deactivate SYS
+
+deactivate SM
+
+@enduml

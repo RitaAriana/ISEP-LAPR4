@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor Client as CLIENT
+participant System as SYSTEM
+
+CLIENT -> SYSTEM : Request to see his open orders
+activate CLIENT
+activate SYSTEM
+
+SYSTEM --> CLIENT : Show the open orders and informs\nthe operation success
+deactivate SYSTEM
+deactivate CLIENT
+@enduml

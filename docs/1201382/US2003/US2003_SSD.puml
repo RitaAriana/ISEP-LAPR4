@@ -1,0 +1,24 @@
+@startuml
+autonumber
+actor "Warehouse Employee" as WE
+participant "System" as SYS
+
+activate WE
+WE -> SYS : Request to see the list of orders waiting to be prepared
+activate SYS
+SYS --> WE : Shows orders and requests to select one
+deactivate SYS
+
+WE -> SYS : Selects the desired order
+activate SYS
+SYS --> WE : shows available AGVs and request to select one
+deactivate SYS
+
+WE -> SYS : Selects the desired AGV
+activate SYS
+SYS --> WE : sent's task to AGV, updates status and shows operation success
+deactivate SYS
+
+deactivate WE
+
+@enduml

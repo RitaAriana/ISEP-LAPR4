@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="353px" preserveAspectRatio="none" style="width:956px;height:353px;background:#FFFFFF;" version="1.1" viewBox="0 0 956 353" width="956px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ehtnyb66izaf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0b4fa15a404eaf6e9664cac8c06d855d]
+class ListProductsUi--><rect codeLine="3" fill="#FEFECE" filter="url(#f1ehtnyb66izaf)" height="48" id="ListProductsUi" style="stroke:#A80036;stroke-width:1.5;" width="113" x="114.5" y="7"/><ellipse cx="129.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M131.5,19.5 Q131.7031,19 131.9375,18.75 Q132.1719,18.5 132.4375,18.5 Q132.9063,18.5 133.2031,18.7813 Q133.5,19.0625 133.5,19.7188 L133.5,21.2813 Q133.5,21.9375 133.2188,22.2188 Q132.9375,22.5 132.5,22.5 Q132.1094,22.5 131.8594,22.3281 Q131.6094,22.1563 131.5,21.7031 Q131.4531,21.3906 131.2813,21.2188 Q130.9688,20.8906 130.4063,20.7031 Q129.8438,20.5 129.2813,20.5 Q128.5781,20.5 127.9844,20.7813 Q127.4063,21.0625 126.9531,21.6875 Q126.5,22.3125 126.5,23.1719 L126.5,24.0938 Q126.5,25.125 127.3438,25.8125 Q128.1875,26.5 129.6875,26.5 Q130.5781,26.5 131.2031,26.2969 Q131.5625,26.1875 131.9688,25.8281 Q132.2344,25.625 132.375,25.5625 Q132.5156,25.5 132.6875,25.5 Q133.0156,25.5 133.25,25.7656 Q133.5,26.0156 133.5,26.375 Q133.5,26.7188 133.1563,27.125 Q132.6563,27.7188 131.8594,28.0469 Q130.8125,28.5 129.5313,28.5 Q128.0313,28.5 126.8281,27.9063 Q125.8594,27.4375 125.1719,26.4219 Q124.5,25.4063 124.5,24.2031 L124.5,23.1094 Q124.5,21.8594 125.0938,20.7656 Q125.7031,19.6719 126.75,19.0938 Q127.8125,18.5 129,18.5 Q129.7188,18.5 130.3438,18.75 Q130.9688,19 131.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="143.5" y="27.9102">ListProductsUi</text><line style="stroke:#A80036;stroke-width:1.5;" x1="115.5" x2="226.5" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="115.5" x2="226.5" y1="47" y2="47"/><!--MD5=[c1b0b11f501b36ff7ae854b48d255da1]
+class ListProductsController--><rect codeLine="10" fill="#FEFECE" filter="url(#f1ehtnyb66izaf)" height="61.8359" id="ListProductsController" style="stroke:#A80036;stroke-width:1.5;" width="328" x="7" y="135.5"/><ellipse cx="105.25" cy="151.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M107.25,148 Q107.4531,147.5 107.6875,147.25 Q107.9219,147 108.1875,147 Q108.6563,147 108.9531,147.2813 Q109.25,147.5625 109.25,148.2188 L109.25,149.7813 Q109.25,150.4375 108.9688,150.7188 Q108.6875,151 108.25,151 Q107.8594,151 107.6094,150.8281 Q107.3594,150.6563 107.25,150.2031 Q107.2031,149.8906 107.0313,149.7188 Q106.7188,149.3906 106.1563,149.2031 Q105.5938,149 105.0313,149 Q104.3281,149 103.7344,149.2813 Q103.1563,149.5625 102.7031,150.1875 Q102.25,150.8125 102.25,151.6719 L102.25,152.5938 Q102.25,153.625 103.0938,154.3125 Q103.9375,155 105.4375,155 Q106.3281,155 106.9531,154.7969 Q107.3125,154.6875 107.7188,154.3281 Q107.9844,154.125 108.125,154.0625 Q108.2656,154 108.4375,154 Q108.7656,154 109,154.2656 Q109.25,154.5156 109.25,154.875 Q109.25,155.2188 108.9063,155.625 Q108.4063,156.2188 107.6094,156.5469 Q106.5625,157 105.2813,157 Q103.7813,157 102.5781,156.4063 Q101.6094,155.9375 100.9219,154.9219 Q100.25,153.9063 100.25,152.7031 L100.25,151.6094 Q100.25,150.3594 100.8438,149.2656 Q101.4531,148.1719 102.5,147.5938 Q103.5625,147 104.75,147 Q105.4688,147 106.0938,147.25 Q106.7188,147.5 107.25,148 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="125.75" y="156.4102">ListProductsController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="334" y1="167.5" y2="167.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="334" y1="175.5" y2="175.5"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="183.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="302" x="27" y="190.9189">addCategoria(codigoAlfanumerico, descricao, superCategoria)</text><!--MD5=[f51bef916b5385bd9d27aaa0cee735c0]
+class ListProductService--><rect codeLine="5" fill="#FEFECE" filter="url(#f1ehtnyb66izaf)" height="48" id="ListProductService" style="stroke:#A80036;stroke-width:1.5;" width="134" x="370" y="142.5"/><ellipse cx="385" cy="158.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M387,155 Q387.2031,154.5 387.4375,154.25 Q387.6719,154 387.9375,154 Q388.4063,154 388.7031,154.2813 Q389,154.5625 389,155.2188 L389,156.7813 Q389,157.4375 388.7188,157.7188 Q388.4375,158 388,158 Q387.6094,158 387.3594,157.8281 Q387.1094,157.6563 387,157.2031 Q386.9531,156.8906 386.7813,156.7188 Q386.4688,156.3906 385.9063,156.2031 Q385.3438,156 384.7813,156 Q384.0781,156 383.4844,156.2813 Q382.9063,156.5625 382.4531,157.1875 Q382,157.8125 382,158.6719 L382,159.5938 Q382,160.625 382.8438,161.3125 Q383.6875,162 385.1875,162 Q386.0781,162 386.7031,161.7969 Q387.0625,161.6875 387.4688,161.3281 Q387.7344,161.125 387.875,161.0625 Q388.0156,161 388.1875,161 Q388.5156,161 388.75,161.2656 Q389,161.5156 389,161.875 Q389,162.2188 388.6563,162.625 Q388.1563,163.2188 387.3594,163.5469 Q386.3125,164 385.0313,164 Q383.5313,164 382.3281,163.4063 Q381.3594,162.9375 380.6719,161.9219 Q380,160.9063 380,159.7031 L380,158.6094 Q380,157.3594 380.5938,156.2656 Q381.2031,155.1719 382.25,154.5938 Q383.3125,154 384.5,154 Q385.2188,154 385.8438,154.25 Q386.4688,154.5 387,155 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="399" y="163.4102">ListProductService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="371" x2="503" y1="174.5" y2="174.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="371" x2="503" y1="182.5" y2="182.5"/><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><rect codeLine="26" fill="#FEFECE" filter="url(#f1ehtnyb66izaf)" height="61.8359" id="PersistenceContext" style="stroke:#A80036;stroke-width:1.5;" width="139" x="539.5" y="135.5"/><ellipse cx="554.5" cy="151.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M556.5,148 Q556.7031,147.5 556.9375,147.25 Q557.1719,147 557.4375,147 Q557.9063,147 558.2031,147.2813 Q558.5,147.5625 558.5,148.2188 L558.5,149.7813 Q558.5,150.4375 558.2188,150.7188 Q557.9375,151 557.5,151 Q557.1094,151 556.8594,150.8281 Q556.6094,150.6563 556.5,150.2031 Q556.4531,149.8906 556.2813,149.7188 Q555.9688,149.3906 555.4063,149.2031 Q554.8438,149 554.2813,149 Q553.5781,149 552.9844,149.2813 Q552.4063,149.5625 551.9531,150.1875 Q551.5,150.8125 551.5,151.6719 L551.5,152.5938 Q551.5,153.625 552.3438,154.3125 Q553.1875,155 554.6875,155 Q555.5781,155 556.2031,154.7969 Q556.5625,154.6875 556.9688,154.3281 Q557.2344,154.125 557.375,154.0625 Q557.5156,154 557.6875,154 Q558.0156,154 558.25,154.2656 Q558.5,154.5156 558.5,154.875 Q558.5,155.2188 558.1563,155.625 Q557.6563,156.2188 556.8594,156.5469 Q555.8125,157 554.5313,157 Q553.0313,157 551.8281,156.4063 Q550.8594,155.9375 550.1719,154.9219 Q549.5,153.9063 549.5,152.7031 L549.5,151.6094 Q549.5,150.3594 550.0938,149.2656 Q550.7031,148.1719 551.75,147.5938 Q552.8125,147 554,147 Q554.7188,147 555.3438,147.25 Q555.9688,147.5 556.5,148 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="107" x="568.5" y="156.4102">PersistenceContext</text><line style="stroke:#A80036;stroke-width:1.5;" x1="540.5" x2="677.5" y1="167.5" y2="167.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="540.5" x2="677.5" y1="175.5" y2="175.5"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="547.5" y="183.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="559.5" y="190.9189">repositories()</text><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><rect codeLine="15" fill="#FEFECE" filter="url(#f1ehtnyb66izaf)" height="103.3438" id="RepositoryFactory" style="stroke:#A80036;stroke-width:1.5;" width="146" x="714" y="115"/><ellipse cx="736.2" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M738.2,127.5 Q738.4031,127 738.6375,126.75 Q738.8719,126.5 739.1375,126.5 Q739.6063,126.5 739.9031,126.7813 Q740.2,127.0625 740.2,127.7188 L740.2,129.2813 Q740.2,129.9375 739.9188,130.2188 Q739.6375,130.5 739.2,130.5 Q738.8094,130.5 738.5594,130.3281 Q738.3094,130.1563 738.2,129.7031 Q738.1531,129.3906 737.9813,129.2188 Q737.6688,128.8906 737.1063,128.7031 Q736.5438,128.5 735.9813,128.5 Q735.2781,128.5 734.6844,128.7813 Q734.1063,129.0625 733.6531,129.6875 Q733.2,130.3125 733.2,131.1719 L733.2,132.0938 Q733.2,133.125 734.0438,133.8125 Q734.8875,134.5 736.3875,134.5 Q737.2781,134.5 737.9031,134.2969 Q738.2625,134.1875 738.6688,133.8281 Q738.9344,133.625 739.075,133.5625 Q739.2156,133.5 739.3875,133.5 Q739.7156,133.5 739.95,133.7656 Q740.2,134.0156 740.2,134.375 Q740.2,134.7188 739.8563,135.125 Q739.3563,135.7188 738.5594,136.0469 Q737.5125,136.5 736.2313,136.5 Q734.7313,136.5 733.5281,135.9063 Q732.5594,135.4375 731.8719,134.4219 Q731.2,133.4063 731.2,132.2031 L731.2,131.1094 Q731.2,129.8594 731.7938,128.7656 Q732.4031,127.6719 733.45,127.0938 Q734.5125,126.5 735.7,126.5 Q736.4188,126.5 737.0438,126.75 Q737.6688,127 738.2,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="751.8" y="135.9102">RepositoryFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="715" x2="859" y1="147" y2="147"/><line style="stroke:#A80036;stroke-width:1.5;" x1="715" x2="859" y1="155" y2="155"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="722" y="163"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="734" y="170.4189">setCodigoAlfanumerico()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="722" y="176.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="734" y="184.2549">setDescricao()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="722" y="190.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="734" y="198.0908">setSuperCategoria()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="722" y="204.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="734" y="211.9268">createCategoria()</text><!--MD5=[f9761e4ec0e5a044b983a0fb01ce84a9]
+class ProductRepository--><rect codeLine="22" fill="#FEFECE" filter="url(#f1ehtnyb66izaf)" height="61.8359" id="ProductRepository" style="stroke:#A80036;stroke-width:1.5;" width="311" x="631.5" y="278"/><ellipse cx="732.25" cy="294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M734.25,290.5 Q734.4531,290 734.6875,289.75 Q734.9219,289.5 735.1875,289.5 Q735.6563,289.5 735.9531,289.7813 Q736.25,290.0625 736.25,290.7188 L736.25,292.2813 Q736.25,292.9375 735.9688,293.2188 Q735.6875,293.5 735.25,293.5 Q734.8594,293.5 734.6094,293.3281 Q734.3594,293.1563 734.25,292.7031 Q734.2031,292.3906 734.0313,292.2188 Q733.7188,291.8906 733.1563,291.7031 Q732.5938,291.5 732.0313,291.5 Q731.3281,291.5 730.7344,291.7813 Q730.1563,292.0625 729.7031,292.6875 Q729.25,293.3125 729.25,294.1719 L729.25,295.0938 Q729.25,296.125 730.0938,296.8125 Q730.9375,297.5 732.4375,297.5 Q733.3281,297.5 733.9531,297.2969 Q734.3125,297.1875 734.7188,296.8281 Q734.9844,296.625 735.125,296.5625 Q735.2656,296.5 735.4375,296.5 Q735.7656,296.5 736,296.7656 Q736.25,297.0156 736.25,297.375 Q736.25,297.7188 735.9063,298.125 Q735.4063,298.7188 734.6094,299.0469 Q733.5625,299.5 732.2813,299.5 Q730.7813,299.5 729.5781,298.9063 Q728.6094,298.4375 727.9219,297.4219 Q727.25,296.4063 727.25,295.2031 L727.25,294.1094 Q727.25,292.8594 727.8438,291.7656 Q728.4531,290.6719 729.5,290.0938 Q730.5625,289.5 731.75,289.5 Q732.4688,289.5 733.0938,289.75 Q733.7188,290 734.25,290.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="752.75" y="298.9102">ProductRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="632.5" x2="941.5" y1="310" y2="310"/><line style="stroke:#A80036;stroke-width:1.5;" x1="632.5" x2="941.5" y1="318" y2="318"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="639.5" y="326"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="285" x="651.5" y="333.4189">Categoria (codifoAlfanumerico, descricao, superCategoria)</text><!--MD5=[e31bc2a58f09bbeae4a3853b8d61ee27]
+link ListProductsUi to ListProductsController--><path codeLine="30" d="M171,55.25 C171,75.95 171,106.53 171,130.23 " fill="none" id="ListProductsUi-to-ListProductsController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="171,135.49,175,126.49,171,130.49,167,126.49,171,135.49" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[579937bbfa155c3f896ca4f0cda422ed]
+link ListProductsController to ListProductService--><path codeLine="31" d="M335.17,166.5 C344.99,166.5 354.82,166.5 364.64,166.5 " fill="none" id="ListProductsController-to-ListProductService" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="369.78,166.5,360.78,162.5,364.78,166.5,360.78,170.5,369.78,166.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fe2995dd1f7a03cd354869c16c604443]
+link ListProductService to PersistenceContext--><path codeLine="32" d="M504.19,166.5 C514.18,166.5 524.18,166.5 534.17,166.5 " fill="none" id="ListProductService-to-PersistenceContext" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="539.4,166.5,530.4,162.5,534.4,166.5,530.4,170.5,539.4,166.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[754b775031405e096442b27febffa290]
+link PersistenceContext to RepositoryFactory--><path codeLine="33" d="M678.53,166.5 C688.51,166.5 698.5,166.5 708.48,166.5 " fill="none" id="PersistenceContext-to-RepositoryFactory" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="713.7,166.5,704.7,162.5,708.7,166.5,704.7,170.5,713.7,166.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a107a52b6e2b3fb29ad79d2f6a7df605]
+link RepositoryFactory to ProductRepository--><path codeLine="34" d="M787,218.22 C787,236.32 787,256.29 787,272.79 " fill="none" id="RepositoryFactory-to-ProductRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="787,277.79,791,268.79,787,272.79,783,268.79,787,277.79" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4be7c241d947cc391e17c2cad6460825]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ListProductsUi
+class ListProductsController
+class ListProductService
+class PersistenceContext
+class RepositoryFactory
+class ProductRepository
+
+class ListProductsController {
+    - addCategoria(codigoAlfanumerico, descricao, superCategoria)
+
+}
+
+class RepositoryFactory {
+     - setCodigoAlfanumerico()
+     - setDescricao()
+     - setSuperCategoria()
+     - createCategoria()
+}
+
+class ProductRepository {
+    - Categoria (codifoAlfanumerico, descricao, superCategoria)
+}
+
+class PersistenceContext {
+    - repositories()
+}
+
+ListProductsUi ..> ListProductsController
+ListProductsController -> ListProductService
+ListProductService -> PersistenceContext
+PersistenceContext -> RepositoryFactory
+RepositoryFactory - -> ProductRepository
+
+@enduml
+
+@startuml
+
+class ListProductsUi
+class ListProductsController
+class ListProductService
+class PersistenceContext
+class RepositoryFactory
+class ProductRepository
+
+class ListProductsController {
+    - addCategoria(codigoAlfanumerico, descricao, superCategoria)
+
+}
+
+class RepositoryFactory {
+     - setCodigoAlfanumerico()
+     - setDescricao()
+     - setSuperCategoria()
+     - createCategoria()
+}
+
+class ProductRepository {
+    - Categoria (codifoAlfanumerico, descricao, superCategoria)
+}
+
+class PersistenceContext {
+    - repositories()
+}
+
+ListProductsUi ..> ListProductsController
+ListProductsController -> ListProductService
+ListProductService -> PersistenceContext
+PersistenceContext -> RepositoryFactory
+RepositoryFactory - -> ProductRepository
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

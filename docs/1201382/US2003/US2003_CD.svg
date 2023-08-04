@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="741px" preserveAspectRatio="none" style="width:733px;height:741px;background:#FFFFFF;" version="1.1" viewBox="0 0 733 741" width="733px" zoomAndPan="magnify"><defs/><g><!--MD5=[0b40cb3282f7f1266cb9451e63d5a721]
+class ForceOrderPrepUI--><g id="elem_ForceOrderPrepUI"><rect codeLine="9" fill="#F1F1F1" height="48" id="ForceOrderPrepUI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="148" x="320.5" y="7"/><ellipse cx="335.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M337.5,19.5 Q337.7031,19 337.9375,18.75 Q338.1719,18.5 338.4375,18.5 Q338.9063,18.5 339.2031,18.7813 Q339.5,19.0625 339.5,19.7188 L339.5,21.2813 Q339.5,21.9375 339.2188,22.2188 Q338.9375,22.5 338.5,22.5 Q338.1094,22.5 337.8594,22.3281 Q337.6094,22.1563 337.5,21.7031 Q337.4531,21.3906 337.2813,21.2188 Q336.9688,20.8906 336.4063,20.7031 Q335.8438,20.5 335.2813,20.5 Q334.5781,20.5 333.9844,20.7813 Q333.4063,21.0625 332.9531,21.6875 Q332.5,22.3125 332.5,23.1719 L332.5,24.0938 Q332.5,25.125 333.3438,25.8125 Q334.1875,26.5 335.6875,26.5 Q336.5781,26.5 337.2031,26.2969 Q337.5625,26.1875 337.9688,25.8281 Q338.2344,25.625 338.375,25.5625 Q338.5156,25.5 338.6875,25.5 Q339.0156,25.5 339.25,25.7656 Q339.5,26.0156 339.5,26.375 Q339.5,26.7188 339.1563,27.125 Q338.6563,27.7188 337.8594,28.0469 Q336.8125,28.5 335.5313,28.5 Q334.0313,28.5 332.8281,27.9063 Q331.8594,27.4375 331.1719,26.4219 Q330.5,25.4063 330.5,24.2031 L330.5,23.1094 Q330.5,21.8594 331.0938,20.7656 Q331.7031,19.6719 332.75,19.0938 Q333.8125,18.5 335,18.5 Q335.7188,18.5 336.3438,18.75 Q336.9688,19 337.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="349.5" y="28.7285">ForceOrderPrepUI</text><line style="stroke:#181818;stroke-width:0.5;" x1="321.5" x2="467.5" y1="39" y2="39"/><line style="stroke:#181818;stroke-width:0.5;" x1="321.5" x2="467.5" y1="47" y2="47"/></g><!--MD5=[01be9b9ad62f0754266b2f9d8353ef14]
+class ForceOrderPrepController--><g id="elem_ForceOrderPrepController"><rect codeLine="11" fill="#F1F1F1" height="100.8281" id="ForceOrderPrepController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="269" x="260" y="115"/><ellipse cx="307.25" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M309.25,127.5 Q309.4531,127 309.6875,126.75 Q309.9219,126.5 310.1875,126.5 Q310.6563,126.5 310.9531,126.7813 Q311.25,127.0625 311.25,127.7188 L311.25,129.2813 Q311.25,129.9375 310.9688,130.2188 Q310.6875,130.5 310.25,130.5 Q309.8594,130.5 309.6094,130.3281 Q309.3594,130.1563 309.25,129.7031 Q309.2031,129.3906 309.0313,129.2188 Q308.7188,128.8906 308.1563,128.7031 Q307.5938,128.5 307.0313,128.5 Q306.3281,128.5 305.7344,128.7813 Q305.1563,129.0625 304.7031,129.6875 Q304.25,130.3125 304.25,131.1719 L304.25,132.0938 Q304.25,133.125 305.0938,133.8125 Q305.9375,134.5 307.4375,134.5 Q308.3281,134.5 308.9531,134.2969 Q309.3125,134.1875 309.7188,133.8281 Q309.9844,133.625 310.125,133.5625 Q310.2656,133.5 310.4375,133.5 Q310.7656,133.5 311,133.7656 Q311.25,134.0156 311.25,134.375 Q311.25,134.7188 310.9063,135.125 Q310.4063,135.7188 309.6094,136.0469 Q308.5625,136.5 307.2813,136.5 Q305.7813,136.5 304.5781,135.9063 Q303.6094,135.4375 302.9219,134.4219 Q302.25,133.4063 302.25,132.2031 L302.25,131.1094 Q302.25,129.8594 302.8438,128.7656 Q303.4531,127.6719 304.5,127.0938 Q305.5625,126.5 306.75,126.5 Q307.4688,126.5 308.0938,126.75 Q308.7188,127 309.25,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="327.75" y="136.7285">ForceOrderPrepController</text><line style="stroke:#181818;stroke-width:0.5;" x1="261" x2="528" y1="147" y2="147"/><line style="stroke:#181818;stroke-width:0.5;" x1="261" x2="528" y1="155" y2="155"/><ellipse cx="271" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="280" y="173.5332">getOrdersToBePrepared()</text><ellipse cx="271" cy="183.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="280" y="191.1426">showAvailableAGVs()</text><ellipse cx="271" cy="201.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="280" y="208.752">forceOrderPrep(productOrderid,agvid)</text></g><!--MD5=[e8c189551b7885b999ad7cefb30fc2a3]
+class PersistenceContext--><g id="elem_PersistenceContext"><rect codeLine="42" fill="#F1F1F1" height="65.6094" id="PersistenceContext" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="185.5" y="276"/><ellipse cx="200.5" cy="292" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M202.5,288.5 Q202.7031,288 202.9375,287.75 Q203.1719,287.5 203.4375,287.5 Q203.9063,287.5 204.2031,287.7813 Q204.5,288.0625 204.5,288.7188 L204.5,290.2813 Q204.5,290.9375 204.2188,291.2188 Q203.9375,291.5 203.5,291.5 Q203.1094,291.5 202.8594,291.3281 Q202.6094,291.1563 202.5,290.7031 Q202.4531,290.3906 202.2813,290.2188 Q201.9688,289.8906 201.4063,289.7031 Q200.8438,289.5 200.2813,289.5 Q199.5781,289.5 198.9844,289.7813 Q198.4063,290.0625 197.9531,290.6875 Q197.5,291.3125 197.5,292.1719 L197.5,293.0938 Q197.5,294.125 198.3438,294.8125 Q199.1875,295.5 200.6875,295.5 Q201.5781,295.5 202.2031,295.2969 Q202.5625,295.1875 202.9688,294.8281 Q203.2344,294.625 203.375,294.5625 Q203.5156,294.5 203.6875,294.5 Q204.0156,294.5 204.25,294.7656 Q204.5,295.0156 204.5,295.375 Q204.5,295.7188 204.1563,296.125 Q203.6563,296.7188 202.8594,297.0469 Q201.8125,297.5 200.5313,297.5 Q199.0313,297.5 197.8281,296.9063 Q196.8594,296.4375 196.1719,295.4219 Q195.5,294.4063 195.5,293.2031 L195.5,292.1094 Q195.5,290.8594 196.0938,289.7656 Q196.7031,288.6719 197.75,288.0938 Q198.8125,287.5 200,287.5 Q200.7188,287.5 201.3438,287.75 Q201.9688,288 202.5,288.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="214.5" y="297.7285">PersistenceContext</text><line style="stroke:#181818;stroke-width:0.5;" x1="186.5" x2="338.5" y1="308" y2="308"/><line style="stroke:#181818;stroke-width:0.5;" x1="186.5" x2="338.5" y1="316" y2="316"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="193.5" y="324"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="205.5" y="334.5332">repositories()</text></g><!--MD5=[48590afff58a68e2fcba47824d6f8a11]
+class RepositoryFactory--><g id="elem_RepositoryFactory"><rect codeLine="18" fill="#F1F1F1" height="100.8281" id="RepositoryFactory" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="161" x="180" y="402"/><ellipse cx="200.85" cy="418" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M202.85,414.5 Q203.0531,414 203.2875,413.75 Q203.5219,413.5 203.7875,413.5 Q204.2563,413.5 204.5531,413.7813 Q204.85,414.0625 204.85,414.7188 L204.85,416.2813 Q204.85,416.9375 204.5688,417.2188 Q204.2875,417.5 203.85,417.5 Q203.4594,417.5 203.2094,417.3281 Q202.9594,417.1563 202.85,416.7031 Q202.8031,416.3906 202.6313,416.2188 Q202.3188,415.8906 201.7563,415.7031 Q201.1938,415.5 200.6313,415.5 Q199.9281,415.5 199.3344,415.7813 Q198.7563,416.0625 198.3031,416.6875 Q197.85,417.3125 197.85,418.1719 L197.85,419.0938 Q197.85,420.125 198.6938,420.8125 Q199.5375,421.5 201.0375,421.5 Q201.9281,421.5 202.5531,421.2969 Q202.9125,421.1875 203.3188,420.8281 Q203.5844,420.625 203.725,420.5625 Q203.8656,420.5 204.0375,420.5 Q204.3656,420.5 204.6,420.7656 Q204.85,421.0156 204.85,421.375 Q204.85,421.7188 204.5063,422.125 Q204.0063,422.7188 203.2094,423.0469 Q202.1625,423.5 200.8813,423.5 Q199.3813,423.5 198.1781,422.9063 Q197.2094,422.4375 196.5219,421.4219 Q195.85,420.4063 195.85,419.2031 L195.85,418.1094 Q195.85,416.8594 196.4438,415.7656 Q197.0531,414.6719 198.1,414.0938 Q199.1625,413.5 200.35,413.5 Q201.0688,413.5 201.6938,413.75 Q202.3188,414 202.85,414.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="216.15" y="423.7285">RepositoryFactory</text><line style="stroke:#181818;stroke-width:0.5;" x1="181" x2="340" y1="434" y2="434"/><line style="stroke:#181818;stroke-width:0.5;" x1="181" x2="340" y1="442" y2="442"/><ellipse cx="191" cy="453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="200" y="460.5332">create()</text><ellipse cx="191" cy="470.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="200" y="478.1426">getOrderRepository()</text><ellipse cx="191" cy="488.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="200" y="495.752">getAGVRepository()</text></g><!--MD5=[a2934c79e3adc781b0cd87c74812aba5]
+class AGVRepository--><g id="elem_AGVRepository"><rect codeLine="24" fill="#F1F1F1" height="136.0469" id="AGVRepository" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="215" x="7" y="580.5"/><ellipse cx="61.75" cy="596.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M63.75,593 Q63.9531,592.5 64.1875,592.25 Q64.4219,592 64.6875,592 Q65.1563,592 65.4531,592.2813 Q65.75,592.5625 65.75,593.2188 L65.75,594.7813 Q65.75,595.4375 65.4688,595.7188 Q65.1875,596 64.75,596 Q64.3594,596 64.1094,595.8281 Q63.8594,595.6563 63.75,595.2031 Q63.7031,594.8906 63.5313,594.7188 Q63.2188,594.3906 62.6563,594.2031 Q62.0938,594 61.5313,594 Q60.8281,594 60.2344,594.2813 Q59.6563,594.5625 59.2031,595.1875 Q58.75,595.8125 58.75,596.6719 L58.75,597.5938 Q58.75,598.625 59.5938,599.3125 Q60.4375,600 61.9375,600 Q62.8281,600 63.4531,599.7969 Q63.8125,599.6875 64.2188,599.3281 Q64.4844,599.125 64.625,599.0625 Q64.7656,599 64.9375,599 Q65.2656,599 65.5,599.2656 Q65.75,599.5156 65.75,599.875 Q65.75,600.2188 65.4063,600.625 Q64.9063,601.2188 64.1094,601.5469 Q63.0625,602 61.7813,602 Q60.2813,602 59.0781,601.4063 Q58.1094,600.9375 57.4219,599.9219 Q56.75,598.9063 56.75,597.7031 L56.75,596.6094 Q56.75,595.3594 57.3438,594.2656 Q57.9531,593.1719 59,592.5938 Q60.0625,592 61.25,592 Q61.9688,592 62.5938,592.25 Q63.2188,592.5 63.75,593 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="82.25" y="602.2285">AGVRepository</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="221" y1="612.5" y2="612.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="221" y1="620.5" y2="620.5"/><ellipse cx="18" cy="631.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="27" y="639.0332">create()</text><ellipse cx="18" cy="649.1094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="27" y="656.6426">getAGVsAvailable()</text><ellipse cx="18" cy="666.7188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="27" y="674.252">getAGVSt(agvid)</text><ellipse cx="18" cy="684.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="27" y="691.8613">changeAGVStatus(agvStatus)</text><ellipse cx="18" cy="701.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="27" y="709.4707">save(agv1)</text></g><!--MD5=[708e328039b60d50c6285936843ac334]
+class OrderRepository--><g id="elem_OrderRepository"><rect codeLine="32" fill="#F1F1F1" height="171.2656" id="OrderRepository" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="283" x="257" y="563"/><ellipse cx="341.75" cy="579" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M343.75,575.5 Q343.9531,575 344.1875,574.75 Q344.4219,574.5 344.6875,574.5 Q345.1563,574.5 345.4531,574.7813 Q345.75,575.0625 345.75,575.7188 L345.75,577.2813 Q345.75,577.9375 345.4688,578.2188 Q345.1875,578.5 344.75,578.5 Q344.3594,578.5 344.1094,578.3281 Q343.8594,578.1563 343.75,577.7031 Q343.7031,577.3906 343.5313,577.2188 Q343.2188,576.8906 342.6563,576.7031 Q342.0938,576.5 341.5313,576.5 Q340.8281,576.5 340.2344,576.7813 Q339.6563,577.0625 339.2031,577.6875 Q338.75,578.3125 338.75,579.1719 L338.75,580.0938 Q338.75,581.125 339.5938,581.8125 Q340.4375,582.5 341.9375,582.5 Q342.8281,582.5 343.4531,582.2969 Q343.8125,582.1875 344.2188,581.8281 Q344.4844,581.625 344.625,581.5625 Q344.7656,581.5 344.9375,581.5 Q345.2656,581.5 345.5,581.7656 Q345.75,582.0156 345.75,582.375 Q345.75,582.7188 345.4063,583.125 Q344.9063,583.7188 344.1094,584.0469 Q343.0625,584.5 341.7813,584.5 Q340.2813,584.5 339.0781,583.9063 Q338.1094,583.4375 337.4219,582.4219 Q336.75,581.4063 336.75,580.2031 L336.75,579.1094 Q336.75,577.8594 337.3438,576.7656 Q337.9531,575.6719 339,575.0938 Q340.0625,574.5 341.25,574.5 Q341.9688,574.5 342.5938,574.75 Q343.2188,575 343.75,575.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="362.25" y="584.7285">OrderRepository</text><line style="stroke:#181818;stroke-width:0.5;" x1="258" x2="539" y1="595" y2="595"/><line style="stroke:#181818;stroke-width:0.5;" x1="258" x2="539" y1="603" y2="603"/><ellipse cx="268" cy="614" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="277" y="621.5332">create()</text><ellipse cx="268" cy="631.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="277" y="639.1426">getProductOrdersToBePrepared()</text><ellipse cx="268" cy="649.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="277" y="656.752">getProductOrderById(orderId)</text><ellipse cx="268" cy="666.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="277" y="674.3613">getOrder(productOrderid)</text><ellipse cx="268" cy="684.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="257" x="277" y="691.9707">changeProductOrderStatus(orderStatus)</text><ellipse cx="268" cy="702.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="277" y="709.5801">preparedByAGV(agv1)</text><ellipse cx="268" cy="719.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="277" y="727.1895">save(order)</text></g><!--MD5=[d4fc3196c96370c8425865003eea3718]
+class AgvDto--><g id="elem_AgvDto"><rect codeLine="46" fill="#F1F1F1" height="65.6094" id="AgvDto" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="447.5" y="276"/><ellipse cx="474.2" cy="292" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M476.2,288.5 Q476.4031,288 476.6375,287.75 Q476.8719,287.5 477.1375,287.5 Q477.6063,287.5 477.9031,287.7813 Q478.2,288.0625 478.2,288.7188 L478.2,290.2813 Q478.2,290.9375 477.9188,291.2188 Q477.6375,291.5 477.2,291.5 Q476.8094,291.5 476.5594,291.3281 Q476.3094,291.1563 476.2,290.7031 Q476.1531,290.3906 475.9813,290.2188 Q475.6688,289.8906 475.1063,289.7031 Q474.5438,289.5 473.9813,289.5 Q473.2781,289.5 472.6844,289.7813 Q472.1063,290.0625 471.6531,290.6875 Q471.2,291.3125 471.2,292.1719 L471.2,293.0938 Q471.2,294.125 472.0438,294.8125 Q472.8875,295.5 474.3875,295.5 Q475.2781,295.5 475.9031,295.2969 Q476.2625,295.1875 476.6688,294.8281 Q476.9344,294.625 477.075,294.5625 Q477.2156,294.5 477.3875,294.5 Q477.7156,294.5 477.95,294.7656 Q478.2,295.0156 478.2,295.375 Q478.2,295.7188 477.8563,296.125 Q477.3563,296.7188 476.5594,297.0469 Q475.5125,297.5 474.2313,297.5 Q472.7313,297.5 471.5281,296.9063 Q470.5594,296.4375 469.8719,295.4219 Q469.2,294.4063 469.2,293.2031 L469.2,292.1094 Q469.2,290.8594 469.7938,289.7656 Q470.4031,288.6719 471.45,288.0938 Q472.5125,287.5 473.7,287.5 Q474.4188,287.5 475.0438,287.75 Q475.6688,288 476.2,288.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="490.8" y="297.7285">AgvDto</text><line style="stroke:#181818;stroke-width:0.5;" x1="448.5" x2="550.5" y1="308" y2="308"/><line style="stroke:#181818;stroke-width:0.5;" x1="448.5" x2="550.5" y1="316" y2="316"/><ellipse cx="458.5" cy="327" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="467.5" y="334.5332">toDto(agvid)</text></g><!--MD5=[d30f56537e47c2baf5e1b8cae118de4e]
+class ProductOrderDto--><g id="elem_ProductOrderDto"><rect codeLine="50" fill="#F1F1F1" height="65.6094" id="ProductOrderDto" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="586.5" y="276"/><ellipse cx="601.5" cy="292" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M603.5,288.5 Q603.7031,288 603.9375,287.75 Q604.1719,287.5 604.4375,287.5 Q604.9063,287.5 605.2031,287.7813 Q605.5,288.0625 605.5,288.7188 L605.5,290.2813 Q605.5,290.9375 605.2188,291.2188 Q604.9375,291.5 604.5,291.5 Q604.1094,291.5 603.8594,291.3281 Q603.6094,291.1563 603.5,290.7031 Q603.4531,290.3906 603.2813,290.2188 Q602.9688,289.8906 602.4063,289.7031 Q601.8438,289.5 601.2813,289.5 Q600.5781,289.5 599.9844,289.7813 Q599.4063,290.0625 598.9531,290.6875 Q598.5,291.3125 598.5,292.1719 L598.5,293.0938 Q598.5,294.125 599.3438,294.8125 Q600.1875,295.5 601.6875,295.5 Q602.5781,295.5 603.2031,295.2969 Q603.5625,295.1875 603.9688,294.8281 Q604.2344,294.625 604.375,294.5625 Q604.5156,294.5 604.6875,294.5 Q605.0156,294.5 605.25,294.7656 Q605.5,295.0156 605.5,295.375 Q605.5,295.7188 605.1563,296.125 Q604.6563,296.7188 603.8594,297.0469 Q602.8125,297.5 601.5313,297.5 Q600.0313,297.5 598.8281,296.9063 Q597.8594,296.4375 597.1719,295.4219 Q596.5,294.4063 596.5,293.2031 L596.5,292.1094 Q596.5,290.8594 597.0938,289.7656 Q597.7031,288.6719 598.75,288.0938 Q599.8125,287.5 601,287.5 Q601.7188,287.5 602.3438,287.75 Q602.9688,288 603.5,288.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="615.5" y="297.7285">ProductOrderDto</text><line style="stroke:#181818;stroke-width:0.5;" x1="587.5" x2="725.5" y1="308" y2="308"/><line style="stroke:#181818;stroke-width:0.5;" x1="587.5" x2="725.5" y1="316" y2="316"/><ellipse cx="597.5" cy="327" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="606.5" y="334.5332">toDto(order)</text></g><!--MD5=[243ba1332f50db2515baed78eaf6f8ca]
+link ForceOrderPrepUI to ForceOrderPrepController--><g id="link_ForceOrderPrepUI_ForceOrderPrepController"><path codeLine="57" d="M394.5,55.08 C394.5,70.13 394.5,90.43 394.5,109.47 " fill="none" id="ForceOrderPrepUI-to-ForceOrderPrepController" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="394.5,114.8,398.5,105.8,394.5,109.8,390.5,105.8,394.5,114.8" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3bc85288e4f3a141babe331517ff057a]
+link ForceOrderPrepController to PersistenceContext--><g id="link_ForceOrderPrepController_PersistenceContext"><path codeLine="58" d="M347.96,216.39 C330.85,234.73 311.82,255.13 296.07,272.02 " fill="none" id="ForceOrderPrepController-to-PersistenceContext" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="292.55,275.79,301.6076,271.9221,295.9544,272.1281,295.7485,266.475,292.55,275.79" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d05eaea78b8765320ad56e3795dd7d42]
+link RepositoryFactory to AGVRepository--><g id="link_RepositoryFactory_AGVRepository"><path codeLine="59" d="M223.09,503.21 C206.4,525.39 186.42,551.94 168.18,576.18 " fill="none" id="RepositoryFactory-to-AGVRepository" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="165.03,580.36,173.6491,575.5945,168.046,576.372,167.2684,570.7689,165.03,580.36" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4961dc0a1f38b4bb8bde6c7779428d74]
+link RepositoryFactory to OrderRepository--><g id="link_RepositoryFactory_OrderRepository"><path codeLine="60" d="M295.86,503.21 C307.89,520.12 321.72,539.56 335.26,558.59 " fill="none" id="RepositoryFactory-to-OrderRepository" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="338.32,562.9,336.3566,553.2488,335.4192,558.8275,329.8406,557.8901,338.32,562.9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[663f6c7e522be5db0a8422cd15745cc8]
+link ForceOrderPrepController to AGVRepository--><g id="link_ForceOrderPrepController_AGVRepository"><path codeLine="61" d="M259.79,205.51 C224.74,221.89 190.43,244.66 167.5,276 C103.52,363.47 100.31,494.13 105.91,574.91 " fill="none" id="ForceOrderPrepController-to-AGVRepository" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="106.29,580.16,109.6103,570.8877,105.9185,575.1738,101.6324,571.482,106.29,580.16" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[08bf2be2bd8233f0fde96f3d63ff4afe]
+link ForceOrderPrepController to OrderRepository--><g id="link_ForceOrderPrepController_OrderRepository"><path codeLine="62" d="M394.91,216.16 C395.58,296.65 396.91,456.74 397.75,557.63 " fill="none" id="ForceOrderPrepController-to-OrderRepository" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="397.79,562.69,401.7127,553.656,397.7471,557.6902,393.713,553.7246,397.79,562.69" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[754b775031405e096442b27febffa290]
+link PersistenceContext to RepositoryFactory--><g id="link_PersistenceContext_RepositoryFactory"><path codeLine="63" d="M262.05,342.11 C261.82,358.21 261.54,378.16 261.28,396.59 " fill="none" id="PersistenceContext-to-RepositoryFactory" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="261.2,401.75,265.3282,392.8081,261.2714,396.7505,257.329,392.6938,261.2,401.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a3438a140d38f9deca5e236abc3bb64f]
+link ForceOrderPrepController to AgvDto--><g id="link_ForceOrderPrepController_AgvDto"><path codeLine="64" d="M431.52,216.39 C445.02,234.58 460.02,254.79 472.48,271.59 " fill="none" id="ForceOrderPrepController-to-AgvDto" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="475.6,275.79,473.4605,266.1763,472.6252,271.7712,467.0304,270.936,475.6,275.79" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[85a20b85865123f05c8dc6e93d206556]
+link ForceOrderPrepController to ProductOrderDto--><g id="link_ForceOrderPrepController_ProductOrderDto"><path codeLine="65" d="M486.5,216.19 C521.5,235.09 560.57,256.19 592.43,273.4 " fill="none" id="ForceOrderPrepController-to-ProductOrderDto" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="597.08,275.91,591.0552,268.1189,592.6786,273.5378,587.2596,275.1612,597.08,275.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7400c2520875d64e9b72bbb0571475c9]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ForceOrderPrepUI
+class ForceOrderPrepController
+class PersistenceContext
+class RepositoryFactory
+
+
+class ForceOrderPrepUI{}
+
+class ForceOrderPrepController {
++getOrdersToBePrepared()
++showAvailableAGVs()
++forceOrderPrep(productOrderid,agvid)
+}
+
+
+class RepositoryFactory {
++ create()
++ getOrderRepository()
++ getAGVRepository()
+}
+
+class AGVRepository {
++ create()
++ getAGVsAvailable()
++ getAGVSt(agvid)
++ changeAGVStatus(agvStatus)
++ save(agv1)
+}
+
+class OrderRepository{
++ create()
++ getProductOrdersToBePrepared()
++ getProductOrderById(orderId)
++getOrder(productOrderid)
++ changeProductOrderStatus(orderStatus)
++ preparedByAGV(agv1)
++ save(order)
+}
+
+class PersistenceContext {
+- repositories()
+}
+
+class AgvDto{
++toDto(agvid)
+}
+
+class ProductOrderDto{
++toDto(order)
+}
+
+
+
+
+ForceOrderPrepUI - -> ForceOrderPrepController
+ForceOrderPrepController - -> PersistenceContext
+RepositoryFactory - -> AGVRepository
+RepositoryFactory - -> OrderRepository
+ForceOrderPrepController - -> AGVRepository
+ForceOrderPrepController - -> OrderRepository
+PersistenceContext - -> RepositoryFactory
+ForceOrderPrepController ..> AgvDto
+ForceOrderPrepController ..> ProductOrderDto
+
+
+
+
+@enduml
+
+@startuml
+
+class ForceOrderPrepUI
+class ForceOrderPrepController
+class PersistenceContext
+class RepositoryFactory
+
+
+class ForceOrderPrepUI{}
+
+class ForceOrderPrepController {
++getOrdersToBePrepared()
++showAvailableAGVs()
++forceOrderPrep(productOrderid,agvid)
+}
+
+
+class RepositoryFactory {
++ create()
++ getOrderRepository()
++ getAGVRepository()
+}
+
+class AGVRepository {
++ create()
++ getAGVsAvailable()
++ getAGVSt(agvid)
++ changeAGVStatus(agvStatus)
++ save(agv1)
+}
+
+class OrderRepository{
++ create()
++ getProductOrdersToBePrepared()
++ getProductOrderById(orderId)
++getOrder(productOrderid)
++ changeProductOrderStatus(orderStatus)
++ preparedByAGV(agv1)
++ save(order)
+}
+
+class PersistenceContext {
+- repositories()
+}
+
+class AgvDto{
++toDto(agvid)
+}
+
+class ProductOrderDto{
++toDto(order)
+}
+
+
+
+
+ForceOrderPrepUI - -> ForceOrderPrepController
+ForceOrderPrepController - -> PersistenceContext
+RepositoryFactory - -> AGVRepository
+RepositoryFactory - -> OrderRepository
+ForceOrderPrepController - -> AGVRepository
+ForceOrderPrepController - -> OrderRepository
+PersistenceContext - -> RepositoryFactory
+ForceOrderPrepController ..> AgvDto
+ForceOrderPrepController ..> ProductOrderDto
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

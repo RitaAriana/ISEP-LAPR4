@@ -1,0 +1,40 @@
+@startuml
+
+autonumber
+
+participant CallAGVManagerController as controller <<application>>
+participant agvManager as agvManager
+participant digitalTwin as digitalTwin
+participant GetAGVInfoRequest as infoRequest <<application>>
+participant RepositoryFactory as factory <<factory>>
+
+ -> controller : getAgvInfo()
+activate controller
+
+loop for each agv retrieved
+controller -> factory : findAll()
+activate factory
+deactivate factory
+
+controller -> agvManager : println(request)
+activate agvManager
+
+agvManager -> digitalTwin : callAGVInfoRequest(inputLine, tokens)
+activate digitalTwin
+
+digitalTwin -> infoRequest : getAGVsInformationForDashboard(agvId)
+activate infoRequest
+deactivate infoRequest
+
+deactivate digitalTwin
+
+deactivate agvManager
+
+
+
+end loop
+
+ <-- controller : info about agv
+ deactivate controller
+
+@enduml

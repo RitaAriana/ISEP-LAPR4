@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+hide empty attributes
+skinparam classBackgroundColor beige
+skinparam ArrowColor #222222
+
+
+package "<<aggregate>> Category" {
+    entity Category
+    class AlphanumericCode
+    class Description
+    class SuperCategory
+    }
+
+entity Category <<entity>> <<root>> {
+
+}
+
+class AlphanumericCode <<(V,#FF8B40) value object>>
+class Description <<(V,#FF8B40) value object>>
+class SuperCategory <<(V,#FF8B40) value object>>
+
+
+Category --> "1" AlphanumericCode : identified by
+Category --> "1" Description : characterized by
+Category --> "0..1" SuperCategory : belongs to
+
+
+@enduml

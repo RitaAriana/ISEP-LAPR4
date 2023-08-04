@@ -1,0 +1,64 @@
+@startuml
+autonumber
+actor "Warehouse Employee" as WE
+participant "ConfigureAGVUI" as UI
+participant "ConfigureAGVController" as CTR
+participant "<<builder>> \nAGVBuilder" as BUILDER
+participant "AGV" as AGV
+participant ": PersistenceContext" as PERS <<persistence>>
+participant ": RepositoryFactory" as FAC <<factory>>
+
+database AGVRepository as REP <<repository>>
+
+activate WE
+WE -> UI : initiates the process of configuring an AGV
+activate UI
+UI -> CTR : create
+
+UI -> CTR : validateData()
+activate CTR
+deactivate CTR
+UI --> WE : requests data (id, briefDescription, model, maxWeightCapacity, \nmaxVolumeCapacity, range, position, agvDock)
+deactivate UI
+WE -> UI : type and select the requested data
+activate UI
+UI -> CTR : configureAGV(id, briefDescription, model,\n maxWeightCapacity, range)
+activate CTR
+CTR -> BUILDER : create
+CTR -> BUILDER : withId(id)
+CTR -> BUILDER : withAGVDock(agvDock)
+CTR -> BUILDER : withRange(range)
+CTR -> BUILDER : withMaxWeightCapacity(maxWeightCapacity)
+CTR -> BUILDER : withMaxVolumeCapacity(maxVolumeCapacity)
+CTR -> BUILDER : withModel(model)
+CTR -> BUILDER : withBriefDescription(briefDescription)
+CTR -> BUILDER : withPosition(position)
+CTR -> BUILDER : withAGVStatus(status)
+CTR -> BUILDER : createAGV()
+activate BUILDER
+BUILDER -> AGV : createAGV(id, briefDescription, model,maxWeightCapacity, \n maxVolumeCapacity, range, position, agvDock)
+AGV --> BUILDER : agv
+BUILDER --> CTR : agv
+deactivate BUILDER
+CTR -> PERS : repoConfigureAGV = repositoryFactory
+activate PERS
+PERS -> FAC : create
+PERS --> CTR : factory
+deactivate PERS
+CTR -> FAC : agv()
+activate FAC
+FAC -> REP : create
+activate REP
+deactivate REP
+FAC --> CTR : agvRepository
+deactivate FAC
+CTR -> REP : save(AGV)
+CTR -> UI : agv
+deactivate CTR
+
+UI --> WE : shows information and informs operation sucess
+deactivate UI
+
+deactivate WE
+
+@enduml

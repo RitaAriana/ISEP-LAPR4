@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor "Warehouse Employee" as EMPLOYEE
+participant System as SYSTEM
+
+EMPLOYEE -> SYSTEM : Request for web page
+activate EMPLOYEE
+activate SYSTEM
+deactivate SYSTEM
+
+SYSTEM --> EMPLOYEE : Responds
+deactivate EMPLOYEE
+
+@enduml
